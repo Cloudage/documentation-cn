@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEngine" Assembly="UnityEngine.CoreModule">
+    <StaticVars>
+      <member id="Caching-cacheCount">
+        <name>cacheCount</name>
+        <summary><![CDATA[返回缓存列表中的缓存数。]]></summary>
+      </member>
+      <member id="Caching-compressionEnabled">
+        <name>compressionEnabled</name>
+        <summary><![CDATA[控制缓存数据的压缩。默认启用。]]></summary>
+      </member>
+      <member id="Caching-currentCacheForWriting">
+        <name>currentCacheForWriting</name>
+        <summary><![CDATA[获取或设置应该用于缓存 AssetBundle 的当前缓存。]]></summary>
+      </member>
+      <member id="Caching-defaultCache">
+        <name>defaultCache</name>
+        <summary><![CDATA[返回 Unity 内部添加的默认缓存。]]></summary>
+      </member>
+      <member id="Caching-ready">
+        <name>ready</name>
+        <summary><![CDATA[如果缓存系统已准备就绪，返回 true。]]></summary>
+      </member>
+    </StaticVars>
+    <Vars />
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions />
+    <ProtectedFunctions />
+    <StaticFunctions>
+      <member id="Caching.AddCache">
+        <name>AddCache</name>
+        <summary><![CDATA[添加具有给定路径的缓存。]]></summary>
+      </member>
+      <member id="Caching.ClearAllCachedVersions">
+        <name>ClearAllCachedVersions</name>
+        <summary><![CDATA[从缓存中删除给定 AssetBundle 的所有缓存版本。]]></summary>
+      </member>
+      <member id="Caching.ClearCache">
+        <name>ClearCache</name>
+        <summary><![CDATA[删除当前应用程序缓存的所有 AssetBundle 内容。]]></summary>
+      </member>
+      <member id="Caching.ClearCachedVersion">
+        <name>ClearCachedVersion</name>
+        <summary><![CDATA[删除 AssetBundle 的给定版本。]]></summary>
+      </member>
+      <member id="Caching.ClearOtherCachedVersions">
+        <name>ClearOtherCachedVersions</name>
+        <summary><![CDATA[除了指定的版本以外，从缓存中删除 AssetBundle 的所有缓存版本。]]></summary>
+      </member>
+      <member id="Caching.GetAllCachePaths">
+        <name>GetAllCachePaths</name>
+        <summary><![CDATA[返回缓存列表中缓存的所有路径。]]></summary>
+      </member>
+      <member id="Caching.GetCacheAt">
+        <name>GetCacheAt</name>
+        <summary><![CDATA[返回缓存列表中给定位置的缓存。]]></summary>
+      </member>
+      <member id="Caching.GetCacheByPath">
+        <name>GetCacheByPath</name>
+        <summary><![CDATA[返回具有给定缓存路径的缓存。]]></summary>
+      </member>
+      <member id="Caching.GetCachedVersions">
+        <name>GetCachedVersions</name>
+        <summary><![CDATA[返回给定 AssetBundle 的所有缓存版本。]]></summary>
+      </member>
+      <member id="Caching.IsVersionCached">
+        <name>IsVersionCached</name>
+        <summary><![CDATA[检查是否缓存了某个 AssetBundle。]]></summary>
+      </member>
+      <member id="Caching.MarkAsUsed">
+        <name>MarkAsUsed</name>
+        <summary><![CDATA[将某个缓存文件的时间戳更新为当前时间。]]></summary>
+      </member>
+      <member id="Caching.MoveCacheAfter">
+        <name>MoveCacheAfter</name>
+        <summary><![CDATA[在缓存列表中将源缓存移动到目标缓存之后。]]></summary>
+      </member>
+      <member id="Caching.MoveCacheBefore">
+        <name>MoveCacheBefore</name>
+        <summary><![CDATA[在缓存列表中将源缓存移动到目标缓存之前。]]></summary>
+      </member>
+      <member id="Caching.RemoveCache">
+        <name>RemoveCache</name>
+        <summary><![CDATA[从缓存列表中删除该缓存。]]></summary>
+      </member>
+    </StaticFunctions>
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="Caching" type="class" namespace="UnityEngine" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[Caching 类用于管理使用 UnityWebRequestAssetBundle.GetAssetBundle() 下载的缓存 AssetBundle。]]></Summary>
+      <Description><![CDATA[另请参阅：]]><link ref="Networking.DownloadHandlerAssetBundle">DownloadHandlerAssetBundle</link><![CDATA[。]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[
+using System.Collections;
+using UnityEngine;
+using System.IO;
+using System;
+using UnityEngine.Networking;
+using System.Collections.Generic;]]><br /><br /><![CDATA[public class Example : ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[
+{
+    IEnumerator DownloadAndCacheAssetBundle(string uri, string manifestBundlePath)
+    {
+        //Load the manifest
+        ]]><link ref="AssetBundle">AssetBundle</link><![CDATA[ manifestBundle = ]]><link ref="AssetBundle.LoadFromFile">AssetBundle.LoadFromFile</link><![CDATA[(manifestBundlePath);
+        ]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[ manifest = manifestBundle.LoadAsset<]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[>("]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[");]]><br /><br /><![CDATA[        //Create new cache
+        string today = DateTime.Today.ToLongDateString();
+        Directory.CreateDirectory(today);
+        ]]><link ref="Cache">Cache</link><![CDATA[ newCache = ]]><link ref="Caching.AddCache">Caching.AddCache</link><![CDATA[(today);]]><br /><br /><![CDATA[        //Set current cache for writing to the new cache if the cache is valid
+        if (newCache.valid)
+            ]]><link ref="Caching-currentCacheForWriting">Caching.currentCacheForWriting</link><![CDATA[ = newCache;]]><br /><br /><![CDATA[        //Download the bundle
+        ]]><link ref="Hash128">Hash128</link><![CDATA[ hash = manifest.GetAssetBundleHash("bundleName");
+        ]]><link ref="Networking.UnityWebRequest">UnityWebRequest</link><![CDATA[ request = ]]><link ref="Networking.UnityWebRequestAssetBundle.GetAssetBundle">UnityWebRequestAssetBundle.GetAssetBundle</link><![CDATA[(uri, hash, 0);
+        yield return request.SendWebRequest();
+        ]]><link ref="AssetBundle">AssetBundle</link><![CDATA[ bundle = ]]><link ref="Networking.DownloadHandlerAssetBundle.GetContent">DownloadHandlerAssetBundle.GetContent</link><![CDATA[(request);]]><br /><br /><![CDATA[        //Get all the cached versions
+        List<]]><link ref="Hash128">Hash128</link><![CDATA[> listOfCachedVersions = new List<]]><link ref="Hash128">Hash128</link><![CDATA[>();
+        ]]><link ref="Caching.GetCachedVersions">Caching.GetCachedVersions</link><![CDATA[(bundle.name, listOfCachedVersions);]]><br /><br /><![CDATA[        if (!AssetBundleContainsAssetIWantToLoad(bundle))     //Or any conditions you want to check on your new asset bundle
+        {
+            //If our criteria wasn't met, we can remove the new cache and revert back to the most recent one
+            ]]><link ref="Caching-currentCacheForWriting">Caching.currentCacheForWriting</link><![CDATA[ = ]]><link ref="Caching.GetCacheAt">Caching.GetCacheAt</link><![CDATA[(]]><link ref="Caching-cacheCount">Caching.cacheCount</link><![CDATA[);
+            ]]><link ref="Caching.RemoveCache">Caching.RemoveCache</link><![CDATA[(newCache);]]><br /><br /><![CDATA[            for (int i = listOfCachedVersions.Count - 1; i > 0; i--)
+            {
+                //Load a different bundle from a different cache
+                request = ]]><link ref="Networking.UnityWebRequestAssetBundle.GetAssetBundle">UnityWebRequestAssetBundle.GetAssetBundle</link><![CDATA[(uri, listOfCachedVersions[i], 0);
+                yield return request.SendWebRequest();
+                bundle = ]]><link ref="Networking.DownloadHandlerAssetBundle.GetContent">DownloadHandlerAssetBundle.GetContent</link><![CDATA[(request);]]><br /><br /><![CDATA[                //Check and see if the newly loaded bundle from the cache meets your criteria
+                if (AssetBundleContainsAssetIWantToLoad(bundle))
+                    break;
+            }
+        }
+        else
+        {
+            //This is if we only want to keep 5 local caches at any time
+            if (]]><link ref="Caching-cacheCount">Caching.cacheCount</link><![CDATA[ > 5)
+                ]]><link ref="Caching.RemoveCache">Caching.RemoveCache</link><![CDATA[(]]><link ref="Caching.GetCacheAt">Caching.GetCacheAt</link><![CDATA[(1));     //Removes the oldest user created cache
+        }
+    }]]><br /><br /><![CDATA[    bool AssetBundleContainsAssetIWantToLoad(]]><link ref="AssetBundle">AssetBundle</link><![CDATA[ bundle)
+    {
+        return (bundle.LoadAsset<]]><link ref="GameObject">GameObject</link><![CDATA[>("MyAsset") != null);     //this could be any conditional
+    }
+}
+]]></CSharp>
+      </Example>
+      <Description><![CDATA[如果您想存储一个捆绑包的最多 5 个缓存版本，并且在最近的缓存变为无效状态或下载的资源捆绑包出现问题时使用以前的缓存，可以像下面这样设置。]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Networking;
+using System.IO;]]><br /><br /><![CDATA[public class Example2 : ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[
+{
+    public static class CacheWithPriority
+    {
+        public enum ResolutionType
+        {
+            High,
+            Medium,
+            Low,
+        }
+        static readonly Dictionary<ResolutionType, ]]><link ref="Cache">Cache</link><![CDATA[> ResolutionCaches = new Dictionary<ResolutionType, ]]><link ref="Cache">Cache</link><![CDATA[>();]]><br /><br /><![CDATA[        public static void InitResolutionCaches()
+        {
+            string highResPath = "HighRes";
+            string medResPath = "MedRes";
+            string lowResPath = ]]><link ref="Application-streamingAssetsPath">Application.streamingAssetsPath</link><![CDATA[;]]><br /><br /><![CDATA[            //Create cache paths
+            Directory.CreateDirectory(highResPath);
+            Directory.CreateDirectory(medResPath);]]><br /><br /><![CDATA[            //Create the caches and add them to a Dictionary
+            ResolutionCaches.Add(ResolutionType.High, ]]><link ref="Caching.AddCache">Caching.AddCache</link><![CDATA[(highResPath));
+            ResolutionCaches.Add(ResolutionType.Medium, ]]><link ref="Caching.AddCache">Caching.AddCache</link><![CDATA[(medResPath));
+            ResolutionCaches.Add(ResolutionType.Low, ]]><link ref="Caching.AddCache">Caching.AddCache</link><![CDATA[(lowResPath));
+        }]]><br /><br /><![CDATA[        public static void PrioritizeCacheForLoading(ResolutionType resolutionToPrioritize)
+        {
+            //Move cache to the start of the queue
+            ]]><link ref="Caching.MoveCacheBefore">Caching.MoveCacheBefore</link><![CDATA[(ResolutionCaches[resolutionToPrioritize], ]]><link ref="Caching.GetCacheAt">Caching.GetCacheAt</link><![CDATA[(0));
+        }]]><br /><br /><![CDATA[        public static void SetResolutionCacheForWriting(ResolutionType resolutionToWriteTo)
+        {
+            ]]><link ref="Caching-currentCacheForWriting">Caching.currentCacheForWriting</link><![CDATA[ = ResolutionCaches[resolutionToWriteTo];
+        }
+    }]]><br /><br /><![CDATA[    ]]><link ref="AssetBundle">AssetBundle</link><![CDATA[ currentTextureAssetBundle;
+    IEnumerator RearrangeCacheOrderExample(string manifestBundlePath)
+    {
+        CacheWithPriority.InitResolutionCaches();]]><br /><br /><![CDATA[        //Load the manifest
+        ]]><link ref="AssetBundle">AssetBundle</link><![CDATA[ manifestBundle = ]]><link ref="AssetBundle.LoadFromFile">AssetBundle.LoadFromFile</link><![CDATA[(manifestBundlePath);
+        ]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[ manifest = manifestBundle.LoadAsset<]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[>("]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[");]]><br /><br /><![CDATA[        //We know we want to start loading from the Low ]]><link ref="Resolution">Resolution</link><![CDATA[ ]]><link ref="Cache">Cache</link><![CDATA[
+        CacheWithPriority.PrioritizeCacheForLoading(CacheWithPriority.ResolutionType.Low);]]><br /><br /><![CDATA[        //Load the low res bundle from StreamingAssets
+        ]]><link ref="Networking.UnityWebRequest">UnityWebRequest</link><![CDATA[ lowRequest = ]]><link ref="Networking.UnityWebRequestAssetBundle.GetAssetBundle">UnityWebRequestAssetBundle.GetAssetBundle</link><![CDATA[("lowResBundlePath",
+                manifest.GetAssetBundleHash("lowResBundle"), 0);
+        yield return lowRequest;
+        currentTextureAssetBundle = ]]><link ref="Networking.DownloadHandlerAssetBundle.GetContent">DownloadHandlerAssetBundle.GetContent</link><![CDATA[(lowRequest);]]><br /><br /><![CDATA[        //In the background we can start downloading our higher resolution bundles
+        StartCoroutine(StartDownloadHigherResolutionBundles(manifest));]]><br /><br /><![CDATA[        //Do work with low res bundle while the higher resolutions download...
+    }]]><br /><br /><![CDATA[    IEnumerator StartDownloadHigherResolutionBundles(]]><link ref="AssetBundleManifest">AssetBundleManifest</link><![CDATA[ manifest)
+    {
+        CacheWithPriority.SetResolutionCacheForWriting(CacheWithPriority.ResolutionType.Medium);
+        ]]><link ref="Networking.UnityWebRequest">UnityWebRequest</link><![CDATA[ medRequest = ]]><link ref="Networking.UnityWebRequestAssetBundle.GetAssetBundle">UnityWebRequestAssetBundle.GetAssetBundle</link><![CDATA[("medResBundleUrl", manifest.GetAssetBundleHash("medResBundle"), 0);
+        medRequest.SendWebRequest();]]><br /><br /><![CDATA[        while (!medRequest.isDone)
+            yield return null;
+        SwitchTextureBundleTo(CacheWithPriority.ResolutionType.Medium, medRequest);]]><br /><br /><![CDATA[        //Now you'll be using the medium resolution bundle]]><br /><br /><![CDATA[        CacheWithPriority.SetResolutionCacheForWriting(CacheWithPriority.ResolutionType.High);
+        ]]><link ref="Networking.UnityWebRequest">UnityWebRequest</link><![CDATA[ highRequest = ]]><link ref="Networking.UnityWebRequestAssetBundle.GetAssetBundle">UnityWebRequestAssetBundle.GetAssetBundle</link><![CDATA[("highResBundleUrl", manifest.GetAssetBundleHash("highResBundle"), 0);
+        highRequest.SendWebRequest();]]><br /><br /><![CDATA[        while (!highRequest.isDone)
+            yield return null;
+        SwitchTextureBundleTo(CacheWithPriority.ResolutionType.High, highRequest);]]><br /><br /><![CDATA[        //Do work with the high resolution bundle now...
+    }]]><br /><br /><![CDATA[    void SwitchTextureBundleTo(CacheWithPriority.ResolutionType typeToSwitchTo, ]]><link ref="Networking.UnityWebRequest">UnityWebRequest</link><![CDATA[ request)
+    {
+        //For performance, we tell the ]]><link ref="Caching">Caching</link><![CDATA[ system what cache we want it to search first
+        CacheWithPriority.PrioritizeCacheForLoading(typeToSwitchTo);
+        //Unload our current texture bundle
+        currentTextureAssetBundle.Unload(true);
+        //Load the new one from the passed in ]]><link ref="Networking.UnityWebRequest">UnityWebRequest</link><![CDATA[
+        currentTextureAssetBundle = ]]><link ref="Networking.DownloadHandlerAssetBundle.GetContent">DownloadHandlerAssetBundle.GetContent</link><![CDATA[(request);
+    }
+}
+]]></CSharp>
+      </Example>
+      <Description><![CDATA[拥有多个缓存的功能让您能够保留特定资源捆绑包的多个缓存版本。您可以将它们用于备份和回退等操作。]]><br /><br /><![CDATA[本示例演示如何在启动后下载中分辨率和高分辨率纹理，并将它们缓存到各自的专用缓存中。]]></Description>
+    </Section>
+    <InheritsFrom>Caching</InheritsFrom>
+  </Model>
+</Root>

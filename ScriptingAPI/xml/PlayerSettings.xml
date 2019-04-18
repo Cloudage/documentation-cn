@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEditor">
+    <StaticVars>
+      <member id="PlayerSettings-accelerometerFrequency">
+        <name>accelerometerFrequency</name>
+        <summary><![CDATA[加速度计更新频率。]]></summary>
+      </member>
+      <member id="PlayerSettings-actionOnDotNetUnhandledException">
+        <name>actionOnDotNetUnhandledException</name>
+        <summary><![CDATA[针对未经处理的 .NET 异常设置崩溃行为。]]></summary>
+      </member>
+      <member id="PlayerSettings-advancedLicense">
+        <name>advancedLicense</name>
+        <summary><![CDATA[使用的是否为高级版本？]]></summary>
+      </member>
+      <member id="PlayerSettings-allowedAutorotateToLandscapeLeft">
+        <name>allowedAutorotateToLandscapeLeft</name>
+        <summary><![CDATA[是否支持自动旋转到左侧横向模式？]]></summary>
+      </member>
+      <member id="PlayerSettings-allowedAutorotateToLandscapeRight">
+        <name>allowedAutorotateToLandscapeRight</name>
+        <summary><![CDATA[是否支持自动旋转到右侧横向模式？]]></summary>
+      </member>
+      <member id="PlayerSettings-allowedAutorotateToPortrait">
+        <name>allowedAutorotateToPortrait</name>
+        <summary><![CDATA[是否支持自动旋转到纵向模式？]]></summary>
+      </member>
+      <member id="PlayerSettings-allowedAutorotateToPortraitUpsideDown">
+        <name>allowedAutorotateToPortraitUpsideDown</name>
+        <summary><![CDATA[是否支持自动旋转到纵向倒置模式？]]></summary>
+      </member>
+      <member id="PlayerSettings-allowFullscreenSwitch">
+        <name>allowFullscreenSwitch</name>
+        <summary><![CDATA[如启用，则允许用户使用特定于操作系统的键盘快捷键在全屏模式和窗口模式之间切换。]]></summary>
+      </member>
+      <member id="PlayerSettings-allowUnsafeCode">
+        <name>allowUnsafeCode</name>
+        <summary><![CDATA[允许为预定义的程序集编译 'unsafe' C# 代码。]]></summary>
+      </member>
+      <member id="PlayerSettings-aotOptions">
+        <name>aotOptions</name>
+        <summary><![CDATA[其他 AOT 编译选项。由 AOT 平台共享。]]></summary>
+      </member>
+      <member id="PlayerSettings-applicationIdentifier">
+        <name>applicationIdentifier</name>
+        <summary><![CDATA[当前所选构建目标的应用程序标识符。]]></summary>
+      </member>
+      <member id="PlayerSettings-bakeCollisionMeshes">
+        <name>bakeCollisionMeshes</name>
+        <summary><![CDATA[在播放器构建时预烘焙碰撞网格。]]></summary>
+      </member>
+      <member id="PlayerSettings-bundleVersion">
+        <name>bundleVersion</name>
+        <summary><![CDATA[iOS 和 Android 平台之间共享的应用程序捆绑包版本。]]></summary>
+      </member>
+      <member id="PlayerSettings-captureSingleScreen">
+        <name>captureSingleScreen</name>
+        <summary><![CDATA[定义全屏游戏是否应使辅助显示变暗。]]></summary>
+      </member>
+      <member id="PlayerSettings-colorSpace">
+        <name>colorSpace</name>
+        <summary><![CDATA[设置当前项目的渲染颜色空间。]]></summary>
+      </member>
+      <member id="PlayerSettings-companyName">
+        <name>companyName</name>
+        <summary><![CDATA[您公司的名称。]]></summary>
+      </member>
+      <member id="PlayerSettings-cursorHotspot">
+        <name>cursorHotspot</name>
+        <summary><![CDATA[默认光标单击位置（以像素为单位），位于光标图像的左上角。]]></summary>
+      </member>
+      <member id="PlayerSettings-defaultCursor">
+        <name>defaultCursor</name>
+        <summary><![CDATA[应用程序的默认光标。]]></summary>
+      </member>
+      <member id="PlayerSettings-defaultInterfaceOrientation">
+        <name>defaultInterfaceOrientation</name>
+        <summary><![CDATA[移动平台的默认屏幕方向。]]></summary>
+      </member>
+      <member id="PlayerSettings-defaultScreenHeight">
+        <name>defaultScreenHeight</name>
+        <summary><![CDATA[独立平台播放器窗口的默认垂直尺寸。]]></summary>
+      </member>
+      <member id="PlayerSettings-defaultScreenWidth">
+        <name>defaultScreenWidth</name>
+        <summary><![CDATA[独立平台播放器窗口的默认水平尺寸。]]></summary>
+      </member>
+      <member id="PlayerSettings-defaultWebScreenHeight">
+        <name>defaultWebScreenHeight</name>
+        <summary><![CDATA[Web 播放器窗口的默认垂直尺寸。]]></summary>
+      </member>
+      <member id="PlayerSettings-defaultWebScreenWidth">
+        <name>defaultWebScreenWidth</name>
+        <summary><![CDATA[Web 播放器窗口的默认水平尺寸。]]></summary>
+      </member>
+      <member id="PlayerSettings-displayResolutionDialog">
+        <name>displayResolutionDialog</name>
+        <summary><![CDATA[定义商品启动时分辨率对话框的行为。]]></summary>
+      </member>
+      <member id="PlayerSettings-enable360StereoCapture">
+        <name>enable360StereoCapture</name>
+        <summary><![CDATA[在当前构建目标上启用 360 度立体捕获支持。]]></summary>
+      </member>
+      <member id="PlayerSettings-enableCrashReportAPI">
+        <name>enableCrashReportAPI</name>
+        <summary><![CDATA[启用 CrashReport API。]]></summary>
+      </member>
+      <member id="PlayerSettings-enableInternalProfiler">
+        <name>enableInternalProfiler</name>
+        <summary><![CDATA[启用内部性能分析器。]]></summary>
+      </member>
+      <member id="PlayerSettings-enableMetalAPIValidation">
+        <name>enableMetalAPIValidation</name>
+        <summary><![CDATA[在编辑器中启用 Metal API 验证。]]></summary>
+      </member>
+      <member id="PlayerSettings-forceSingleInstance">
+        <name>forceSingleInstance</name>
+        <summary><![CDATA[将独立平台播放器限制为单个并发运行实例。]]></summary>
+      </member>
+      <member id="PlayerSettings-fullScreenMode">
+        <name>fullScreenMode</name>
+        <summary><![CDATA[用于定义全屏行为的平台无关性设置。并不是所有平台都支持所有模式。]]></summary>
+      </member>
+      <member id="PlayerSettings-gpuSkinning">
+        <name>gpuSkinning</name>
+        <summary><![CDATA[在支持的平台上启用 GPU 蒙皮。]]></summary>
+      </member>
+      <member id="PlayerSettings-graphicsJobMode">
+        <name>graphicsJobMode</name>
+        <summary><![CDATA[选择要在支持 ]]><monotype>Native</monotype><![CDATA[ 和 ]]><monotype>Legacy</monotype><![CDATA[ 图形作业的平台上使用的图形作业模式。]]></summary>
+      </member>
+      <member id="PlayerSettings-graphicsJobs">
+        <name>graphicsJobs</name>
+        <summary><![CDATA[启用图形作业（多线程渲染）。]]></summary>
+      </member>
+      <member id="PlayerSettings-keyaliasPass">
+        <name>keyaliasPass</name>
+        <summary><![CDATA[用于为 Android 应用程序签名的密钥的密码。]]></summary>
+      </member>
+      <member id="PlayerSettings-keystorePass">
+        <name>keystorePass</name>
+        <summary><![CDATA[用于与 Android 密钥库交互的密码。]]></summary>
+      </member>
+      <member id="PlayerSettings-logObjCUncaughtExceptions">
+        <name>logObjCUncaughtExceptions</name>
+        <summary><![CDATA[是否记录了 ObjC 未捕获的异常？]]></summary>
+      </member>
+      <member id="PlayerSettings-macRetinaSupport">
+        <name>macRetinaSupport</name>
+        <summary><![CDATA[针对 macOS 启用 Retina 支持。]]></summary>
+      </member>
+      <member id="PlayerSettings.MTRendering">
+        <name>MTRendering</name>
+        <summary><![CDATA[是否启用多线程渲染？]]></summary>
+      </member>
+      <member id="PlayerSettings-muteOtherAudioSources">
+        <name>muteOtherAudioSources</name>
+        <summary><![CDATA[运行 Unity 应用程序时，停止或允许在后台播放来自其他应用程序的音频。]]></summary>
+      </member>
+      <member id="PlayerSettings-preserveFramebufferAlpha">
+        <name>preserveFramebufferAlpha</name>
+        <summary><![CDATA[启用后，将在帧缓冲区中保存 Alpha 值以支持渲染 Android 上的原生 UI。]]></summary>
+      </member>
+      <member id="PlayerSettings-productName">
+        <name>productName</name>
+        <summary><![CDATA[商品名称。]]></summary>
+      </member>
+      <member id="PlayerSettings-protectGraphicsMemory">
+        <name>protectGraphicsMemory</name>
+        <summary><![CDATA[保护图形内存。]]></summary>
+      </member>
+      <member id="PlayerSettings-resizableWindow">
+        <name>resizableWindow</name>
+        <summary><![CDATA[在独立平台播放器构建中使用可调节大小的窗口。]]></summary>
+      </member>
+      <member id="PlayerSettings-resolutionDialogBanner">
+        <name>resolutionDialogBanner</name>
+        <summary><![CDATA[分辨率对话框窗口中显示的图像。]]></summary>
+      </member>
+      <member id="PlayerSettings-runInBackground">
+        <name>runInBackground</name>
+        <summary><![CDATA[如已启用，游戏将在失去焦点后继续运行。]]></summary>
+      </member>
+      <member id="PlayerSettings-scriptingRuntimeVersion">
+        <name>scriptingRuntimeVersion</name>
+        <summary><![CDATA[脚本运行时版本设置。更改此值可设置 Editor 使用的版本并重新启动 Editor 以应用更改。]]></summary>
+      </member>
+      <member id="PlayerSettings-statusBarHidden">
+        <name>statusBarHidden</name>
+        <summary><![CDATA[返回关于状态栏是否应隐藏的信息。仅 iOS 支持；在 Android 中，状态栏一直处于隐藏状态。]]></summary>
+      </member>
+      <member id="PlayerSettings-stereoRenderingPath">
+        <name>stereoRenderingPath</name>
+        <summary><![CDATA[有效立体渲染路径]]></summary>
+      </member>
+      <member id="PlayerSettings-stripEngineCode">
+        <name>stripEngineCode</name>
+        <summary><![CDATA[从构建中删除所有未使用的引擎代码（仅适限 IL2CPP）。]]></summary>
+      </member>
+      <member id="PlayerSettings-strippingLevel">
+        <name>strippingLevel</name>
+        <summary><![CDATA[托管代码剥离级别。]]></summary>
+      </member>
+      <member id="PlayerSettings-stripUnusedMeshComponents">
+        <name>stripUnusedMeshComponents</name>
+        <summary><![CDATA[是否应从游戏构建中排除未使用的 ]]><link ref="Mesh">Mesh</link><![CDATA[ 组件？]]></summary>
+      </member>
+      <member id="PlayerSettings-use32BitDisplayBuffer">
+        <name>use32BitDisplayBuffer</name>
+        <summary><![CDATA[使用 32 位显示缓冲区。]]></summary>
+      </member>
+      <member id="PlayerSettings-useAnimatedAutorotation">
+        <name>useAnimatedAutorotation</name>
+        <summary><![CDATA[更改设备方向时，允许操作系统自动旋转屏幕。]]></summary>
+      </member>
+      <member id="PlayerSettings-useHDRDisplay">
+        <name>useHDRDisplay</name>
+        <summary><![CDATA[将显示切换到 HDR 模式（如可用）。]]></summary>
+      </member>
+      <member id="PlayerSettings-useMacAppStoreValidation">
+        <name>useMacAppStoreValidation</name>
+        <summary><![CDATA[启用 Mac App Store 的收据验证。]]></summary>
+      </member>
+      <member id="PlayerSettings-usePlayerLog">
+        <name>usePlayerLog</name>
+        <summary><![CDATA[向日志文件写入调试信息。]]></summary>
+      </member>
+      <member id="PlayerSettings-virtualRealitySplashScreen">
+        <name>virtualRealitySplashScreen</name>
+        <summary><![CDATA[特定于虚拟现实的启动画面。]]></summary>
+      </member>
+      <member id="PlayerSettings-virtualRealitySupported">
+        <name>virtualRealitySupported</name>
+        <summary><![CDATA[在当前构建目标上启用虚拟现实支持。]]></summary>
+      </member>
+      <member id="PlayerSettings-visibleInBackground">
+        <name>visibleInBackground</name>
+        <summary><![CDATA[在 Windows 中，如果使用全屏窗口模式，可在后台显示应用程序。]]></summary>
+      </member>
+      <member id="PlayerSettings-xboxEnableAvatar">
+        <name>xboxEnableAvatar</name>
+        <summary><![CDATA[Xbox 360 化身。]]></summary>
+      </member>
+    </StaticVars>
+    <Vars />
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions />
+    <ProtectedFunctions />
+    <StaticFunctions>
+      <member id="PlayerSettings.GetAdditionalIl2CppArgs">
+        <name>GetAdditionalIl2CppArgs</name>
+        <summary><![CDATA[IL2CPP 构建参数。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetApiCompatibilityLevel">
+        <name>GetApiCompatibilityLevel</name>
+        <summary><![CDATA[获取指定 BuildTargetGroup 的 .NET API 兼容性级别。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetApplicationIdentifier">
+        <name>GetApplicationIdentifier</name>
+        <summary><![CDATA[获取指定平台的应用程序标识符。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetArchitecture">
+        <name>GetArchitecture</name>
+        <summary><![CDATA[获取 BuildTargetPlatformGroup 架构。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetAvailableVirtualRealitySDKs">
+        <name>GetAvailableVirtualRealitySDKs</name>
+        <summary><![CDATA[返回给定 BuildTargetGroup 支持的可用虚拟现实 SDK 的列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetDefaultScriptingBackend">
+        <name>GetDefaultScriptingBackend</name>
+        <summary><![CDATA[返回用于给定平台组的默认 ]]><link ref="ScriptingImplementation">ScriptingImplementation</link><![CDATA[。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetGraphicsAPIs">
+        <name>GetGraphicsAPIs</name>
+        <summary><![CDATA[获取构建平台上使用的图形 API。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetIconsForTargetGroup">
+        <name>GetIconsForTargetGroup</name>
+        <summary><![CDATA[返回为指定平台分配的图标的列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetIconSizesForTargetGroup">
+        <name>GetIconSizesForTargetGroup</name>
+        <summary><![CDATA[返回指定平台的图标大小的列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetIl2CppCompilerConfiguration">
+        <name>GetIl2CppCompilerConfiguration</name>
+        <summary><![CDATA[获取编译为特定 BuildTargetGroup 生成的 C++ 代码时使用的编译器配置。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetIncrementalIl2CppBuild">
+        <name>GetIncrementalIl2CppBuild</name>
+        <summary><![CDATA[IL2CPP 平台是否使用增量构建？]]></summary>
+      </member>
+      <member id="PlayerSettings.GetMobileMTRendering">
+        <name>GetMobileMTRendering</name>
+        <summary><![CDATA[检查是否已启用移动平台的多线程渲染选项。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetPlatformIcons">
+        <name>GetPlatformIcons</name>
+        <summary><![CDATA[返回指定平台和 ]]><link ref="PlatformIconKind">kind</link><![CDATA[ 可用的图标字段的列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetPlatformVuforiaEnabled">
+        <name>GetPlatformVuforiaEnabled</name>
+        <summary><![CDATA[获取 Player Settings 中指定 BuildTargetGroup 的 Vuforia AR 复选框的当前值。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetScriptingBackend">
+        <name>GetScriptingBackend</name>
+        <summary><![CDATA[获取 BuildTargetPlatformGroup 的脚本框架。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetScriptingDefineSymbolsForGroup">
+        <name>GetScriptingDefineSymbolsForGroup</name>
+        <summary><![CDATA[为给定构建目标组获取用户指定的脚本编译符号。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetStackTraceLogType">
+        <name>GetStackTraceLogType</name>
+        <summary><![CDATA[获取堆栈跟踪日志记录选项。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetSupportedIconKindsForPlatform">
+        <name>GetSupportedIconKindsForPlatform</name>
+        <summary><![CDATA[检索指定平台支持的所有图标种类。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetUseDefaultGraphicsAPIs">
+        <name>GetUseDefaultGraphicsAPIs</name>
+        <summary><![CDATA[构建平台是否使用自动图形 API 选项？]]></summary>
+      </member>
+      <member id="PlayerSettings.GetVirtualRealitySDKs">
+        <name>GetVirtualRealitySDKs</name>
+        <summary><![CDATA[获取给定 BuildTargetGroup 的虚拟现实 SDK 的列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.GetVirtualRealitySupported">
+        <name>GetVirtualRealitySupported</name>
+        <summary><![CDATA[返回是否为给定 BuildTargetGroup 启用虚拟现实支持。]]></summary>
+      </member>
+      <member id="PlayerSettings.HasAspectRatio">
+        <name>HasAspectRatio</name>
+        <summary><![CDATA[返回是否启用指定的宽高比。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetAdditionalIl2CppArgs">
+        <name>SetAdditionalIl2CppArgs</name>
+        <summary><![CDATA[IL2CPP 构建参数。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetApiCompatibilityLevel">
+        <name>SetApiCompatibilityLevel</name>
+        <summary><![CDATA[为指定 BuildTargetGroup 设置 .NET API 兼容性级别。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetApplicationIdentifier">
+        <name>SetApplicationIdentifier</name>
+        <summary><![CDATA[为指定平台设置应用程序标识符。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetArchitecture">
+        <name>SetArchitecture</name>
+        <summary><![CDATA[设置 BuildTargetPlatformGroup 架构。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetAspectRatio">
+        <name>SetAspectRatio</name>
+        <summary><![CDATA[启用指定的宽高比。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetGraphicsAPIs">
+        <name>SetGraphicsAPIs</name>
+        <summary><![CDATA[设置构建平台上使用的图形 API。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetIconsForTargetGroup">
+        <name>SetIconsForTargetGroup</name>
+        <summary><![CDATA[为指定平台分配图标列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetIl2CppCompilerConfiguration">
+        <name>SetIl2CppCompilerConfiguration</name>
+        <summary><![CDATA[设置编译为特定 BuildTargetGroup 生成的 C++ 代码时使用的编译器配置。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetIncrementalIl2CppBuild">
+        <name>SetIncrementalIl2CppBuild</name>
+        <summary><![CDATA[设置增量构建标志。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetMobileMTRendering">
+        <name>SetMobileMTRendering</name>
+        <summary><![CDATA[启用或禁用移动平台的多线程渲染选项。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetPlatformIcons">
+        <name>SetPlatformIcons</name>
+        <summary><![CDATA[为指定平台和图标种类分配图标列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetPlatformVuforiaEnabled">
+        <name>SetPlatformVuforiaEnabled</name>
+        <summary><![CDATA[设置 Player Settings 中指定 BuildTargetGroup 的 Vuforia AR 复选框的值。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetScriptingBackend">
+        <name>SetScriptingBackend</name>
+        <summary><![CDATA[设置 BuildTargetPlatformGroup 的脚本框架。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetScriptingDefineSymbolsForGroup">
+        <name>SetScriptingDefineSymbolsForGroup</name>
+        <summary><![CDATA[为给定构建目标组设置用户指定的脚本编译符号。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetStackTraceLogType">
+        <name>SetStackTraceLogType</name>
+        <summary><![CDATA[设置堆栈跟踪日志记录选项。
+注意：调用该函数将显式调用 ]]><link ref="Application.SetStackTraceLogType">Application.SetStackTraceLogType</link><![CDATA[。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetUseDefaultGraphicsAPIs">
+        <name>SetUseDefaultGraphicsAPIs</name>
+        <summary><![CDATA[构建平台是否应使用自动图形 API 选项？]]></summary>
+      </member>
+      <member id="PlayerSettings.SetVirtualRealitySDKs">
+        <name>SetVirtualRealitySDKs</name>
+        <summary><![CDATA[为给定 BuildTargetGroup 设置虚拟现实 SDK 列表。]]></summary>
+      </member>
+      <member id="PlayerSettings.SetVirtualRealitySupported">
+        <name>SetVirtualRealitySupported</name>
+        <summary><![CDATA[设置是否为给定 BuildTargetGroup 启用虚拟现实支持。]]></summary>
+      </member>
+    </StaticFunctions>
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="PlayerSettings" type="class" namespace="UnityEditor" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[Player Settings 是您为即将在 Unity 中构建的最终游戏定义各种参数的地方。其中一些值将用于您打开独立平台游戏时所启动的分辨率对话框。]]></Summary>
+    </Section>
+    <BaseType id="Object">
+      <StaticVars />
+      <Vars>
+        <member id="Object-hideFlags">
+          <name>hideFlags</name>
+          <summary><![CDATA[该对象应该隐藏、随场景一起保存还是由用户修改？]]></summary>
+        </member>
+        <member id="Object-name">
+          <name>name</name>
+          <summary><![CDATA[对象的名称。]]></summary>
+        </member>
+      </Vars>
+      <ProtVars />
+      <StaticProtVars />
+      <Constructors />
+      <MemberFunctions>
+        <member id="Object.GetInstanceID">
+          <name>GetInstanceID</name>
+          <summary><![CDATA[返回对象的实例 ID。]]></summary>
+        </member>
+        <member id="Object.ToString">
+          <name>ToString</name>
+          <summary><![CDATA[返回 GameObject 的名称。]]></summary>
+        </member>
+      </MemberFunctions>
+      <ProtectedFunctions />
+      <StaticFunctions>
+        <member id="Object.Destroy">
+          <name>Destroy</name>
+          <summary><![CDATA[删除 GameObject、组件或资源。]]></summary>
+        </member>
+        <member id="Object.DestroyImmediate">
+          <name>DestroyImmediate</name>
+          <summary><![CDATA[立即销毁对象 /obj/。强烈建议您改用 Destroy。]]></summary>
+        </member>
+        <member id="Object.DontDestroyOnLoad">
+          <name>DontDestroyOnLoad</name>
+          <summary><![CDATA[加载新场景时，不自动销毁对象 /target/。]]></summary>
+        </member>
+        <member id="Object.FindObjectOfType">
+          <name>FindObjectOfType</name>
+          <summary><![CDATA[返回第一个类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象。]]></summary>
+        </member>
+        <member id="Object.FindObjectsOfType">
+          <name>FindObjectsOfType</name>
+          <summary><![CDATA[返回所有类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象的列表。]]></summary>
+        </member>
+        <member id="Object.Instantiate">
+          <name>Instantiate</name>
+          <summary><![CDATA[克隆 ]]><varname>original</varname><![CDATA[ 对象并返回克隆对象。]]></summary>
+        </member>
+      </StaticFunctions>
+      <Operators>
+        <member id="Object-operator_Object">
+          <name>bool</name>
+          <summary><![CDATA[该对象是否存在？]]></summary>
+        </member>
+        <member id="Object-operator_ne">
+          <name>operator !=</name>
+          <summary><![CDATA[比较两个对象是否引用不同的对象。]]></summary>
+        </member>
+        <member id="Object-operator_eq">
+          <name>operator ==</name>
+          <summary><![CDATA[比较两个对象引用，判断它们是否引用同一个对象。]]></summary>
+        </member>
+      </Operators>
+      <Messages />
+      <Events />
+      <Delegates />
+    </BaseType>
+    <InheritsFrom>PlayerSettings</InheritsFrom>
+  </Model>
+</Root>

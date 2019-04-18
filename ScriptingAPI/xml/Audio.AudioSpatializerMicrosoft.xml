@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model isComponent="true" Namespace="UnityEngine.Audio">
+    <StaticVars />
+    <Vars>
+      <member id="Audio.AudioSpatializerMicrosoft-roomSize">
+        <name>roomSize</name>
+        <summary><![CDATA[描述音频效果房间的大小。]]></summary>
+      </member>
+    </Vars>
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions />
+    <ProtectedFunctions />
+    <StaticFunctions />
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="AudioSpatializerMicrosoft" type="class" namespace="UnityEngine.Audio" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[此组件可以控制附加到 AudioSource 组件的属性，以在 Unity 中实现空间音效。]]></Summary>
+      <Description><![CDATA[HoloLens 上的空间音效是通过空间音响插件实现的。插件文件已直接捆绑到 Unity 中，因此只需转到 Edit > Audio > Spatializer 并启用 Microsoft HRTF 扩展即可实现空间音效。由于 Microsoft Spatial Sound 目前仅支持 48 kHz 的采样率，您还应该将系统采样率设置为 48000，以防止在系统输出设备未设置为 48000 的极少数情况下发生 HRTF 故障。]]><br /><br /><![CDATA[请注意，虽然 Windows 10 SDK 可用于在 Windows 10 之前的 Windows 版本上构建 HoloLens 应用程序，但如果您不使用 Windows 10，就无法在编辑器和设备上实现空间音效。]]><br /><br /><![CDATA[要获取更多信息或可能更新的信息，请访问 https://developer.microsoft.com/en-us/windows/holographic/spatial_sound_in_unity.]]></Description>
+    </Section>
+    <BaseType id="MonoBehaviour">
+      <StaticVars />
+      <Vars>
+        <member id="Behaviour-enabled">
+          <name>enabled</name>
+          <summary><![CDATA[启用的 Behaviour 可更新，禁用的 Behaviour 不可更新。]]></summary>
+        </member>
+        <member id="Behaviour-isActiveAndEnabled">
+          <name>isActiveAndEnabled</name>
+          <summary><![CDATA[已调用启用的 Behaviour。]]></summary>
+        </member>
+        <member id="Component-gameObject">
+          <name>gameObject</name>
+          <summary><![CDATA[此组件附加到的游戏对象。始终将组件附加到游戏对象。]]></summary>
+        </member>
+        <member id="Component-tag">
+          <name>tag</name>
+          <summary><![CDATA[此游戏对象的标签。]]></summary>
+        </member>
+        <member id="Component-transform">
+          <name>transform</name>
+          <summary><![CDATA[附加到此 ]]><link ref="GameObject">GameObject</link><![CDATA[ 的 ]]><link ref="Transform">Transform</link><![CDATA[。]]></summary>
+        </member>
+        <member id="MonoBehaviour-runInEditMode">
+          <name>runInEditMode</name>
+          <summary><![CDATA[允许 MonoBehaviour 的特定实例在编辑模式下运行（仅可在 Editor 中使用）。]]></summary>
+        </member>
+        <member id="MonoBehaviour-useGUILayout">
+          <name>useGUILayout</name>
+          <summary><![CDATA[禁用该属性可跳过 GUI 布局阶段。]]></summary>
+        </member>
+        <member id="Object-hideFlags">
+          <name>hideFlags</name>
+          <summary><![CDATA[该对象应该隐藏、随场景一起保存还是由用户修改？]]></summary>
+        </member>
+        <member id="Object-name">
+          <name>name</name>
+          <summary><![CDATA[对象的名称。]]></summary>
+        </member>
+      </Vars>
+      <ProtVars />
+      <StaticProtVars />
+      <Constructors />
+      <MemberFunctions>
+        <member id="Component.BroadcastMessage">
+          <name>BroadcastMessage</name>
+          <summary><![CDATA[调用此游戏对象或其任何子项中的每个 ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[ 上名为 ]]><varname>methodName</varname><![CDATA[ 的方法。]]></summary>
+        </member>
+        <member id="Component.CompareTag">
+          <name>CompareTag</name>
+          <summary><![CDATA[此游戏对象是否使用 ]]><varname>tag</varname><![CDATA[ 进行了标记？]]></summary>
+        </member>
+        <member id="Component.GetComponent">
+          <name>GetComponent</name>
+          <summary><![CDATA[如果游戏对象附加了类型为 ]]><varname>type</varname><![CDATA[ 的组件，则将其返回，否则返回 null。]]></summary>
+        </member>
+        <member id="Component.GetComponentInChildren">
+          <name>GetComponentInChildren</name>
+          <summary><![CDATA[使用深度首次搜索返回 ]]><link ref="GameObject">GameObject</link><![CDATA[ 或其任何子项中类型为 ]]><varname>type</varname><![CDATA[ 的组件。]]></summary>
+        </member>
+        <member id="Component.GetComponentInParent">
+          <name>GetComponentInParent</name>
+          <summary><![CDATA[返回 ]]><link ref="GameObject">GameObject</link><![CDATA[ 或其任何父项中类型为 ]]><varname>type</varname><![CDATA[ 的组件。]]></summary>
+        </member>
+        <member id="Component.GetComponents">
+          <name>GetComponents</name>
+          <summary><![CDATA[返回 ]]><link ref="GameObject">GameObject</link><![CDATA[ 中类型为 ]]><varname>type</varname><![CDATA[ 的所有组件。]]></summary>
+        </member>
+        <member id="Component.GetComponentsInChildren">
+          <name>GetComponentsInChildren</name>
+          <summary><![CDATA[返回 ]]><link ref="GameObject">GameObject</link><![CDATA[ 或其任何子项中类型为 ]]><varname>type</varname><![CDATA[ 的所有组件。]]></summary>
+        </member>
+        <member id="Component.GetComponentsInParent">
+          <name>GetComponentsInParent</name>
+          <summary><![CDATA[返回 ]]><link ref="GameObject">GameObject</link><![CDATA[ 或其任何父项中类型为 ]]><varname>type</varname><![CDATA[ 的所有组件。]]></summary>
+        </member>
+        <member id="Component.SendMessage">
+          <name>SendMessage</name>
+          <summary><![CDATA[调用此游戏对象中的每个 ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[ 上名为 ]]><varname>methodName</varname><![CDATA[ 的方法。]]></summary>
+        </member>
+        <member id="Component.SendMessageUpwards">
+          <name>SendMessageUpwards</name>
+          <summary><![CDATA[调用此游戏对象中的每个 ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[ 上或此行为的每个父级上名为 ]]><varname>methodName</varname><![CDATA[ 的方法。]]></summary>
+        </member>
+        <member id="MonoBehaviour.CancelInvoke">
+          <name>CancelInvoke</name>
+          <summary><![CDATA[取消该 MonoBehaviour 上的所有 Invoke 调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.Invoke">
+          <name>Invoke</name>
+          <summary><![CDATA[在 ]]><varname>time</varname><![CDATA[ 秒后调用 ]]><varname>methodName</varname><![CDATA[ 方法。]]></summary>
+        </member>
+        <member id="MonoBehaviour.InvokeRepeating">
+          <name>InvokeRepeating</name>
+          <summary><![CDATA[在 ]]><varname>time</varname><![CDATA[ 秒后调用 ]]><varname>methodName</varname><![CDATA[ 方法，然后每 ]]><varname>repeatRate</varname><![CDATA[ 秒调用一次。]]></summary>
+        </member>
+        <member id="MonoBehaviour.IsInvoking">
+          <name>IsInvoking</name>
+          <summary><![CDATA[是否有任何待处理的 ]]><varname>methodName</varname><![CDATA[ 调用？]]></summary>
+        </member>
+        <member id="MonoBehaviour.StartCoroutine">
+          <name>StartCoroutine</name>
+          <summary><![CDATA[启动一个协同程序。]]></summary>
+        </member>
+        <member id="MonoBehaviour.StopAllCoroutines">
+          <name>StopAllCoroutines</name>
+          <summary><![CDATA[停止在该行为上运行的所有协同程序。]]></summary>
+        </member>
+        <member id="MonoBehaviour.StopCoroutine">
+          <name>StopCoroutine</name>
+          <summary><![CDATA[停止在该行为上运行的第一个名为 ]]><varname>methodName</varname><![CDATA[ 的协同程序或存储在 ]]><varname>routine</varname><![CDATA[ 中的协同程序。]]></summary>
+        </member>
+        <member id="Object.GetInstanceID">
+          <name>GetInstanceID</name>
+          <summary><![CDATA[返回对象的实例 ID。]]></summary>
+        </member>
+        <member id="Object.ToString">
+          <name>ToString</name>
+          <summary><![CDATA[返回 GameObject 的名称。]]></summary>
+        </member>
+      </MemberFunctions>
+      <ProtectedFunctions />
+      <StaticFunctions>
+        <member id="MonoBehaviour-print">
+          <name>print</name>
+          <summary><![CDATA[将消息记录到 Unity 控制台（与 ]]><link ref="Debug.Log">Debug.Log</link><![CDATA[ 相同）。]]></summary>
+        </member>
+        <member id="Object.Destroy">
+          <name>Destroy</name>
+          <summary><![CDATA[删除 GameObject、组件或资源。]]></summary>
+        </member>
+        <member id="Object.DestroyImmediate">
+          <name>DestroyImmediate</name>
+          <summary><![CDATA[立即销毁对象 /obj/。强烈建议您改用 Destroy。]]></summary>
+        </member>
+        <member id="Object.DontDestroyOnLoad">
+          <name>DontDestroyOnLoad</name>
+          <summary><![CDATA[加载新场景时，不自动销毁对象 /target/。]]></summary>
+        </member>
+        <member id="Object.FindObjectOfType">
+          <name>FindObjectOfType</name>
+          <summary><![CDATA[返回第一个类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象。]]></summary>
+        </member>
+        <member id="Object.FindObjectsOfType">
+          <name>FindObjectsOfType</name>
+          <summary><![CDATA[返回所有类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象的列表。]]></summary>
+        </member>
+        <member id="Object.Instantiate">
+          <name>Instantiate</name>
+          <summary><![CDATA[克隆 ]]><varname>original</varname><![CDATA[ 对象并返回克隆对象。]]></summary>
+        </member>
+      </StaticFunctions>
+      <Operators>
+        <member id="Object-operator_Object">
+          <name>bool</name>
+          <summary><![CDATA[该对象是否存在？]]></summary>
+        </member>
+        <member id="Object-operator_ne">
+          <name>operator !=</name>
+          <summary><![CDATA[比较两个对象是否引用不同的对象。]]></summary>
+        </member>
+        <member id="Object-operator_eq">
+          <name>operator ==</name>
+          <summary><![CDATA[比较两个对象引用，判断它们是否引用同一个对象。]]></summary>
+        </member>
+      </Operators>
+      <Messages>
+        <member id="MonoBehaviour.Awake">
+          <name>Awake</name>
+          <summary><![CDATA[Awake 在加载脚本实例时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.FixedUpdate">
+          <name>FixedUpdate</name>
+          <summary><![CDATA[如果启用了 MonoBehaviour，则每个固定帧率帧调用该函数。]]></summary>
+        </member>
+        <member id="MonoBehaviour.LateUpdate">
+          <name>LateUpdate</name>
+          <summary><![CDATA[如果启用了 ]]><link ref="Behaviour">Behaviour</link><![CDATA[，则每帧调用 LateUpdate。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnAnimatorIK">
+          <name>OnAnimatorIK</name>
+          <summary><![CDATA[用于设置动画 IK（反向运动学）的回调。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnAnimatorMove">
+          <name>OnAnimatorMove</name>
+          <summary><![CDATA[用于处理动画移动以修改根运动的回调。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnApplicationFocus">
+          <name>OnApplicationFocus</name>
+          <summary><![CDATA[当玩家获得或失去焦点时，发送给所有 GameObject。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnApplicationPause">
+          <name>OnApplicationPause</name>
+          <summary><![CDATA[当应用程序暂停时，发送给所有 GameObject。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnApplicationQuit">
+          <name>OnApplicationQuit</name>
+          <summary><![CDATA[在应用程序退出前，发送给所有游戏对象。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnAudioFilterRead">
+          <name>OnAudioFilterRead</name>
+          <summary><![CDATA[如果实现了 OnAudioFilterRead，Unity 将在音频 DSP 链中插入一个自定义滤波器。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnBecameInvisible">
+          <name>OnBecameInvisible</name>
+          <summary><![CDATA[OnBecameInvisible 在渲染器对任何摄像机都不可见时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnBecameVisible">
+          <name>OnBecameVisible</name>
+          <summary><![CDATA[OnBecameVisible 在渲染器变为对任意摄像机可见时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnCollisionEnter">
+          <name>OnCollisionEnter</name>
+          <summary><![CDATA[当该碰撞体/刚体已开始接触另一个刚体/碰撞体时，调用 OnCollisionEnter。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnCollisionEnter2D">
+          <name>OnCollisionEnter2D</name>
+          <summary><![CDATA[当传入碰撞体与该对象的碰撞体接触时发送（仅限 2D 物理）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnCollisionExit">
+          <name>OnCollisionExit</name>
+          <summary><![CDATA[当该碰撞体/刚体已停止接触另一个刚体/碰撞体时，调用 OnCollisionExit。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnCollisionExit2D">
+          <name>OnCollisionExit2D</name>
+          <summary><![CDATA[当另一个对象上的碰撞体停止接触该对象的碰撞体时发送（仅限 2D 物理）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnCollisionStay">
+          <name>OnCollisionStay</name>
+          <summary><![CDATA[对应正在接触刚体/碰撞体的每一个碰撞体/刚体，每帧调用一次 :ref::OnCollisionStay。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnCollisionStay2D">
+          <name>OnCollisionStay2D</name>
+          <summary><![CDATA[在另一个对象上的碰撞体正在接触该对象的碰撞体时发送每个帧（仅限 2D 物理）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnConnectedToServer">
+          <name>OnConnectedToServer</name>
+          <summary><![CDATA[成功连接到服务器后在客户端上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnControllerColliderHit">
+          <name>OnControllerColliderHit</name>
+          <summary><![CDATA[当该控制器在执行 Move 时撞到碰撞体时调用 OnControllerColliderHit。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnDestroy">
+          <name>OnDestroy</name>
+          <summary><![CDATA[销毁附加的行为将导致游戏或场景收到 ]]><link ref="Audio.AudioSpatializerMicrosoft.OnDestroy">OnDestroy</link><![CDATA[。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnDisable">
+          <name>OnDisable</name>
+          <summary><![CDATA[该函数在行为被禁用时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnDisconnectedFromServer">
+          <name>OnDisconnectedFromServer</name>
+          <summary><![CDATA[当连接丢失或与服务器断开连接时，在客户端上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnDrawGizmos">
+          <name>OnDrawGizmos</name>
+          <summary><![CDATA[如果您想绘制能够选择并且始终绘制的辅助图标，则可以实现 OnDrawGizmos。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnDrawGizmosSelected">
+          <name>OnDrawGizmosSelected</name>
+          <summary><![CDATA[如果选择了对象，则实现 ]]><link ref="Audio.AudioSpatializerMicrosoft.OnDrawGizmosSelected">OnDrawGizmosSelected</link><![CDATA[ 来绘制辅助图标。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnEnable">
+          <name>OnEnable</name>
+          <summary><![CDATA[该函数在对象变为启用和激活状态时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnFailedToConnect">
+          <name>OnFailedToConnect</name>
+          <summary><![CDATA[出于某种原因连接尝试失败时，在客户端上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnFailedToConnectToMasterServer">
+          <name>OnFailedToConnectToMasterServer</name>
+          <summary><![CDATA[在连接到 MasterServer 时发生问题的情况下，在客户端或服务器上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnGUI">
+          <name>OnGUI</name>
+          <summary><![CDATA[系统调用 OnGUI 来渲染和处理 GUI 事件。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnJointBreak">
+          <name>OnJointBreak</name>
+          <summary><![CDATA[在附加到相同游戏对象的关节断开时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnJointBreak2D">
+          <name>OnJointBreak2D</name>
+          <summary><![CDATA[在附加到相同游戏对象的 ]]><link ref="Joint2D">Joint2D</link><![CDATA[ 断开时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMasterServerEvent">
+          <name>OnMasterServerEvent</name>
+          <summary><![CDATA[在从 MasterServer 报告事件时，在客户端或服务器上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseDown">
+          <name>OnMouseDown</name>
+          <summary><![CDATA[当用户在 ]]><link ref="GUIElement">GUIElement</link><![CDATA[ 或 ]]><link ref="Collider">Collider</link><![CDATA[ 上按下鼠标按钮时，将调用 ]]><link ref="Audio.AudioSpatializerMicrosoft.OnMouseDown">OnMouseDown</link><![CDATA[。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseDrag">
+          <name>OnMouseDrag</name>
+          <summary><![CDATA[当用户单击 ]]><link ref="GUIElement">GUIElement</link><![CDATA[ 或 ]]><link ref="Collider">Collider</link><![CDATA[ 并仍然按住鼠标时，将调用 OnMouseDrag。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseEnter">
+          <name>OnMouseEnter</name>
+          <summary><![CDATA[当鼠标进入 ]]><link ref="GUIElement">GUIElement</link><![CDATA[ 或 ]]><link ref="Collider">Collider</link><![CDATA[ 时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseExit">
+          <name>OnMouseExit</name>
+          <summary><![CDATA[当鼠标不再处于 ]]><link ref="GUIElement">GUIElement</link><![CDATA[ 或 ]]><link ref="Collider">Collider</link><![CDATA[ 上方时调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseOver">
+          <name>OnMouseOver</name>
+          <summary><![CDATA[当鼠标悬停在 ]]><link ref="GUIElement">GUIElement</link><![CDATA[ 或 ]]><link ref="Collider">Collider</link><![CDATA[ 上时，每帧调用一次。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseUp">
+          <name>OnMouseUp</name>
+          <summary><![CDATA[当用户松开鼠标按钮时，将调用 OnMouseUp。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnMouseUpAsButton">
+          <name>OnMouseUpAsButton</name>
+          <summary><![CDATA[松开鼠标时，仅当鼠标在按下时所在的 ]]><link ref="GUIElement">GUIElement</link><![CDATA[ 或 ]]><link ref="Collider">Collider</link><![CDATA[ 上时，才调用 OnMouseUpAsButton。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnNetworkInstantiate">
+          <name>OnNetworkInstantiate</name>
+          <summary><![CDATA[在已通过 Network.Instantiate 进行网络实例化的对象上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnParticleCollision">
+          <name>OnParticleCollision</name>
+          <summary><![CDATA[当粒子击中碰撞体时，将调用 OnParticleCollision。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnParticleTrigger">
+          <name>OnParticleTrigger</name>
+          <summary><![CDATA[当粒子系统中的任何粒子满足触发模块中的条件时，将调用 OnParticleTrigger。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnPlayerConnected">
+          <name>OnPlayerConnected</name>
+          <summary><![CDATA[每当有新玩家成功连接，就在服务器上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnPlayerDisconnected">
+          <name>OnPlayerDisconnected</name>
+          <summary><![CDATA[每当有玩家与服务器断开连接，就在服务器上调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnPostRender">
+          <name>OnPostRender</name>
+          <summary><![CDATA[在摄像机完成场景渲染后，将调用 OnPostRender。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnPreCull">
+          <name>OnPreCull</name>
+          <summary><![CDATA[OnPreCull 在摄像机剔除场景前调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnPreRender">
+          <name>OnPreRender</name>
+          <summary><![CDATA[OnPreRender 在摄像机开始渲染场景前调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnRenderImage">
+          <name>OnRenderImage</name>
+          <summary><![CDATA[OnRenderImage 在图像的所有渲染操作全部完成后调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnRenderObject">
+          <name>OnRenderObject</name>
+          <summary><![CDATA[OnRenderObject 在摄像机渲染场景后调用。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnSerializeNetworkView">
+          <name>OnSerializeNetworkView</name>
+          <summary><![CDATA[用于在网络视图监视的脚本中自定义变量同步。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnServerInitialized">
+          <name>OnServerInitialized</name>
+          <summary><![CDATA[每当调用 Network.InitializeServer 并且完成时，对该服务器调用该函数。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTransformChildrenChanged">
+          <name>OnTransformChildrenChanged</name>
+          <summary><![CDATA[当 GameObject 的变换的子项列表发生更改时，将调用该函数。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTransformParentChanged">
+          <name>OnTransformParentChanged</name>
+          <summary><![CDATA[当 GameObject 的变换的父属性发生更改时，将调用该函数。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTriggerEnter">
+          <name>OnTriggerEnter</name>
+          <summary><![CDATA[当 ]]><link ref="Collider">Collider</link><![CDATA[ ]]><varname>other</varname><![CDATA[ 事件进入该触发器时调用 OnTriggerEnter。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTriggerEnter2D">
+          <name>OnTriggerEnter2D</name>
+          <summary><![CDATA[当另一个对象进入附加到该对象的触发碰撞体时发送（仅限 2D 物理）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTriggerExit">
+          <name>OnTriggerExit</name>
+          <summary><![CDATA[当 ]]><link ref="Collider">Collider</link><![CDATA[ ]]><varname>other</varname><![CDATA[ 已停止接触该触发器时调用 OnTriggerExit。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTriggerExit2D">
+          <name>OnTriggerExit2D</name>
+          <summary><![CDATA[当另一个对象离开附加到该对象的触发碰撞体时发送（仅限 2D 物理）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTriggerStay">
+          <name>OnTriggerStay</name>
+          <summary><![CDATA[对于接触触发器的每一个 ]]><link ref="Collider">Collider</link><![CDATA[ /other/，每次物理更新调用一次 OnTriggerStay。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnTriggerStay2D">
+          <name>OnTriggerStay2D</name>
+          <summary><![CDATA[在另一个对象位于附加到该对象的触发碰撞体之内时发送每个帧（仅限 2D 物理）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnValidate">
+          <name>OnValidate</name>
+          <summary><![CDATA[加载脚本后或 Inspector 中的值发生更改时，将调用该函数（只能在 Editor 中调用）。]]></summary>
+        </member>
+        <member id="MonoBehaviour.OnWillRenderObject">
+          <name>OnWillRenderObject</name>
+          <summary><![CDATA[如果对象可见并且不是 UI 元素，则为每个摄像机调用 OnWillRenderObject。]]></summary>
+        </member>
+        <member id="MonoBehaviour.Reset">
+          <name>Reset</name>
+          <summary><![CDATA[重置为默认值。]]></summary>
+        </member>
+        <member id="MonoBehaviour.Start">
+          <name>Start</name>
+          <summary><![CDATA[在首次调用任何 Update 方法之前启用脚本时，在帧上调用 Start。]]></summary>
+        </member>
+        <member id="MonoBehaviour.Update">
+          <name>Update</name>
+          <summary><![CDATA[如果启用了 MonoBehaviour，则每帧调用 Update。]]></summary>
+        </member>
+      </Messages>
+      <Events />
+      <Delegates />
+    </BaseType>
+    <InheritsFrom>Audio.AudioSpatializerMicrosoft</InheritsFrom>
+  </Model>
+</Root>

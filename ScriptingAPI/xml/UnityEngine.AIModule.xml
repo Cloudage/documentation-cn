@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Assembly="UnityEngine.AIModule.dll">
+    <Classes>
+      <member id="AI.NavMesh">
+        <name>NavMesh</name>
+        <summary><![CDATA[用于访问烘焙导航网格的单例类。]]></summary>
+      </member>
+      <member id="AI.NavMeshAgent">
+        <name>NavMeshAgent</name>
+        <summary><![CDATA[导航网格代理。]]></summary>
+      </member>
+      <member id="AI.NavMeshBuilder">
+        <name>NavMeshBuilder</name>
+        <summary><![CDATA[导航网格构建器界面。]]></summary>
+      </member>
+      <member id="AI.NavMeshData">
+        <name>NavMeshData</name>
+        <summary><![CDATA[包含并表示导航网格数据。]]></summary>
+      </member>
+      <member id="AI.NavMeshObstacle">
+        <name>NavMeshObstacle</name>
+        <summary><![CDATA[NavMeshAgents 需要避开的障碍物。]]></summary>
+      </member>
+      <member id="AI.NavMeshPath">
+        <name>NavMeshPath</name>
+        <summary><![CDATA[由导航系统计算的路径。]]></summary>
+      </member>
+      <member id="AI.OffMeshLink">
+        <name>OffMeshLink</name>
+        <summary><![CDATA[允许在平面导航网格外部移动的链接。]]></summary>
+      </member>
+    </Classes>
+    <Structs>
+      <member id="AI.NavMeshBuildDebugSettings">
+        <name>NavMeshBuildDebugSettings</name>
+        <summary><![CDATA[指定应在导航网格构建完成后将构建时生成的哪些临时数据保留在内存中。]]></summary>
+      </member>
+      <member id="AI.NavMeshBuildMarkup">
+        <name>NavMeshBuildMarkup</name>
+        <summary><![CDATA[借助导航网格构建标记，您可以控制导航网格构建过程中（特别是收集构建来源时）特定对象的处理方式。]]></summary>
+      </member>
+      <member id="AI.NavMeshBuildSettings">
+        <name>NavMeshBuildSettings</name>
+        <summary><![CDATA[NavMeshBuildSettings 结构可用于指定一系列设置，这些设置描述了特定 agent 类型的尺寸和限制。]]></summary>
+      </member>
+      <member id="AI.NavMeshBuildSource">
+        <name>NavMeshBuildSource</name>
+        <summary><![CDATA[导航网格构建器的输入是导航网格构建源列表。]]></summary>
+      </member>
+      <member id="AI.NavMeshDataInstance">
+        <name>NavMeshDataInstance</name>
+        <summary><![CDATA[添加导航网格数据后会返回该实例。]]></summary>
+      </member>
+      <member id="AI.NavMeshHit">
+        <name>NavMeshHit</name>
+        <summary><![CDATA[导航网格查询的结果信息。]]></summary>
+      </member>
+      <member id="AI.NavMeshLinkData">
+        <name>NavMeshLinkData</name>
+        <summary><![CDATA[用于在运行时操控连接多边形和导航网格的链接。]]></summary>
+      </member>
+      <member id="AI.NavMeshLinkInstance">
+        <name>NavMeshLinkInstance</name>
+        <summary><![CDATA[一个表示链接可用于寻路的实例。]]></summary>
+      </member>
+      <member id="Experimental.AI.NavMeshLocation">
+        <name>NavMeshLocation</name>
+        <summary><![CDATA[世界位置，保证位于导航网格表面上。]]></summary>
+      </member>
+      <member id="Experimental.AI.NavMeshQuery">
+        <name>NavMeshQuery</name>
+        <summary><![CDATA[用于在 ]]><link ref="Experimental.AI.NavMeshWorld">NavMeshWorld</link><![CDATA[ 中执行导航操作的对象。]]></summary>
+      </member>
+      <member id="AI.NavMeshQueryFilter">
+        <name>NavMeshQueryFilter</name>
+        <summary><![CDATA[指定了搜索导航网格时要考虑的 agent 类型和区域。]]></summary>
+      </member>
+      <member id="AI.NavMeshTriangulation">
+        <name>NavMeshTriangulation</name>
+        <summary><![CDATA[包含描述导航网格三角形剖分的数据。]]></summary>
+      </member>
+      <member id="Experimental.AI.NavMeshWorld">
+        <name>NavMeshWorld</name>
+        <summary><![CDATA[将导航网格表面和链接组合起来，整个用来执行导航操作。]]></summary>
+      </member>
+      <member id="AI.OffMeshLinkData">
+        <name>OffMeshLinkData</name>
+        <summary><![CDATA[OffMeshLink 的状态。]]></summary>
+      </member>
+      <member id="Experimental.AI.PolygonId">
+        <name>PolygonId</name>
+        <summary><![CDATA[表示导航网格节点数据的紧凑标识符。]]></summary>
+      </member>
+    </Structs>
+    <Enumerations>
+      <member id="AI.NavMeshBuildDebugFlags">
+        <name>NavMeshBuildDebugFlags</name>
+        <summary><![CDATA[位掩码，用于与导航网格构建过程的调试数据结合使用。]]></summary>
+      </member>
+      <member id="AI.NavMeshBuildSourceShape">
+        <name>NavMeshBuildSourceShape</name>
+        <summary><![CDATA[与 ]]><link ref="AI.NavMeshBuildSource">NavMeshBuildSource</link><![CDATA[ 结合使用，用于定义为其构建导航网格的形状。]]></summary>
+      </member>
+      <member id="AI.NavMeshCollectGeometry">
+        <name>NavMeshCollectGeometry</name>
+        <summary><![CDATA[用于指定要收集的几何体类型。与 ]]><link ref="AI.NavMeshBuilder.CollectSources">NavMeshBuilder.CollectSources</link><![CDATA[ 结合使用。]]></summary>
+      </member>
+      <member id="AI.NavMeshObstacleShape">
+        <name>NavMeshObstacleShape</name>
+        <summary><![CDATA[障碍物的形状。]]></summary>
+      </member>
+      <member id="AI.NavMeshPathStatus">
+        <name>NavMeshPathStatus</name>
+        <summary><![CDATA[路径状态。]]></summary>
+      </member>
+      <member id="Experimental.AI.NavMeshPolyTypes">
+        <name>NavMeshPolyTypes</name>
+        <summary><![CDATA[导航数据中节点的类型。]]></summary>
+      </member>
+      <member id="AI.ObstacleAvoidanceType">
+        <name>ObstacleAvoidanceType</name>
+        <summary><![CDATA[障碍躲避等级。]]></summary>
+      </member>
+      <member id="AI.OffMeshLinkType">
+        <name>OffMeshLinkType</name>
+        <summary><![CDATA[链接类型区分符。]]></summary>
+      </member>
+      <member id="Experimental.AI.PathQueryStatus">
+        <name>PathQueryStatus</name>
+        <summary><![CDATA[位标识，表示 ]]><link ref="Experimental.AI.NavMeshQuery">NavMeshQuery</link><![CDATA[ 操作的最终状态。]]></summary>
+      </member>
+    </Enumerations>
+    <Section>
+      <Signature>
+        <Declaration name="UnityEngine.AIModule" type="" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[AI 模块在 Unity 中实现了路径查找功能。]]></Summary>
+    </Section>
+  </Model>
+</Root>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEditor">
+    <StaticVars>
+      <member id="MaterialEditor-kMiniTextureFieldLabelIndentLevel">
+        <name>kMiniTextureFieldLabelIndentLevel</name>
+        <summary><![CDATA[适用于对需要与最小纹理字段具有相同缩进的着色器属性进行缩进。]]></summary>
+      </member>
+    </StaticVars>
+    <Vars>
+      <member id="MaterialEditor-isVisible">
+        <name>isVisible</name>
+        <summary><![CDATA[当前材质是否已展开。]]></summary>
+      </member>
+    </Vars>
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions>
+      <member id="MaterialEditor.Awake">
+        <name>Awake</name>
+        <summary><![CDATA[当编辑器唤醒时调用。]]></summary>
+      </member>
+      <member id="MaterialEditor.BeginAnimatedCheck">
+        <name>BeginAnimatedCheck</name>
+        <summary><![CDATA[创建一个属性封装器，适用于使常规 GUI 控件与 ]]><link ref="MaterialProperty">MaterialProperty</link><![CDATA[ 配合使用。]]></summary>
+      </member>
+      <member id="MaterialEditor.ColorProperty">
+        <name>ColorProperty</name>
+        <summary><![CDATA[为颜色着色器属性绘制属性字段。]]></summary>
+      </member>
+      <member id="MaterialEditor.DefaultPreviewGUI">
+        <name>DefaultPreviewGUI</name>
+        <summary><![CDATA[材质预览区域的默认处理。]]></summary>
+      </member>
+      <member id="MaterialEditor.DefaultPreviewSettingsGUI">
+        <name>DefaultPreviewSettingsGUI</name>
+        <summary><![CDATA[材质预览区域的默认工具栏。]]></summary>
+      </member>
+      <member id="MaterialEditor.DefaultShaderProperty">
+        <name>DefaultShaderProperty</name>
+        <summary><![CDATA[处理一个着色器属性的 UI（忽略任何自定义绘制器）。]]></summary>
+      </member>
+      <member id="MaterialEditor.DoubleSidedGIField">
+        <name>DoubleSidedGIField</name>
+        <summary><![CDATA[显示用于编辑材质的双面全局光照设置的 UI。
+如果确实显示了 UI（即材质支持双面全局光照设置），则返回 true。
+另请参阅：]]><link ref="Material-doubleSidedGI">Material.doubleSidedGI</link><![CDATA[。]]></summary>
+      </member>
+      <member id="MaterialEditor.EmissionEnabledProperty">
+        <name>EmissionEnabledProperty</name>
+        <summary><![CDATA[此函数将绘制用于控制是否在材质上启用发射的 UI。]]></summary>
+      </member>
+      <member id="MaterialEditor.EnableInstancingField">
+        <name>EnableInstancingField</name>
+        <summary><![CDATA[显示用于编辑材质的渲染队列设置的 UI。]]></summary>
+      </member>
+      <member id="MaterialEditor.EndAnimatedCheck">
+        <name>EndAnimatedCheck</name>
+        <summary><![CDATA[结束由 ]]><link ref="MaterialEditor.BeginAnimatedCheck">BeginAnimatedCheck</link><![CDATA[ 开始的属性封装器。]]></summary>
+      </member>
+      <member id="MaterialEditor.FloatProperty">
+        <name>FloatProperty</name>
+        <summary><![CDATA[为浮点着色器属性绘制属性字段。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetPropertyHeight">
+        <name>GetPropertyHeight</name>
+        <summary><![CDATA[计算属性所需的高度。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetTexturePropertyCustomArea">
+        <name>GetTexturePropertyCustomArea</name>
+        <summary><![CDATA[在标签下面和大缩略图对象字段之前返回自由矩形。用于平铺属性和偏移属性等。]]></summary>
+      </member>
+      <member id="MaterialEditor.HasPreviewGUI">
+        <name>HasPreviewGUI</name>
+        <summary><![CDATA[能否在当前状态下预览此组件？]]></summary>
+      </member>
+      <member id="MaterialEditor.HelpBoxWithButton">
+        <name>HelpBoxWithButton</name>
+        <summary><![CDATA[创建一个带有消息和按钮的帮助框。如果已按下按钮，则返回 true。]]></summary>
+      </member>
+      <member id="MaterialEditor.LightmapEmissionFlagsProperty">
+        <name>LightmapEmissionFlagsProperty</name>
+        <summary><![CDATA[绘制用于设置材质的全局光照标志的 UI。]]></summary>
+      </member>
+      <member id="MaterialEditor.LightmapEmissionProperty">
+        <name>LightmapEmissionProperty</name>
+        <summary><![CDATA[此函数将绘制用于光照贴图发射属性的 UI。（无、实时、烘焙）]]><br /><br /><![CDATA[另请参阅：]]><![CDATA[MaterialLightmapFlags]]><![CDATA[。]]></summary>
+      </member>
+      <member id="MaterialEditor.OnDisable">
+        <name>OnDisable</name>
+        <summary><![CDATA[在编辑器处于禁用状态时调用，如果被重载，请调用基础 OnDisable() 以确保正确设置材质检视面板。]]></summary>
+      </member>
+      <member id="MaterialEditor.OnEnable">
+        <name>OnEnable</name>
+        <summary><![CDATA[在编辑器处于启用状态时调用，如果被重载，请调用基础 OnEnable() 以确保正确设置材质检视面板。]]></summary>
+      </member>
+      <member id="MaterialEditor.OnInspectorGUI">
+        <name>OnInspectorGUI</name>
+        <summary><![CDATA[在此处实现特定的 MaterialEditor GUI 代码。如果您只想扩展现有编辑器，应在执行任何自定义 GUI 代码之前先调用基础 OnInspectorGUI ()。]]></summary>
+      </member>
+      <member id="MaterialEditor.OnPreviewGUI">
+        <name>OnPreviewGUI</name>
+        <summary><![CDATA[Image 组件的自定义预览。]]></summary>
+      </member>
+      <member id="MaterialEditor.PropertiesChanged">
+        <name>PropertiesChanged</name>
+        <summary><![CDATA[每当材质属性发生更改时，需调用此函数。这将重新构建检视面板并验证属性。]]></summary>
+      </member>
+      <member id="MaterialEditor.PropertiesDefaultGUI">
+        <name>PropertiesDefaultGUI</name>
+        <summary><![CDATA[着色器属性的默认渲染。]]></summary>
+      </member>
+      <member id="MaterialEditor.PropertiesGUI">
+        <name>PropertiesGUI</name>
+        <summary><![CDATA[渲染标准材质属性。此方法将使用 ]]><![CDATA[IShaderGUI]]><![CDATA[ 实例（如果找到）渲染属性，否则会使用 ]]><link ref="MaterialEditor.PropertiesDefaultGUI">PropertiesDefaultGUI</link><![CDATA[。]]></summary>
+      </member>
+      <member id="MaterialEditor.RangeProperty">
+        <name>RangeProperty</name>
+        <summary><![CDATA[为范围着色器属性绘制一个范围滑动条。]]></summary>
+      </member>
+      <member id="MaterialEditor.RegisterPropertyChangeUndo">
+        <name>RegisterPropertyChangeUndo</name>
+        <summary><![CDATA[当您更改材质属性时，需调用此方法。它将为操作添加撤销标签。]]></summary>
+      </member>
+      <member id="MaterialEditor.RenderQueueField">
+        <name>RenderQueueField</name>
+        <summary><![CDATA[显示用于编辑材质的渲染队列设置的 UI。]]></summary>
+      </member>
+      <member id="MaterialEditor.RequiresConstantRepaint">
+        <name>RequiresConstantRepaint</name>
+        <summary><![CDATA[是否需要在当前状态下不断重绘此编辑？]]></summary>
+      </member>
+      <member id="MaterialEditor.SetDefaultGUIWidths">
+        <name>SetDefaultGUIWidths</name>
+        <summary><![CDATA[将 EditorGUIUtility.fieldWidth 和 labelWidth 设置为 PropertiesGUI 使用的默认值。]]></summary>
+      </member>
+      <member id="MaterialEditor.SetShader">
+        <name>SetShader</name>
+        <summary><![CDATA[设置材质的着色器。]]></summary>
+      </member>
+      <member id="MaterialEditor.ShaderProperty">
+        <name>ShaderProperty</name>
+        <summary><![CDATA[处理一个着色器属性的 UI。]]></summary>
+      </member>
+      <member id="MaterialEditor.TextureCompatibilityWarning">
+        <name>TextureCompatibilityWarning</name>
+        <summary><![CDATA[检查特定属性中由材质指定的纹理类型是否有误，显示相应警告并建议用户自动修复问题。]]></summary>
+      </member>
+      <member id="MaterialEditor.TextureProperty">
+        <name>TextureProperty</name>
+        <summary><![CDATA[为纹理着色器属性绘制一个属性字段。]]></summary>
+      </member>
+      <member id="MaterialEditor.TexturePropertyMiniThumbnail">
+        <name>TexturePropertyMiniThumbnail</name>
+        <summary><![CDATA[为纹理着色器属性绘制一个属性字段且仅占用单行高度。]]></summary>
+      </member>
+      <member id="MaterialEditor.TexturePropertySingleLine">
+        <name>TexturePropertySingleLine</name>
+        <summary><![CDATA[用于显示带有额外内联属性的纹理属性控件的方法。]]></summary>
+      </member>
+      <member id="MaterialEditor.TexturePropertyTwoLines">
+        <name>TexturePropertyTwoLines</name>
+        <summary><![CDATA[用于显示属性的紧凑布局的方法。]]></summary>
+      </member>
+      <member id="MaterialEditor.TexturePropertyWithHDRColor">
+        <name>TexturePropertyWithHDRColor</name>
+        <summary><![CDATA[用于显示含有 HDR 颜色字段及其颜色亮度浮点字段的纹理属性控件的方法。]]></summary>
+      </member>
+      <member id="MaterialEditor.TextureScaleOffsetProperty">
+        <name>TextureScaleOffsetProperty</name>
+        <summary><![CDATA[为纹理绘制平铺属性和偏移属性。]]></summary>
+      </member>
+      <member id="MaterialEditor.VectorProperty">
+        <name>VectorProperty</name>
+        <summary><![CDATA[为矢量着色器属性绘制一个属性字段。]]></summary>
+      </member>
+    </MemberFunctions>
+    <ProtectedFunctions>
+      <member id="MaterialEditor.OnShaderChanged">
+        <name>OnShaderChanged</name>
+        <summary><![CDATA[在检视面板中更改材质的着色器时调用的回调。]]></summary>
+      </member>
+    </ProtectedFunctions>
+    <StaticFunctions>
+      <member id="MaterialEditor.ApplyMaterialPropertyDrawers">
+        <name>ApplyMaterialPropertyDrawers</name>
+        <summary><![CDATA[应用初始 ]]><link ref="MaterialPropertyDrawer">MaterialPropertyDrawer</link><![CDATA[ 值。]]></summary>
+      </member>
+      <member id="MaterialEditor.FixupEmissiveFlag">
+        <name>FixupEmissiveFlag</name>
+        <summary><![CDATA[根据传入的标志和给定的颜色返回正确设置的全局光照标志。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetDefaultPropertyHeight">
+        <name>GetDefaultPropertyHeight</name>
+        <summary><![CDATA[计算属性所需的高度（忽略自定义绘制器）。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetFlexibleRectBetweenFieldAndRightEdge">
+        <name>GetFlexibleRectBetweenFieldAndRightEdge</name>
+        <summary><![CDATA[用于 GUI 布局 ShaderGUI 的 Utility 方法。例如，用于左对齐 Color 字段之后的矩形。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetFlexibleRectBetweenLabelAndField">
+        <name>GetFlexibleRectBetweenLabelAndField</name>
+        <summary><![CDATA[用于 GUI 布局 ShaderGUI 的 Utility 方法。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetLeftAlignedFieldRect">
+        <name>GetLeftAlignedFieldRect</name>
+        <summary><![CDATA[用于 GUI 布局 ShaderGUI 的 Utility 方法。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetMaterialProperties">
+        <name>GetMaterialProperties</name>
+        <summary><![CDATA[获取所传递材质的着色器属性信息。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetMaterialProperty">
+        <name>GetMaterialProperty</name>
+        <summary><![CDATA[获取有关单个着色器属性的信息。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetRectAfterLabelWidth">
+        <name>GetRectAfterLabelWidth</name>
+        <summary><![CDATA[用于 GUI 布局 ShaderGUI 的 Utility 方法。这是可用于多个属性的标签后面的矩形。可通过调用以下函数来获取输入矩形：EditorGUILayout.GetControlRect。]]></summary>
+      </member>
+      <member id="MaterialEditor.GetRightAlignedFieldRect">
+        <name>GetRightAlignedFieldRect</name>
+        <summary><![CDATA[用于 GUI 布局 ShaderGUI 的 Utility 方法。]]></summary>
+      </member>
+    </StaticFunctions>
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="MaterialEditor" type="class" namespace="UnityEditor" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[Unity 材质编辑器。]]></Summary>
+      <Description><![CDATA[扩展该类可编写您自己的自定义材质编辑器。有关更多详细信息，请参阅 ]]><link ref="../Manual/SL-Shader">ShaderLab reference</link><![CDATA[ 的 ]]><link ref="../Manual/SL-CustomEditor">Custom Material Editor</link><![CDATA[ 部分。]]></Description>
+    </Section>
+    <BaseType id="Editor">
+      <StaticVars />
+      <Vars>
+        <member id="Editor-serializedObject">
+          <name>serializedObject</name>
+          <summary><![CDATA[表示正在检查的一个或多个对象的 ]]><link ref="SerializedObject">SerializedObject</link><![CDATA[。]]></summary>
+        </member>
+        <member id="Editor-target">
+          <name>target</name>
+          <summary><![CDATA[所检查的对象。]]></summary>
+        </member>
+        <member id="Editor-targets">
+          <name>targets</name>
+          <summary><![CDATA[正在检查的所有对象的数组。]]></summary>
+        </member>
+        <member id="Object-hideFlags">
+          <name>hideFlags</name>
+          <summary><![CDATA[该对象应该隐藏、随场景一起保存还是由用户修改？]]></summary>
+        </member>
+        <member id="Object-name">
+          <name>name</name>
+          <summary><![CDATA[对象的名称。]]></summary>
+        </member>
+      </Vars>
+      <ProtVars />
+      <StaticProtVars />
+      <Constructors />
+      <MemberFunctions>
+        <member id="Editor.DrawDefaultInspector">
+          <name>DrawDefaultInspector</name>
+          <summary><![CDATA[绘制内置检视面板。]]></summary>
+        </member>
+        <member id="Editor.DrawHeader">
+          <name>DrawHeader</name>
+          <summary><![CDATA[调用此函数以绘制编辑器标头。]]></summary>
+        </member>
+        <member id="Editor.DrawPreview">
+          <name>DrawPreview</name>
+          <summary><![CDATA[预览绘制的第一个入口点。]]></summary>
+        </member>
+        <member id="Editor.GetInfoString">
+          <name>GetInfoString</name>
+          <summary><![CDATA[实现此方法以在资源预览上显示资源信息。]]></summary>
+        </member>
+        <member id="Editor.GetPreviewTitle">
+          <name>GetPreviewTitle</name>
+          <summary><![CDATA[如果要更改 Preview 区域的标签，可重载此方法。]]></summary>
+        </member>
+        <member id="Editor.OnInteractivePreviewGUI">
+          <name>OnInteractivePreviewGUI</name>
+          <summary><![CDATA[实现此方法可创建您自己的交互式自定义预览。交互式自定义预览用于检视面板和对象选择器的预览区域。]]></summary>
+        </member>
+        <member id="Editor.OnPreviewSettings">
+          <name>OnPreviewSettings</name>
+          <summary><![CDATA[如果要在预览标头中显示自定义控件，可重载此方法。]]></summary>
+        </member>
+        <member id="Editor.RenderStaticPreview">
+          <name>RenderStaticPreview</name>
+          <summary><![CDATA[如果要渲染静态预览，可重载此方法。]]></summary>
+        </member>
+        <member id="Editor.Repaint">
+          <name>Repaint</name>
+          <summary><![CDATA[重新绘制显示此编辑器的任意检视面板。]]></summary>
+        </member>
+        <member id="Editor.UseDefaultMargins">
+          <name>UseDefaultMargins</name>
+          <summary><![CDATA[如果您不想使用默认边距，可在子类中重载此方法以返回 false。]]></summary>
+        </member>
+        <member id="Object.GetInstanceID">
+          <name>GetInstanceID</name>
+          <summary><![CDATA[返回对象的实例 ID。]]></summary>
+        </member>
+        <member id="Object.ToString">
+          <name>ToString</name>
+          <summary><![CDATA[返回 GameObject 的名称。]]></summary>
+        </member>
+      </MemberFunctions>
+      <ProtectedFunctions>
+        <member id="Editor.ShouldHideOpenButton">
+          <name>ShouldHideOpenButton</name>
+          <summary><![CDATA[返回检视面板中“open”按钮的可见性设置。]]></summary>
+        </member>
+      </ProtectedFunctions>
+      <StaticFunctions>
+        <member id="Editor.CreateCachedEditor">
+          <name>CreateCachedEditor</name>
+          <summary><![CDATA[返回时，]]><varname>previousEditor</varname><![CDATA[ 为 ]]><varname>targetObject</varname><![CDATA[ 或 ]]><varname>targetObjects</varname><![CDATA[ 的编辑器。如果该编辑器已在跟踪对象，则函数会返回，否则该函数会销毁之前的编辑器并创建一个新编辑器。]]></summary>
+        </member>
+        <member id="Editor.CreateCachedEditorWithContext">
+          <name>CreateCachedEditorWithContext</name>
+          <summary><![CDATA[使用上下文对象创建缓存的编辑器。]]></summary>
+        </member>
+        <member id="Editor.CreateEditor">
+          <name>CreateEditor</name>
+          <summary><![CDATA[为 ]]><varname>targetObject</varname><![CDATA[ 或 ]]><varname>targetObjects</varname><![CDATA[ 创建自定义编辑器。]]></summary>
+        </member>
+        <member id="Editor.CreateEditorWithContext">
+          <name>CreateEditorWithContext</name>
+          <summary><![CDATA[使用上下文对象为 ]]><varname>targetObject</varname><![CDATA[ 或 ]]><varname>targetObjects</varname><![CDATA[ 创建自定义编辑器。]]></summary>
+        </member>
+        <member id="Object.Destroy">
+          <name>Destroy</name>
+          <summary><![CDATA[删除 GameObject、组件或资源。]]></summary>
+        </member>
+        <member id="Object.DestroyImmediate">
+          <name>DestroyImmediate</name>
+          <summary><![CDATA[立即销毁对象 /obj/。强烈建议您改用 Destroy。]]></summary>
+        </member>
+        <member id="Object.DontDestroyOnLoad">
+          <name>DontDestroyOnLoad</name>
+          <summary><![CDATA[加载新场景时，不自动销毁对象 /target/。]]></summary>
+        </member>
+        <member id="Object.FindObjectOfType">
+          <name>FindObjectOfType</name>
+          <summary><![CDATA[返回第一个类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象。]]></summary>
+        </member>
+        <member id="Object.FindObjectsOfType">
+          <name>FindObjectsOfType</name>
+          <summary><![CDATA[返回所有类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象的列表。]]></summary>
+        </member>
+        <member id="Object.Instantiate">
+          <name>Instantiate</name>
+          <summary><![CDATA[克隆 ]]><varname>original</varname><![CDATA[ 对象并返回克隆对象。]]></summary>
+        </member>
+        <member id="ScriptableObject.CreateInstance">
+          <name>CreateInstance</name>
+          <summary><![CDATA[创建脚本化对象的实例。]]></summary>
+        </member>
+      </StaticFunctions>
+      <Operators>
+        <member id="Object-operator_Object">
+          <name>bool</name>
+          <summary><![CDATA[该对象是否存在？]]></summary>
+        </member>
+        <member id="Object-operator_ne">
+          <name>operator !=</name>
+          <summary><![CDATA[比较两个对象是否引用不同的对象。]]></summary>
+        </member>
+        <member id="Object-operator_eq">
+          <name>operator ==</name>
+          <summary><![CDATA[比较两个对象引用，判断它们是否引用同一个对象。]]></summary>
+        </member>
+      </Operators>
+      <Messages>
+        <member id="Editor.OnSceneGUI">
+          <name>OnSceneGUI</name>
+          <summary><![CDATA[启用编辑器以在场景视图中处理事件。]]></summary>
+        </member>
+        <member id="ScriptableObject.OnDestroy">
+          <name>OnDestroy</name>
+          <summary><![CDATA[当脚本化对象将销毁时调用此函数。]]></summary>
+        </member>
+      </Messages>
+      <Events />
+      <Delegates />
+    </BaseType>
+    <InheritsFrom>MaterialEditor</InheritsFrom>
+  </Model>
+</Root>

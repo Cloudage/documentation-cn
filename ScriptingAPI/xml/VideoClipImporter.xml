@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEditor">
+    <StaticVars />
+    <Vars>
+      <member id="VideoClipImporter-defaultTargetSettings">
+        <name>defaultTargetSettings</name>
+        <summary><![CDATA[用于特定于平台的导入设置的默认值。]]></summary>
+      </member>
+      <member id="VideoClipImporter-deinterlaceMode">
+        <name>deinterlaceMode</name>
+        <summary><![CDATA[图像在转码期间隔行扫描。这可以告知导入器如何解读源中的字段（如果有）。]]></summary>
+      </member>
+      <member id="VideoClipImporter-flipHorizontal">
+        <name>flipHorizontal</name>
+        <summary><![CDATA[在导入过程中应用水平翻转。]]></summary>
+      </member>
+      <member id="VideoClipImporter-flipVertical">
+        <name>flipVertical</name>
+        <summary><![CDATA[在导入过程中应用垂直翻转。]]></summary>
+      </member>
+      <member id="VideoClipImporter-frameCount">
+        <name>frameCount</name>
+        <summary><![CDATA[剪辑中的帧数。]]></summary>
+      </member>
+      <member id="VideoClipImporter-frameRate">
+        <name>frameRate</name>
+        <summary><![CDATA[剪辑的帧率。]]></summary>
+      </member>
+      <member id="VideoClipImporter-importAudio">
+        <name>importAudio</name>
+        <summary><![CDATA[从源文件导入音频轨道。]]></summary>
+      </member>
+      <member id="VideoClipImporter-isPlayingPreview">
+        <name>isPlayingPreview</name>
+        <summary><![CDATA[当前是否正在播放预览。]]></summary>
+      </member>
+      <member id="VideoClipImporter-keepAlpha">
+        <name>keepAlpha</name>
+        <summary><![CDATA[是否要在转码的剪辑中保留源中的 Alpha。]]></summary>
+      </member>
+      <member id="VideoClipImporter-linearColor">
+        <name>linearColor</name>
+        <summary><![CDATA[用于旧版导入模式。与 ]]><![CDATA[MovieImport.linearTexture]]><![CDATA[ 相同。]]></summary>
+      </member>
+      <member id="VideoClipImporter-outputFileSize">
+        <name>outputFileSize</name>
+        <summary><![CDATA[导入后的文件大小（以字节为单位）。]]></summary>
+      </member>
+      <member id="VideoClipImporter-pixelAspectRatioDenominator">
+        <name>pixelAspectRatioDenominator</name>
+        <summary><![CDATA[像素宽高比的分母（分子:分母）。]]></summary>
+      </member>
+      <member id="VideoClipImporter-pixelAspectRatioNumerator">
+        <name>pixelAspectRatioNumerator</name>
+        <summary><![CDATA[像素宽高比的分子（分子:分母）。]]></summary>
+      </member>
+      <member id="VideoClipImporter-quality">
+        <name>quality</name>
+        <summary><![CDATA[用于旧版导入模式。与 ]]><![CDATA[MovieImport.quality]]><![CDATA[ 相同。]]></summary>
+      </member>
+      <member id="VideoClipImporter-sourceAudioTrackCount">
+        <name>sourceAudioTrackCount</name>
+        <summary><![CDATA[源文件中的音频轨道数。]]></summary>
+      </member>
+      <member id="VideoClipImporter-sourceFileSize">
+        <name>sourceFileSize</name>
+        <summary><![CDATA[导入之前的文件大小（以字节为单位）。]]></summary>
+      </member>
+      <member id="VideoClipImporter-sourceHasAlpha">
+        <name>sourceHasAlpha</name>
+        <summary><![CDATA[如果源文件包含通道以实现每像素透明度，则为 true。]]></summary>
+      </member>
+      <member id="VideoClipImporter-transcodeSkipped">
+        <name>transcodeSkipped</name>
+        <summary><![CDATA[如果在导入过程中跳过了转码，则返回 true，否则返回 false。（只读）]]><br /><br /><![CDATA[将 ]]><link ref="VideoImporterTargetSettings-enableTranscoding">VideoImporterTargetSettings.enableTranscoding</link><![CDATA[ 设置为 true 时，在导入时执行的转码操作可能会花很长时间，最多需要多个小时，具体取决于源分辨率和内容时长。资源导入器的进度条中提供了可跳过此流程的选项。跳过此流程后，转码操作将改为提供资源的非转码版本。但是，导入器设置将保持不变，因此可检查此属性，看看是否与生成的工件存在不连贯的地方。]]><br /><br /><![CDATA[如果在不停止转码流程或关闭转码的情况下重新导入，会导致此属性变成 false。]]></summary>
+      </member>
+      <member id="VideoClipImporter-useLegacyImporter">
+        <name>useLegacyImporter</name>
+        <summary><![CDATA[True 则导入 MovieTexture（已启用），false 则导入 VideoClip（首选）。]]></summary>
+      </member>
+    </Vars>
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions>
+      <member id="VideoClipImporter.ClearTargetSettings">
+        <name>ClearTargetSettings</name>
+        <summary><![CDATA[清除指定平台的特定于平台的导入设置，会导致平台使用默认设置。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetPreviewTexture">
+        <name>GetPreviewTexture</name>
+        <summary><![CDATA[返回包含已转码剪辑的当前帧的纹理。
+如果不在播放剪辑，则返回帧 0，如果正在播放剪辑，则返回当前时间的帧。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetResizeHeight">
+        <name>GetResizeHeight</name>
+        <summary><![CDATA[针对指定的调整大小模式获取调整大小操作生成的高度。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetResizeModeName">
+        <name>GetResizeModeName</name>
+        <summary><![CDATA[针对指定的调整大小模式获取调整大小操作的完整名称。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetResizeWidth">
+        <name>GetResizeWidth</name>
+        <summary><![CDATA[针对指定的调整大小模式获取调整大小操作生成的宽度。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetSourceAudioChannelCount">
+        <name>GetSourceAudioChannelCount</name>
+        <summary><![CDATA[指定源轨道中的音频声道数。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetSourceAudioSampleRate">
+        <name>GetSourceAudioSampleRate</name>
+        <summary><![CDATA[指定音频轨道的采样率。]]></summary>
+      </member>
+      <member id="VideoClipImporter.GetTargetSettings">
+        <name>GetTargetSettings</name>
+        <summary><![CDATA[返回指定平台的特定于平台的导入设置。]]></summary>
+      </member>
+      <member id="VideoClipImporter.PlayPreview">
+        <name>PlayPreview</name>
+        <summary><![CDATA[开始播放预览。]]></summary>
+      </member>
+      <member id="VideoClipImporter.SetTargetSettings">
+        <name>SetTargetSettings</name>
+        <summary><![CDATA[设置指定平台的特定于平台的导入设置。]]></summary>
+      </member>
+      <member id="VideoClipImporter.StopPreview">
+        <name>StopPreview</name>
+        <summary><![CDATA[停止播放预览。]]></summary>
+      </member>
+    </MemberFunctions>
+    <ProtectedFunctions />
+    <StaticFunctions />
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="VideoClipImporter" type="class" namespace="UnityEditor" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[VideoClipImporter 允许您通过编辑器脚本修改 ]]><link ref="Video.VideoClip">VideoClip</link><![CDATA[ 导入设置。]]></Summary>
+      <Description><![CDATA[
+            请参阅 ]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[ 类文档中的 ]]><b>Movie File Format Support Notes</b><![CDATA[ 部分，了解受支持的电影文件格式并查看编码准则。
+            ]]></Description>
+    </Section>
+    <BaseType id="AssetImporter">
+      <StaticVars />
+      <Vars>
+        <member id="AssetImporter-assetBundleName">
+          <name>assetBundleName</name>
+          <summary><![CDATA[获取或设置 AssetBundle 名称。]]></summary>
+        </member>
+        <member id="AssetImporter-assetBundleVariant">
+          <name>assetBundleVariant</name>
+          <summary><![CDATA[获取或设置 AssetBundle 变体。]]></summary>
+        </member>
+        <member id="AssetImporter-assetPath">
+          <name>assetPath</name>
+          <summary><![CDATA[此导入器的资源的路径名称。（只读）]]></summary>
+        </member>
+        <member id="AssetImporter-importSettingsMissing">
+          <name>importSettingsMissing</name>
+          <summary><![CDATA[如果导入的资源未随附任何元文件，则此值为 true。]]></summary>
+        </member>
+        <member id="AssetImporter-userData">
+          <name>userData</name>
+          <summary><![CDATA[获取或设置任意用户数据。]]></summary>
+        </member>
+        <member id="Object-hideFlags">
+          <name>hideFlags</name>
+          <summary><![CDATA[该对象应该隐藏、随场景一起保存还是由用户修改？]]></summary>
+        </member>
+        <member id="Object-name">
+          <name>name</name>
+          <summary><![CDATA[对象的名称。]]></summary>
+        </member>
+      </Vars>
+      <ProtVars />
+      <StaticProtVars />
+      <Constructors />
+      <MemberFunctions>
+        <member id="AssetImporter.AddRemap">
+          <name>AddRemap</name>
+          <summary><![CDATA[将子资源从导入的资源（例如 FBX 文件）映射到同类型的外部资源。]]></summary>
+        </member>
+        <member id="AssetImporter.GetExternalObjectMap">
+          <name>GetExternalObjectMap</name>
+          <summary><![CDATA[获取 AssetImporter 使用的外部对象映射的副本。]]></summary>
+        </member>
+        <member id="AssetImporter.RemoveRemap">
+          <name>RemoveRemap</name>
+          <summary><![CDATA[从外部对象的映射中删除项。]]></summary>
+        </member>
+        <member id="AssetImporter.SaveAndReimport">
+          <name>SaveAndReimport</name>
+          <summary><![CDATA[如果资源导入器已标记为“脏”，则保存资源导入器设置。]]></summary>
+        </member>
+        <member id="AssetImporter.SetAssetBundleNameAndVariant">
+          <name>SetAssetBundleNameAndVariant</name>
+          <summary><![CDATA[设置 AssetBundle 名称和变体。]]></summary>
+        </member>
+        <member id="Object.GetInstanceID">
+          <name>GetInstanceID</name>
+          <summary><![CDATA[返回对象的实例 ID。]]></summary>
+        </member>
+        <member id="Object.ToString">
+          <name>ToString</name>
+          <summary><![CDATA[返回 GameObject 的名称。]]></summary>
+        </member>
+      </MemberFunctions>
+      <ProtectedFunctions />
+      <StaticFunctions>
+        <member id="AssetImporter.GetAtPath">
+          <name>GetAtPath</name>
+          <summary><![CDATA[在 ]]><varname>path</varname><![CDATA[ 处检索资源的资源导入器。]]></summary>
+        </member>
+        <member id="Object.Destroy">
+          <name>Destroy</name>
+          <summary><![CDATA[删除 GameObject、组件或资源。]]></summary>
+        </member>
+        <member id="Object.DestroyImmediate">
+          <name>DestroyImmediate</name>
+          <summary><![CDATA[立即销毁对象 /obj/。强烈建议您改用 Destroy。]]></summary>
+        </member>
+        <member id="Object.DontDestroyOnLoad">
+          <name>DontDestroyOnLoad</name>
+          <summary><![CDATA[加载新场景时，不自动销毁对象 /target/。]]></summary>
+        </member>
+        <member id="Object.FindObjectOfType">
+          <name>FindObjectOfType</name>
+          <summary><![CDATA[返回第一个类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象。]]></summary>
+        </member>
+        <member id="Object.FindObjectsOfType">
+          <name>FindObjectsOfType</name>
+          <summary><![CDATA[返回所有类型为 ]]><varname>type</varname><![CDATA[ 的已加载的激活对象的列表。]]></summary>
+        </member>
+        <member id="Object.Instantiate">
+          <name>Instantiate</name>
+          <summary><![CDATA[克隆 ]]><varname>original</varname><![CDATA[ 对象并返回克隆对象。]]></summary>
+        </member>
+      </StaticFunctions>
+      <Operators>
+        <member id="Object-operator_Object">
+          <name>bool</name>
+          <summary><![CDATA[该对象是否存在？]]></summary>
+        </member>
+        <member id="Object-operator_ne">
+          <name>operator !=</name>
+          <summary><![CDATA[比较两个对象是否引用不同的对象。]]></summary>
+        </member>
+        <member id="Object-operator_eq">
+          <name>operator ==</name>
+          <summary><![CDATA[比较两个对象引用，判断它们是否引用同一个对象。]]></summary>
+        </member>
+      </Operators>
+      <Messages />
+      <Events />
+      <Delegates />
+    </BaseType>
+    <InheritsFrom>VideoClipImporter</InheritsFrom>
+  </Model>
+</Root>

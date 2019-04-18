@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEngine.Experimental.Audio" Assembly="UnityEngine.AudioModule">
+    <StaticVars>
+      <member id="Experimental.Audio.AudioSampleProvider-consumeSampleFramesNativeFunction">
+        <name>consumeSampleFramesNativeFunction</name>
+        <summary><![CDATA[指向原生函数（提供了对音频样本帧的访问）的指针。]]></summary>
+      </member>
+    </StaticVars>
+    <Vars>
+      <member id="Experimental.Audio.AudioSampleProvider-availableSampleFrameCount">
+        <name>availableSampleFrameCount</name>
+        <summary><![CDATA[可与 ]]><link ref="Experimental.Audio.AudioSampleProvider.ConsumeSampleFrames">AudioSampleProvider.ConsumeSampleFrames</link><![CDATA[ 结合使用的样本帧数。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-channelCount">
+        <name>channelCount</name>
+        <summary><![CDATA[每个样本帧的音频声道数。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-enableSampleFramesAvailableEvents">
+        <name>enableSampleFramesAvailableEvents</name>
+        <summary><![CDATA[启用 ]]><link ref="Experimental.Audio.AudioSampleProvider-sampleFramesAvailable">AudioSampleProvider.sampleFramesAvailable</link><![CDATA[ 事件。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-enableSilencePadding">
+        <name>enableSilencePadding</name>
+        <summary><![CDATA[如果此属性为 true，且可用数据量少于请求数据量，则在静音时填充 ConsumeSampleFrames 生成的缓冲区。否则，缓冲区中的额外样本帧将保持不变。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-freeSampleFrameCount">
+        <name>freeSampleFrameCount</name>
+        <summary><![CDATA[样本生成器在溢出之前仍然可以写入的样本帧数。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-freeSampleFrameCountLowThreshold">
+        <name>freeSampleFrameCountLowThreshold</name>
+        <summary><![CDATA[然后，空闲样本数低于此阈值，这将发出 ]]><link ref="Experimental.Audio.AudioSampleProvider-sampleFramesAvailable">AudioSampleProvider.sampleFramesAvailable</link><![CDATA[ 事件和相关原生事件。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-id">
+        <name>id</name>
+        <summary><![CDATA[此实例的唯一标识符。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-maxSampleFrameCount">
+        <name>maxSampleFrameCount</name>
+        <summary><![CDATA[发出溢出事件之前可在内部缓冲区内累积的最大样本帧数。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-owner">
+        <name>owner</name>
+        <summary><![CDATA[此提供程序来自的对象。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-sampleRate">
+        <name>sampleRate</name>
+        <summary><![CDATA[此类生成的样本帧的预期播放速率。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-trackIndex">
+        <name>trackIndex</name>
+        <summary><![CDATA[创建此提供程序的对象中的轨道索引。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-valid">
+        <name>valid</name>
+        <summary><![CDATA[如果对象有效，则此属性为 true。]]></summary>
+      </member>
+    </Vars>
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions>
+      <member id="Experimental.Audio.AudioSampleProvider.ClearSampleFramesAvailableNativeHandler">
+        <name>ClearSampleFramesAvailableNativeHandler</name>
+        <summary><![CDATA[清除通过 ]]><link ref="Experimental.Audio.AudioSampleProvider.SetSampleFramesAvailableNativeHandler">AudioSampleProvider.SetSampleFramesAvailableNativeHandler</link><![CDATA[ 设置的原生处理程序。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.ClearSampleFramesOverflowNativeHandler">
+        <name>ClearSampleFramesOverflowNativeHandler</name>
+        <summary><![CDATA[清除通过 ]]><link ref="Experimental.Audio.AudioSampleProvider.SetSampleFramesOverflowNativeHandler">AudioSampleProvider.SetSampleFramesOverflowNativeHandler</link><![CDATA[ 设置的原生处理程序。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.ConsumeSampleFrames">
+        <name>ConsumeSampleFrames</name>
+        <summary><![CDATA[使用内部缓冲区中的样本帧。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.Dispose">
+        <name>Dispose</name>
+        <summary><![CDATA[释放内部资源。继承自 IDisposable。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.SetSampleFramesAvailableNativeHandler">
+        <name>SetSampleFramesAvailableNativeHandler</name>
+        <summary><![CDATA[当可用的样本帧数超过阈值时，为发出的事件设置原生事件处理程序。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.SetSampleFramesOverflowNativeHandler">
+        <name>SetSampleFramesOverflowNativeHandler</name>
+        <summary><![CDATA[当内部样本帧缓冲区溢出时，为发出的事件设置原生事件处理程序。]]></summary>
+      </member>
+    </MemberFunctions>
+    <ProtectedFunctions />
+    <StaticFunctions />
+    <Operators />
+    <Messages />
+    <Events>
+      <member id="Experimental.Audio.AudioSampleProvider-sampleFramesAvailable">
+        <name>sampleFramesAvailable</name>
+        <summary><![CDATA[在可用样本帧数超过通过 ]]><link ref="Experimental.Audio.AudioSampleProvider-freeSampleFrameCountLowThreshold">AudioSampleProvider.freeSampleFrameCountLowThreshold</link><![CDATA[ 设置的阈值时调用。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider-sampleFramesOverflow">
+        <name>sampleFramesOverflow</name>
+        <summary><![CDATA[在可用样本帧数超过内部缓冲区所允许的最大值时调用。]]></summary>
+      </member>
+    </Events>
+    <Delegates>
+      <member id="Experimental.Audio.AudioSampleProvider.ConsumeSampleFramesNativeFunction">
+        <name>ConsumeSampleFramesNativeFunction</name>
+        <summary><![CDATA[表示用于使用样本帧的原生函数指针的类型。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.SampleFramesEventNativeFunction">
+        <name>SampleFramesEventNativeFunction</name>
+        <summary><![CDATA[表示用于处理样本帧事件的原生函数指针的类型。]]></summary>
+      </member>
+      <member id="Experimental.Audio.AudioSampleProvider.SampleFramesHandler">
+        <name>SampleFramesHandler</name>
+        <summary><![CDATA[样本帧事件的委托。]]></summary>
+      </member>
+    </Delegates>
+    <Section>
+      <Signature>
+        <Declaration name="AudioSampleProvider" type="class" namespace="UnityEngine.Experimental.Audio" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[提供对 Unity 对象（如 VideoPlayer）生成的音频样本的访问。]]></Summary>
+      <Description><![CDATA[此类可在主线程之外使用，该实现的前提是一次只有一位消费者调用 ]]><link ref="Experimental.Audio.AudioSampleProvider.ConsumeSampleFrames">AudioSampleProvider.ConsumeSampleFrames</link><![CDATA[。通过 C# 和 C++ 均可访问音频数据，具体取决于此数据的用途。]]><br /><br /><![CDATA[以下示例显示了如何使用从 ]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[ 获取的访问器来访问 C# 中的样本：]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[
+using UnityEngine;
+using Unity.Collections;
+using UnityEngine.Experimental.Video;
+using UnityEngine.Experimental.Audio;
+using UnityEngine.Video;]]><br /><br /><![CDATA[public class ManagedAudioOutput : ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[
+{
+    ]]><link ref="Experimental.Audio.AudioSampleProvider">AudioSampleProvider</link><![CDATA[ provider;]]><br /><br /><![CDATA[    void Start()
+    {
+        ]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[ vp = GetComponent<]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[>();
+        vp.audioOutputMode = ]]><link ref="Video.VideoAudioOutputMode.APIOnly">VideoAudioOutputMode.APIOnly</link><![CDATA[;
+        vp.prepareCompleted += Prepared;
+        vp.Prepare();
+    }]]><br /><br /><![CDATA[    void Prepared(]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[ vp)
+    {
+        provider = vp.GetAudioSampleProvider(0);
+        provider.sampleFramesAvailable += SampleFramesAvailable;
+        provider.enableSampleFramesAvailableEvents = true;
+        provider.freeSampleFrameCountLowThreshold = provider.maxSampleFrameCount / 4;
+        vp.Play();
+    }]]><br /><br /><![CDATA[    void SampleFramesAvailable(]]><link ref="Experimental.Audio.AudioSampleProvider">AudioSampleProvider</link><![CDATA[ provider, uint sampleFrameCount)
+    {
+        using (NativeArray<float> buffer = new NativeArray<float>(
+                       (int)sampleFrameCount * provider.channelCount, ]]><link ref="Unity.Collections.Allocator.Temp">Allocator.Temp</link><![CDATA[))
+        {
+            var sfCount = provider.ConsumeSampleFrames(buffer);
+            ]]><link ref="Debug.LogFormat">Debug.LogFormat</link><![CDATA[("SetupSoftwareAudioOut.Available got {0} sample frames.", sfCount);
+            // Do something with the samples here...
+        }
+    }
+}
+]]></CSharp>
+      </Example>
+      <Description><![CDATA[以下是有关如何访问 C++ 中的样本的示例：设置必须在 C# 中完成，之后 Unity 的核心插件和原生插件无需借助托管代码即可相互调用。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[
+using System;
+using System.Runtime.InteropServices;
+using UnityEngine;
+using UnityEngine.Experimental.Video;
+using UnityEngine.Experimental.Audio;
+using UnityEngine.Video;]]><br /><br /><![CDATA[public class NativeAudioOutput : ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[
+{
+    ]]><link ref="Experimental.Audio.AudioSampleProvider">AudioSampleProvider</link><![CDATA[ provider;
+    AudioSampleProvider.SampleFramesEventNativeFunction sampleFramesAvailableNativeHandler =
+        SampleFramesAvailable;]]><br /><br /><![CDATA[    void Start()
+    {
+        ]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[ vp = GetComponent<]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[>();
+        vp.audioOutputMode = ]]><link ref="Video.VideoAudioOutputMode.APIOnly">VideoAudioOutputMode.APIOnly</link><![CDATA[;
+        vp.prepareCompleted += Prepared;
+        vp.Prepare();
+    }]]><br /><br /><![CDATA[    void Prepared(]]><link ref="Video.VideoPlayer">VideoPlayer</link><![CDATA[ vp)
+    {
+        provider = vp.GetAudioSampleProvider(0);
+        provider.freeSampleFrameCountLowThreshold = provider.maxSampleFrameCount - 1024;]]><br /><br /><![CDATA[        SetConsumeSampleFramesFunction(
+            ]]><link ref="Experimental.Audio.AudioSampleProvider-consumeSampleFramesNativeFunction">AudioSampleProvider.consumeSampleFramesNativeFunction</link><![CDATA[, provider.id,
+            provider.channelCount, provider.sampleRate);
+        provider.SetSampleFramesAvailableNativeHandler(
+            sampleFramesAvailableNativeHandler, (IntPtr)0);]]><br /><br /><![CDATA[        vp.Play();
+    }]]><br /><br /><![CDATA[    private const string pluginName =
+#if UNITY_IPHONE
+        "__Internal"
+#else
+        "NativeAudioOutputPlugin"
+#endif
+    ;]]><br /><br /><![CDATA[    [DllImport(pluginName, ExactSpelling = true, CallingConvention = CallingConvention.Cdecl)]
+    private static extern void SetConsumeSampleFramesFunction(
+        AudioSampleProvider.ConsumeSampleFramesNativeFunction cb, uint id, ushort channelCount, uint sampleRate);]]><br /><br /><![CDATA[    [AOT.MonoPInvokeCallback(typeof(AudioSampleProvider.SampleFramesEventNativeFunction))]
+    [DllImport(pluginName, ExactSpelling = true, CallingConvention = CallingConvention.Cdecl)]
+    private static extern void SampleFramesAvailable(IntPtr userData, uint id, uint sampleFrameCount);
+}
+]]></CSharp>
+      </Example>
+      <Description><![CDATA[以下是随附的 C++ 插件：]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[
+#include <algorithm>
+#include <stdint.h>]]><br /><br /><![CDATA[typedef uint32_t(__cdecl *ConsumeSampleFramesFunction)(
+    uint32_t providerId, float* interleavedSampleFrames, uint32_t sampleFrameCount);]]><br /><br /><![CDATA[ConsumeSampleFramesFunction ConsumeSampleFrames = NULL;
+uint32_t providerId = -1;
+float* buffer = NULL;
+uint32_t bufferSampleFrameCount = 0;
+uint32_t availableSampleFrameCount = 0;]]><br /><br /><![CDATA[extern "C" __cdecl void SetConsumeSampleFramesFunction(
+    ConsumeSampleFramesFunction function, uint32_t id, uint16_t channelCount, uint32_t sampleRate)
+{
+    ConsumeSampleFrames = function;
+    providerId = id;
+    delete[] buffer;
+    buffer = new float[channelCount * sampleRate]; // 1s worth of sample frames.
+    bufferSampleFrameCount = sampleRate;
+}]]><br /><br /><![CDATA[extern "C" __cdecl void SampleFramesAvailable(void* userData, uint32_t id, uint32_t sampleFrameCount)
+{
+    if (ConsumeSampleFrames == NULL)
+        return;]]><br /><br /><![CDATA[    // We consume the sample frames from the handler that tells us that there are some available.
+    // But we could also invoke this regularly from another thread, for example the thread providing
+    // samples to an audio device.
+    const uint32_t consumedSampleFrameCount = ConsumeSampleFrames(
+            providerId, buffer, std::min(bufferSampleFrameCount, sampleFrameCount));
+    // Do something with the samples here...
+}
+]]></CSharp>
+      </Example>
+    </Section>
+    <InheritsFrom>Experimental.Audio.AudioSampleProvider</InheritsFrom>
+  </Model>
+</Root>

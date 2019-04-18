@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model isComponent="true">
+    <ParentClass>Camera</ParentClass>
+    <Section>
+      <Signature>
+        <Declaration name="RenderToCubemap" type="function" modifiers="public" Obsolete="" />
+        <ParamElement name="cubemap" type="Cubemap" hasLink="true" />
+        <ParamElement name="faceMask" type="int" default="63" />
+        <ReturnType>bool</ReturnType>
+      </Signature>
+      <Summary><![CDATA[从该摄像机渲染到一个静态立方体贴图。]]></Summary>
+      <ParamWithDoc>
+        <name>cubemap</name>
+        <doc><![CDATA[要渲染到的立方体贴图。]]></doc>
+      </ParamWithDoc>
+      <ParamWithDoc>
+        <name>faceMask</name>
+        <doc><![CDATA[位掩码，用于确定渲染到六个面中的哪一个。]]></doc>
+      </ParamWithDoc>
+      <ReturnWithDoc type="bool">
+        <doc><![CDATA[如果渲染失败，返回 false，否则返回 true。]]></doc>
+      </ReturnWithDoc>
+      <Description><![CDATA[该函数的主要用途是在 Editor 中“烘焙”场景的静态立方体贴图。请参阅下面的
+向导示例。如果需要实时更新的立方体贴图，请使用 RenderToCubemap 变体，
+该变体使用一个具有立方体贴图尺寸的 RenderTexture，详见下文。]]><br /><br /><![CDATA[将使用摄像机的位置、清除标记和裁剪面距离渲染到立方体贴图面。
+]]><varname>faceMask</varname><![CDATA[ 是一个位域，指示应渲染到立方体贴图的哪些面。设置的每个位
+对应一个面。位数为 ]]><link ref="CubemapFace">CubemapFace</link><![CDATA[ 枚举的整数值。
+默认情况下，将渲染立方体贴图的所有六个面（默认值为 63 - 即最低六位均被置位）。]]><br /><br /><![CDATA[如果渲染到立方体贴图失败，该函数将返回 /false/。某些图形硬件不支持
+该功能。]]><br /><br /><![CDATA[另请注意，ReflectionProbes 是执行实时反射的更高级的方法。通过选择 Create > Legacy 选项，可以在 Editor 中创建立方体贴图。]]><br /><br /><![CDATA[See Also: ]]><link ref="../Manual/class-Cubemap">Cubemap assets</link><![CDATA[, ]]><link ref="../Manual/shader-ReflectiveFamily">Reflective shaders</link><![CDATA[.]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <JavaScript><![CDATA[
+// Render scene from a given point into a static cube map.
+// Place this script in ]]><link ref="Editor">Editor</link><![CDATA[ folder of your project.
+// Then use the cubemap with one of Reflective shaders!
+class RenderCubemapWizard extends ]]><link ref="ScriptableWizard">ScriptableWizard</link><![CDATA[ {
+    var renderFromPosition : ]]><link ref="Transform">Transform</link><![CDATA[;
+    var cubemap : ]]><link ref="Cubemap">Cubemap</link><![CDATA[;]]><br /><br /><![CDATA[    function OnWizardUpdate () {
+        helpString = "Select transform to render from and cubemap to render into";
+        isValid = (renderFromPosition != null) &amp;&amp; (cubemap != null);
+    }]]><br /><br /><![CDATA[    function OnWizardCreate () {
+        // create temporary camera for rendering
+        var go = new ]]><link ref="GameObject">GameObject</link><![CDATA[("CubemapCamera", ]]><link ref="Camera">Camera</link><![CDATA[);
+        // place it on the object
+        go.transform.position = renderFromPosition.position;
+        go.transform.rotation = ]]><link ref="Quaternion-identity">Quaternion.identity</link><![CDATA[;]]><br /><br /><![CDATA[        // render into cubemap
+        go.GetComponent.<]]><link ref="Camera">Camera</link><![CDATA[>().RenderToCubemap(cubemap);]]><br /><br /><![CDATA[        // destroy temporary camera
+        DestroyImmediate(go);
+    }]]><br /><br /><![CDATA[    @]]><link ref="MenuItem">MenuItem</link><![CDATA[("]]><link ref="GameObject">GameObject</link><![CDATA[/Render into ]]><link ref="Cubemap">Cubemap</link><![CDATA[")
+    static function RenderCubemap () {
+        ]]><link ref="ScriptableWizard.DisplayWizard">ScriptableWizard.DisplayWizard</link><![CDATA[.<RenderCubemapWizard>(
+            "Render cubemap", "Render!");
+    }
+}
+]]></JavaScript>
+        <CSharp><![CDATA[
+using UnityEngine;
+using ]]><link ref="UnityEditor">UnityEditor</link><![CDATA[;
+using System.Collections;]]><br /><br /><![CDATA[public class RenderCubemapWizard : ]]><link ref="ScriptableWizard">ScriptableWizard</link><![CDATA[
+{
+    public ]]><link ref="Transform">Transform</link><![CDATA[ renderFromPosition;
+    public ]]><link ref="Cubemap">Cubemap</link><![CDATA[ cubemap;]]><br /><br /><![CDATA[    void OnWizardUpdate()
+    {
+        string helpString = "Select transform to render from and cubemap to render into";
+        bool isValid = (renderFromPosition != null) &amp;&amp; (cubemap != null);
+    }]]><br /><br /><![CDATA[    void OnWizardCreate()
+    {
+        // create temporary camera for rendering
+        ]]><link ref="GameObject">GameObject</link><![CDATA[ go = new ]]><link ref="GameObject">GameObject</link><![CDATA[("CubemapCamera");
+        go.AddComponent<]]><link ref="Camera">Camera</link><![CDATA[>();
+        // place it on the object
+        go.transform.position = renderFromPosition.position;
+        go.transform.rotation = ]]><link ref="Quaternion-identity">Quaternion.identity</link><![CDATA[;
+        // render into cubemap
+        go.GetComponent<]]><link ref="Camera">Camera</link><![CDATA[>().RenderToCubemap(cubemap);]]><br /><br /><![CDATA[        // destroy temporary camera
+        DestroyImmediate(go);
+    }]]><br /><br /><![CDATA[    []]><link ref="MenuItem">MenuItem</link><![CDATA[("]]><link ref="GameObject">GameObject</link><![CDATA[/Render into ]]><link ref="Cubemap">Cubemap</link><![CDATA[")]
+    static void RenderCubemap()
+    {
+        ]]><link ref="ScriptableWizard.DisplayWizard">ScriptableWizard.DisplayWizard</link><![CDATA[<RenderCubemapWizard>(
+            "Render cubemap", "Render!");
+    }
+}
+]]></CSharp>
+      </Example>
+    </Section>
+    <Section>
+      <Signature>
+        <Declaration name="RenderToCubemap" type="function" modifiers="public" Obsolete="" />
+        <ParamElement name="cubemap" type="RenderTexture" hasLink="true" />
+        <ParamElement name="faceMask" type="int" default="63" />
+        <ReturnType>bool</ReturnType>
+      </Signature>
+      <Summary><![CDATA[从该摄像机渲染到一个立方体贴图。]]></Summary>
+      <ParamWithDoc>
+        <name>faceMask</name>
+        <doc><![CDATA[位域，指示应渲染到立方体贴图的哪些面。]]></doc>
+      </ParamWithDoc>
+      <ParamWithDoc>
+        <name>cubemap</name>
+        <doc><![CDATA[要渲染到的纹理。]]></doc>
+      </ParamWithDoc>
+      <ReturnWithDoc type="bool">
+        <doc><![CDATA[如果渲染失败，返回 false，否则返回 true。]]></doc>
+      </ReturnWithDoc>
+      <Description><![CDATA[用于将实时反光渲染到立方体贴图渲染纹理。该操作开销很大，
+如果每帧都需要渲染立方体贴图的所有六个面，代价将极其高昂。]]><br /><br /><![CDATA[将使用摄像机的位置、清除标记和裁剪面距离渲染到立方体贴图面。
+]]><varname>faceMask</varname><![CDATA[ 是一个位域，指示应渲染到立方体贴图的哪些面。设置的每个位
+对应一个面。位数为 ]]><link ref="CubemapFace">CubemapFace</link><![CDATA[ 枚举的整数值。
+默认情况下，将渲染立方体贴图的所有六个面（默认值为 63 - 即最低六位均被置位）。]]><br /><br /><![CDATA[如果渲染到立方体贴图失败，该函数将返回 /false/。某些图形硬件不支持
+该功能。]]><br /><br /><![CDATA[注意，必须将 RenderTexture 的 ]]><link ref="RenderTexture-dimension">RenderTexture.dimension</link><![CDATA[ 设置为 ]]><link ref="Rendering.TextureDimension.Cube">TextureDimension.Cube</link><![CDATA[。下面的示例将对此进行说明。]]><br /><br /><![CDATA[See Also: RenderTexture.isCubemap, ]]><link ref="../Manual/shader-ReflectiveFamily">Reflective shaders</link><![CDATA[.]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <Unconverted><![CDATA[
+// Attach this script to an object that uses a Reflective shader.
+// Realtime reflective cubemaps!]]><br /><br /><![CDATA[@script ]]><link ref="ExecuteInEditMode">ExecuteInEditMode</link><br /><br /><![CDATA[var cubemapSize = 128;
+var oneFacePerFrame = false;
+private var cam : ]]><link ref="Camera">Camera</link><![CDATA[;
+private var rtex : ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[;]]><br /><br /><![CDATA[function Start () {
+    // render all six faces at startup
+    UpdateCubemap( 63 );
+}]]><br /><br /><![CDATA[function LateUpdate () {
+    if (oneFacePerFrame) {
+        var faceToRender = ]]><link ref="Time-frameCount">Time.frameCount</link><![CDATA[ % 6;
+        var faceMask = 1 << faceToRender;
+        UpdateCubemap (faceMask);
+    } else {
+        UpdateCubemap (63); // all six faces
+    }
+}]]><br /><br /><![CDATA[function UpdateCubemap (faceMask : int) {
+    if (!cam) {
+        var go = new ]]><link ref="GameObject">GameObject</link><![CDATA[ ("CubemapCamera", ]]><link ref="Camera">Camera</link><![CDATA[);
+        go.hideFlags = ]]><link ref="HideFlags.HideAndDontSave">HideFlags.HideAndDontSave</link><![CDATA[;
+        go.transform.position = transform.position;
+        go.transform.rotation = ]]><link ref="Quaternion-identity">Quaternion.identity</link><![CDATA[;
+        cam = go.GetComponent.<]]><link ref="Camera">Camera</link><![CDATA[>();
+        cam.farClipPlane = 100; // don't render very far into cubemap
+        cam.enabled = false;
+    }]]><br /><br /><![CDATA[    if (!rtex) {
+        rtex = new ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[ (cubemapSize, cubemapSize, 16);
+        rtex.dimension = UnityEngine.Rendering.TextureDimension.Cube;
+        rtex.hideFlags = ]]><link ref="HideFlags.HideAndDontSave">HideFlags.HideAndDontSave</link><![CDATA[;
+        GetComponent.<]]><link ref="Renderer">Renderer</link><![CDATA[>().sharedMaterial.SetTexture ("_Cube", rtex);
+    }]]><br /><br /><![CDATA[    cam.transform.position = transform.position;
+    cam.RenderToCubemap (rtex, faceMask);
+}]]><br /><br /><![CDATA[function OnDisable () {
+    DestroyImmediate (cam);
+    DestroyImmediate (rtex);
+}
+]]></Unconverted>
+      </Example>
+    </Section>
+    <Section>
+      <Signature>
+        <Declaration name="RenderToCubemap" type="function" modifiers="public" Obsolete="" />
+        <ParamElement name="cubemap" type="RenderTexture" hasLink="true" />
+        <ParamElement name="faceMask" type="int" />
+        <ParamElement name="stereoEye" type="Camera.MonoOrStereoscopicEye" hasLink="true" />
+        <ReturnType>bool</ReturnType>
+      </Signature>
+      <Summary><![CDATA[从该摄像机将一个 360 度立体图像的一侧渲染到一个立方体贴图。]]></Summary>
+      <ParamWithDoc>
+        <name>cubemap</name>
+        <doc><![CDATA[要渲染到的纹理。]]></doc>
+      </ParamWithDoc>
+      <ParamWithDoc>
+        <name>faceMask</name>
+        <doc><![CDATA[位域，指示应渲染到立方体贴图的哪些面。设置为整数值 63 将渲染所有面。]]></doc>
+      </ParamWithDoc>
+      <ParamWithDoc>
+        <name>stereoEye</name>
+        <doc><![CDATA[摄像机眼，对应于左眼或右眼（用于立体渲染），或不对应于眼睛（用于非立体渲染）。]]></doc>
+      </ParamWithDoc>
+      <ReturnWithDoc type="bool">
+        <doc><![CDATA[如果渲染失败，返回 false，否则返回 true。]]></doc>
+      </ReturnWithDoc>
+      <Description><![CDATA[
+                  将 ]]><varname>stereoEye</varname><![CDATA[ 参数设置为 ]]><link ref="Camera.MonoOrStereoscopicEye.Left">Camera.MonoOrStereoscopicEye.Left</link><![CDATA[ 或 ]]><link ref="Camera.MonoOrStereoscopicEye.Right">Camera.MonoOrStereoscopicEye.Right</link><![CDATA[ 可渲染一个 360 度立体图像的左眼或右眼视角，并具有正确的世界空间变换。将 ]]><varname>stereoEye</varname><![CDATA[ 设置为 ]]><link ref="Camera.MonoOrStereoscopicEye.Mono">Camera.MonoOrStereoscopicEye.Mono</link><![CDATA[ 可渲染场景的单视场视图。渲染独立的左右立方体贴图后，您可以将它们转换为占据一个纹理的等距圆柱投影全景图像。]]><br /><br /><![CDATA[在渲染立体视图的任一侧时，除非启用了 VR 支持，否则摄像机将使用其 ]]><link ref="Camera-stereoSeparation">stereoSeparation</link><![CDATA[ 值作为瞳孔间距 (IPD)。使用 VR 摄像机时，VR 设备 IPD 会重写 ]]><link ref="Camera-stereoSeparation">stereoSeparation</link><![CDATA[ 值。]]><br /><br /><![CDATA[                  Unity 使用摄像机的位置、清除标记和裁剪面距离
+                  渲染到立方体贴图面。将为每个面旋转摄像机。]]><varname>faceMask</varname><![CDATA[ 是一个位域，指示应渲染到立方体贴图的哪些面。设置的每个位
+                  对应一个面。位数为 ]]><link ref="CubemapFace">CubemapFace</link><![CDATA[ 枚举的整数值。
+                  要捕获 360 度立体图像，应渲染立方体贴图的所有六个面（将 ]]><varname>facemask</varname><![CDATA[ 设置为 63）。]]><br /><br /><![CDATA[                  如果渲染到立方体贴图失败，该函数将返回 /false/。某些图形硬件不支持
+                  该功能。]]><br /><br /><![CDATA[                  注意，必须将 RenderTexture 的 ]]><link ref="RenderTexture-dimension">RenderTexture.dimension</link><![CDATA[ 设置为 ]]><link ref="Rendering.TextureDimension.Cube">TextureDimension.Cube</link><![CDATA[。]]><br /><br /><![CDATA[                  另请参阅：RenderTexture.isCubemap、]]><link ref="../Manual/class-Cubemap">立方体贴图</link><![CDATA[。]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[
+using UnityEngine;
+using UnityEngine.Rendering;]]><br /><br /><![CDATA[//attach this script to your camera object
+public class CreateStereoCubemaps : ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[
+{
+    public ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[ cubemap1;
+    public ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[ cubemap2;
+    public ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[ equirect;
+    public bool renderStereo = true;
+    public float stereoSeparation = 0.064f;]]><br /><br /><![CDATA[    void LateUpdate()
+    {
+        ]]><link ref="Camera">Camera</link><![CDATA[ cam = GetComponent<]]><link ref="Camera">Camera</link><![CDATA[>();]]><br /><br /><![CDATA[        if (cam == null)
+        {
+            cam = GetComponentInParent<]]><link ref="Camera">Camera</link><![CDATA[>();
+        }]]><br /><br /><![CDATA[        if (cam == null)
+        {
+            ]]><link ref="Debug.Log">Debug.Log</link><![CDATA[("stereo 360 capture node has no camera or parent camera");
+        }]]><br /><br /><![CDATA[        if (renderStereo)
+        {
+            cam.stereoSeparation = stereoSeparation;
+            cam.RenderToCubemap(cubemap1, 63, ]]><link ref="Camera.MonoOrStereoscopicEye.Left">Camera.MonoOrStereoscopicEye.Left</link><![CDATA[);
+            cam.RenderToCubemap(cubemap2, 63, ]]><link ref="Camera.MonoOrStereoscopicEye.Right">Camera.MonoOrStereoscopicEye.Right</link><![CDATA[);
+        }
+        else
+        {
+            cam.RenderToCubemap(cubemap1, 63, ]]><link ref="Camera.MonoOrStereoscopicEye.Mono">Camera.MonoOrStereoscopicEye.Mono</link><![CDATA[);
+        }]]><br /><br /><![CDATA[        //optional: convert cubemaps to equirect]]><br /><br /><![CDATA[        if (equirect == null)
+            return;]]><br /><br /><![CDATA[        cubemap1.ConvertToEquirect(equirect, ]]><link ref="Camera.MonoOrStereoscopicEye.Left">Camera.MonoOrStereoscopicEye.Left</link><![CDATA[);
+        cubemap2.ConvertToEquirect(equirect, ]]><link ref="Camera.MonoOrStereoscopicEye.Right">Camera.MonoOrStereoscopicEye.Right</link><![CDATA[);
+    }
+}
+]]></CSharp>
+      </Example>
+    </Section>
+  </Model>
+</Root>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEditor" Assembly="UnityEditor">
+    <StaticVars />
+    <Vars />
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions>
+      <member id="MaterialPropertyDrawer.Apply">
+        <name>Apply</name>
+        <summary><![CDATA[将额外的初始值应用于该材质。]]></summary>
+      </member>
+      <member id="MaterialPropertyDrawer.GetPropertyHeight">
+        <name>GetPropertyHeight</name>
+        <summary><![CDATA[重写此方法，以指定此属性的 GUI 的高度（以像素为单位）。]]></summary>
+      </member>
+      <member id="MaterialPropertyDrawer.OnGUI">
+        <name>OnGUI</name>
+        <summary><![CDATA[重写此方法，以针对该属性创建您自己的 GUI。]]></summary>
+      </member>
+    </MemberFunctions>
+    <ProtectedFunctions />
+    <StaticFunctions />
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="MaterialPropertyDrawer" type="class" namespace="UnityEditor" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[用于派生自定义材质属性绘制器的基类。]]></Summary>
+      <Description><![CDATA[使用此基类为您的材质属性创建自定义 UI 绘制器，无需编写自定义 ]]><link ref="MaterialEditor">MaterialEditor</link><![CDATA[ 类。这类似于 ]]><link ref="PropertyDrawer">PropertyDrawer</link><![CDATA[ 启用自定义 UI，而不编写自定义检视面板。]]><br /><br /><![CDATA[在着色器代码中，可在着色器属性前面使用类似于 C# 的属性语法向其添加绘制器。Unity 拥有多个内置绘制器，您也可以编写自己的绘制器。下面是一个演示此语法的着色器代码片段：]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript>
+          <link ref="Shader">Shader</link><![CDATA[ "Custom/Example"
+{
+    Properties
+    {
+        _MainTex("Base (RGB)", 2D) = "white" {}]]><br /><br /><![CDATA[        // ]]><link ref="Display">Display</link><![CDATA[ a popup with None,Add,Multiply choices,
+        // and setup corresponding shader keywords.
+        [KeywordEnum(None, Add, Multiply)] _Overlay("Overlay mode", Float) = 0]]><br /><br /><![CDATA[        _OverlayTex("Overlay", 2D) = "black" {}]]><br /><br /><![CDATA[        // ]]><link ref="Display">Display</link><![CDATA[ as a toggle.
+        [Toggle] _Invert("Invert color?", Float) = 0
+    }]]><br /><br /><![CDATA[    // rest of shader code...
+}]]></JavaScript>
+        <CSharp>
+          <link ref="Shader">Shader</link><![CDATA[ "Custom/Example"
+{
+    Properties
+    {
+        _MainTex("Base (RGB)", 2D) = "white" {}]]><br /><br /><![CDATA[        // ]]><link ref="Display">Display</link><![CDATA[ a popup with None,Add,Multiply choices,
+        // and setup corresponding shader keywords.
+        [KeywordEnum(None, Add, Multiply)] _Overlay("Overlay mode", Float) = 0]]><br /><br /><![CDATA[        _OverlayTex("Overlay", 2D) = "black" {}]]><br /><br /><![CDATA[        // ]]><link ref="Display">Display</link><![CDATA[ as a toggle.
+        [Toggle] _Invert("Invert color?", Float) = 0
+    }]]><br /><br /><![CDATA[    // rest of shader code...
+}]]></CSharp>
+      </Example>
+      <Description><![CDATA[在实现您自己的绘制器时，您应该重写 OnGUI 函数。您还可以选择重写 GetPropertyHeight 和 Apply 函数。以下是属性绘制器示例，其中显示了与浮点属性对应的复选框，并根据状态将值设为 0 或 1：]]></Description>
+      <Example nocheck="false" convertexample="true">
+        <JavaScript><![CDATA[no example available in JavaScript]]></JavaScript>
+        <CSharp><![CDATA[using UnityEngine;
+using ]]><link ref="UnityEditor">UnityEditor</link><![CDATA[;
+using System;]]><br /><br /><![CDATA[// The property drawer class should be placed in an editor script, inside a folder called ]]><link ref="Editor">Editor</link><![CDATA[.
+// Use with "[MyToggle]" before a float shader property.]]><br /><br /><![CDATA[public class MyToggleDrawer : ]]><link ref="MaterialPropertyDrawer">MaterialPropertyDrawer</link><![CDATA[
+{
+    // Draw the property inside the given rect
+    public override void OnGUI (]]><link ref="Rect">Rect</link><![CDATA[ position, ]]><link ref="MaterialProperty">MaterialProperty</link><![CDATA[ prop, String label, ]]><link ref="MaterialEditor">MaterialEditor</link><![CDATA[ editor)
+    {
+        // Setup
+        bool value = (prop.floatValue != 0.0f);]]><br /><br /><![CDATA[        ]]><link ref="EditorGUI.BeginChangeCheck">EditorGUI.BeginChangeCheck</link><![CDATA[();
+        ]]><link ref="EditorGUI-showMixedValue">EditorGUI.showMixedValue</link><![CDATA[ = prop.hasMixedValue;]]><br /><br /><![CDATA[        // Show the toggle control
+        value = ]]><link ref="EditorGUI.Toggle">EditorGUI.Toggle</link><![CDATA[(position, label, value);]]><br /><br /><![CDATA[        ]]><link ref="EditorGUI-showMixedValue">EditorGUI.showMixedValue</link><![CDATA[ = false;
+        if (]]><link ref="EditorGUI.EndChangeCheck">EditorGUI.EndChangeCheck</link><![CDATA[())
+        {
+            // Set the new value if it has changed
+            prop.floatValue = value ? 1.0f : 0.0f;
+        }
+    }
+}]]></CSharp>
+      </Example>
+      <Description><![CDATA[内置的 MaterialPropertyDrawer 有：ToggleDrawer、EnumDrawer、KeywordEnumDrawer、PowerSliderDrawer 和 IntRangeDrawer。在着色器代码中，未写入类名称的“Drawer”后缀；Unity 搜索绘制器类时，会自动添加“Drawer”。]]><br /><br /><![CDATA[
+]]><b>Toggle</b><![CDATA[ 将以开关形式显示浮点值。属性值为 0 或 1，具体取决于开关状态。当开关处于打开状态时，将设置一个带有大写属性名称 +“_ON”的着色器关键字，或者一个显式指定的着色器关键字。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[// Will set "_INVERT_ON" shader keyword when set
+[Toggle] _Invert ("Invert?", Float) = 0]]><br /><br /><![CDATA[// Will set "ENABLE_FANCY" shader keyword when set.
+[Toggle(ENABLE_FANCY)] _Fancy ("Fancy?", Float) = 0]]></JavaScript>
+        <CSharp><![CDATA[// Will set "_INVERT_ON" shader keyword when set
+[Toggle] _Invert ("Invert?", Float) = 0]]><br /><br /><![CDATA[// Will set "ENABLE_FANCY" shader keyword when set.
+[Toggle(ENABLE_FANCY)] _Fancy ("Fancy?", Float) = 0]]></CSharp>
+      </Example>
+      <Description>
+        <b>Enum</b><![CDATA[ 显示与浮点属性对应的弹出菜单。您可以提供枚举类型名称（最好完全限定命名空间，以防存在多种类型），或者要显示的显式名称/值对。最多可指定 7 个名称/值对。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[// Blend mode values
+[Enum(UnityEngine.Rendering.BlendMode)] _Blend ("Blend mode", Float) = 1]]><br /><br /><![CDATA[// A subset of blend mode values, just "One" (value 1) and "SrcAlpha" (value 5).
+[Enum(One,1,SrcAlpha,5)] _Blend2 ("Blend mode subset", Float) = 1]]></JavaScript>
+        <CSharp><![CDATA[// Blend mode values
+[Enum(UnityEngine.Rendering.BlendMode)] _Blend ("Blend mode", Float) = 1]]><br /><br /><![CDATA[// A subset of blend mode values, just "One" (value 1) and "SrcAlpha" (value 5).
+[Enum(One,1,SrcAlpha,5)] _Blend2 ("Blend mode subset", Float) = 1]]></CSharp>
+      </Example>
+      <Description>
+        <b>KeywordEnum</b><![CDATA[ 显示与浮点属性对应的弹出菜单，并启用相应的着色器关键字。它可在着色器中与“#pragma multi_compile”配合使用，以启用或禁用部分着色器代码。每个名称都将
+采用“属性名”+ 下划线 +“枚举名”这种形式的大写着色器关键字。最多可提供 9 个名称。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[// ]]><link ref="Display">Display</link><![CDATA[ a popup with None, Add, Multiply choices.
+// Each option will set _OVERLAY_NONE, _OVERLAY_ADD, _OVERLAY_MULTIPLY shader keywords.
+[KeywordEnum(None, Add, Multiply)] _Overlay ("Overlay mode", Float) = 0]]><br /><br /><![CDATA[// ...later on in CGPROGRAM code:
+#pragma multi_compile _OVERLAY_NONE _OVERLAY_ADD _OVERLAY_MULTIPLY
+// ...]]></JavaScript>
+        <CSharp><![CDATA[// ]]><link ref="Display">Display</link><![CDATA[ a popup with None, Add, Multiply choices.
+// Each option will set _OVERLAY_NONE, _OVERLAY_ADD, _OVERLAY_MULTIPLY shader keywords.
+[KeywordEnum(None, Add, Multiply)] _Overlay ("Overlay mode", Float) = 0]]><br /><br /><![CDATA[// ...later on in CGPROGRAM code:
+#pragma multi_compile _OVERLAY_NONE _OVERLAY_ADD _OVERLAY_MULTIPLY
+// ...]]></CSharp>
+      </Example>
+      <Description>
+        <b>PowerSlider</b><![CDATA[ 显示一个具有对应于 Range 着色器属性的非线性响应的滑动条。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[// 带有 3.0 响应曲线的滑动条
+[PowerSlider(3.0)] _Shininess ("Shininess", ]]><link ref="SocialPlatforms.Range">Range</link><![CDATA[ (0.01, 1)) = 0.08]]></JavaScript>
+        <CSharp><![CDATA[// 带有 3.0 响应曲线的滑动条
+[PowerSlider(3.0)] _Shininess ("Shininess", ]]><link ref="SocialPlatforms.Range">Range</link><![CDATA[ (0.01, 1)) = 0.08]]></CSharp>
+      </Example>
+      <Description>
+        <b>IntRange</b><![CDATA[ 显示一个适用于 Range 着色器属性的整数滑动条。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[// 适用于指定范围的整数滑动条（0 到 255）
+[IntRange] _Alpha ("Alpha", ]]><link ref="SocialPlatforms.Range">Range</link><![CDATA[ (0, 255)) = 100]]></JavaScript>
+        <CSharp><![CDATA[// 适用于指定范围的整数滑动条（0 到 255）
+[IntRange] _Alpha ("Alpha", ]]><link ref="SocialPlatforms.Range">Range</link><![CDATA[ (0, 255)) = 100]]></CSharp>
+      </Example>
+      <Description><![CDATA[当属性绘制器类名称以“Decorator”结尾时（即为属性装饰器），与 ]]><link ref="DecoratorDrawer">DecoratorDrawer</link><![CDATA[ 相似。它们用于在属性之间创建
+不影响属性本身的标题和分隔栏。单个属性上可以有多个装饰器。内置的装饰器绘制器有：SpaceDecorator 和 HeaderDecorator。]]><br /><br /><b>Space</b><![CDATA[ 在着色器属性之前创建垂直空间。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[// Default small amount of space.
+[]]><link ref="Space">Space</link><![CDATA[] _Prop1 ("Prop1", Float) = 0]]><br /><br /><![CDATA[// Large amount of space.
+[]]><link ref="Space">Space</link><![CDATA[(50)] _Prop2 ("Prop2", Float) = 0]]></JavaScript>
+        <CSharp><![CDATA[// Default small amount of space.
+[]]><link ref="Space">Space</link><![CDATA[] _Prop1 ("Prop1", Float) = 0]]><br /><br /><![CDATA[// Large amount of space.
+[]]><link ref="Space">Space</link><![CDATA[(50)] _Prop2 ("Prop2", Float) = 0]]></CSharp>
+      </Example>
+      <Description>
+        <b>Header</b><![CDATA[ 在着色器属性前创建标题文本。]]></Description>
+      <Example nocheck="true" convertexample="false">
+        <JavaScript><![CDATA[[Header(A group of things)] _Prop1 ("Prop1", Float) = 0]]></JavaScript>
+        <CSharp><![CDATA[[Header(A group of things)] _Prop1 ("Prop1", Float) = 0]]></CSharp>
+      </Example>
+      <Description><![CDATA[请注意，出于性能原因，EditorGUILayout 函数不能与 MaterialPropertyDrawers 一起使用。]]><br /><br /><![CDATA[另请参阅：]]><link ref="MaterialProperty">MaterialProperty</link><![CDATA[ 类。]]></Description>
+    </Section>
+    <InheritsFrom>MaterialPropertyDrawer</InheritsFrom>
+  </Model>
+</Root>

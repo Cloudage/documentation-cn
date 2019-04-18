@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEngine" Assembly="UnityEngine.CoreModule">
+    <StaticVars>
+      <member id="Input-acceleration">
+        <name>acceleration</name>
+        <summary><![CDATA[最近测量的设备在三维空间中的线性加速度。（只读）]]></summary>
+      </member>
+      <member id="Input-accelerationEventCount">
+        <name>accelerationEventCount</name>
+        <summary><![CDATA[上一帧期间进行的加速度测量的数量。]]></summary>
+      </member>
+      <member id="Input-accelerationEvents">
+        <name>accelerationEvents</name>
+        <summary><![CDATA[返回上一帧期间进行的加速度测量的列表。（只读）（分配临时变量）。]]></summary>
+      </member>
+      <member id="Input-anyKey">
+        <name>anyKey</name>
+        <summary><![CDATA[当前是否有任何键或鼠标按钮处于按下状态？（只读）]]></summary>
+      </member>
+      <member id="Input-anyKeyDown">
+        <name>anyKeyDown</name>
+        <summary><![CDATA[在用户按任意键或鼠标按钮后的第一帧返回 true。（只读）]]></summary>
+      </member>
+      <member id="Input-backButtonLeavesApp">
+        <name>backButtonLeavesApp</name>
+        <summary>
+          <b>Back</b><![CDATA[ 按钮是否应该退出应用程序？]]><br /><br /><![CDATA[仅适用于 Android、Windows Phone 或 Windows 平板电脑。]]></summary>
+      </member>
+      <member id="Input-compass">
+        <name>compass</name>
+        <summary><![CDATA[用于访问罗盘的属性（仅限手持设备）。（只读）]]></summary>
+      </member>
+      <member id="Input-compensateSensors">
+        <name>compensateSensors</name>
+        <summary><![CDATA[该属性控制是否应该对输入传感器补偿屏幕方向。]]></summary>
+      </member>
+      <member id="Input-compositionCursorPos">
+        <name>compositionCursorPos</name>
+        <summary><![CDATA[IME 用于打开窗口的当前文本输入位置。]]></summary>
+      </member>
+      <member id="Input-compositionString">
+        <name>compositionString</name>
+        <summary><![CDATA[用户键入的当前 IME 组合字符串。]]></summary>
+      </member>
+      <member id="Input-deviceOrientation">
+        <name>deviceOrientation</name>
+        <summary><![CDATA[操作系统报告的设备的物理方向。（只读）]]></summary>
+      </member>
+      <member id="Input-gyro">
+        <name>gyro</name>
+        <summary><![CDATA[返回默认陀螺仪。]]></summary>
+      </member>
+      <member id="Input-imeCompositionMode">
+        <name>imeCompositionMode</name>
+        <summary><![CDATA[控制 IME 输入组合的启用和禁用。]]></summary>
+      </member>
+      <member id="Input-imeIsSelected">
+        <name>imeIsSelected</name>
+        <summary><![CDATA[用户是否选择了 IME 键盘输入源？]]></summary>
+      </member>
+      <member id="Input-inputString">
+        <name>inputString</name>
+        <summary><![CDATA[返回该帧输入的键盘输入。（只读）]]></summary>
+      </member>
+      <member id="Input-location">
+        <name>location</name>
+        <summary><![CDATA[用于访问设备位置的属性（仅限手持设备）。（只读）]]></summary>
+      </member>
+      <member id="Input-mousePosition">
+        <name>mousePosition</name>
+        <summary><![CDATA[鼠标当前的像素坐标位置。（只读）]]></summary>
+      </member>
+      <member id="Input-mousePresent">
+        <name>mousePresent</name>
+        <summary><![CDATA[指示是否检测到鼠标设备。]]></summary>
+      </member>
+      <member id="Input-mouseScrollDelta">
+        <name>mouseScrollDelta</name>
+        <summary><![CDATA[当前的鼠标滚动增量。（只读）]]></summary>
+      </member>
+      <member id="Input-multiTouchEnabled">
+        <name>multiTouchEnabled</name>
+        <summary><![CDATA[该属性指示系统是否处理多点触控。]]></summary>
+      </member>
+      <member id="Input-simulateMouseWithTouches">
+        <name>simulateMouseWithTouches</name>
+        <summary><![CDATA[启用/禁用通过触摸模拟鼠标操作。默认情况下，该选项已启用。]]></summary>
+      </member>
+      <member id="Input-stylusTouchSupported">
+        <name>stylusTouchSupported</name>
+        <summary><![CDATA[当设备或平台支持 Stylus Touch 时，返回 true。]]></summary>
+      </member>
+      <member id="Input-touchCount">
+        <name>touchCount</name>
+        <summary><![CDATA[触摸次数。保证在整个帧期间不会更改。（只读）]]></summary>
+      </member>
+      <member id="Input-touches">
+        <name>touches</name>
+        <summary><![CDATA[返回表示上一帧中所有触摸状态的对象列表。（只读）（分配临时变量）。]]></summary>
+      </member>
+      <member id="Input-touchPressureSupported">
+        <name>touchPressureSupported</name>
+        <summary><![CDATA[供用户检查是否支持触摸压力的 bool 值。]]></summary>
+      </member>
+      <member id="Input-touchSupported">
+        <name>touchSupported</name>
+        <summary><![CDATA[返回当前正在运行应用程序的设备是否支持触摸输入。]]></summary>
+      </member>
+    </StaticVars>
+    <Vars />
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors />
+    <MemberFunctions />
+    <ProtectedFunctions />
+    <StaticFunctions>
+      <member id="Input.GetAccelerationEvent">
+        <name>GetAccelerationEvent</name>
+        <summary><![CDATA[返回上一帧期间进行的特定加速度测量。（不分配临时变量）。]]></summary>
+      </member>
+      <member id="Input.GetAxis">
+        <name>GetAxis</name>
+        <summary><![CDATA[返回由 ]]><varname>axisName</varname><![CDATA[ 标识的虚拟轴的值。]]></summary>
+      </member>
+      <member id="Input.GetAxisRaw">
+        <name>GetAxisRaw</name>
+        <summary><![CDATA[返回由 ]]><varname>axisName</varname><![CDATA[ 标识的虚拟轴的值（未应用平滑过滤）。]]></summary>
+      </member>
+      <member id="Input.GetButton">
+        <name>GetButton</name>
+        <summary><![CDATA[当按住 ]]><varname>buttonName</varname><![CDATA[ 标识的虚拟按钮时，返回 true。]]></summary>
+      </member>
+      <member id="Input.GetButtonDown">
+        <name>GetButtonDown</name>
+        <summary><![CDATA[在用户按下由 ]]><varname>buttonName</varname><![CDATA[ 标识的虚拟按钮的帧期间返回 true。]]></summary>
+      </member>
+      <member id="Input.GetButtonUp">
+        <name>GetButtonUp</name>
+        <summary><![CDATA[在用户释放由 ]]><varname>buttonName</varname><![CDATA[ 标识的虚拟按钮的第一帧返回 true。]]></summary>
+      </member>
+      <member id="Input.GetJoystickNames">
+        <name>GetJoystickNames</name>
+        <summary><![CDATA[返回描述连接的游戏杆的字符串数组。]]></summary>
+      </member>
+      <member id="Input.GetKey">
+        <name>GetKey</name>
+        <summary><![CDATA[在用户按下 ]]><varname>name</varname><![CDATA[ 标识的键时返回 true。]]></summary>
+      </member>
+      <member id="Input.GetKeyDown">
+        <name>GetKeyDown</name>
+        <summary><![CDATA[在用户开始按下 ]]><varname>name</varname><![CDATA[ 标识的键的帧期间返回 true。]]></summary>
+      </member>
+      <member id="Input.GetKeyUp">
+        <name>GetKeyUp</name>
+        <summary><![CDATA[在用户释放 ]]><varname>name</varname><![CDATA[ 标识的键的帧期间返回 true。]]></summary>
+      </member>
+      <member id="Input.GetMouseButton">
+        <name>GetMouseButton</name>
+        <summary><![CDATA[返回是否按下了给定的鼠标按钮。]]></summary>
+      </member>
+      <member id="Input.GetMouseButtonDown">
+        <name>GetMouseButtonDown</name>
+        <summary><![CDATA[在用户按下给定鼠标按钮的帧期间返回 true。]]></summary>
+      </member>
+      <member id="Input.GetMouseButtonUp">
+        <name>GetMouseButtonUp</name>
+        <summary><![CDATA[在用户释放给定鼠标按钮的帧期间返回 true。]]></summary>
+      </member>
+      <member id="Input.GetTouch">
+        <name>GetTouch</name>
+        <summary><![CDATA[返回表示特定触摸状态的对象。（不分配临时变量）。]]></summary>
+      </member>
+      <member id="Input.IsJoystickPreconfigured">
+        <name>IsJoystickPreconfigured</name>
+        <summary><![CDATA[确定 Unity 是否已预先配置某个特定的游戏杆模型。（仅限 Linux）。]]></summary>
+      </member>
+      <member id="Input.ResetInputAxes">
+        <name>ResetInputAxes</name>
+        <summary><![CDATA[重置所有输入。调用 ResetInputAxes 后，所有轴和所有按钮都恢复为 0，并且持续一帧时长。]]></summary>
+      </member>
+    </StaticFunctions>
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="Input" type="class" namespace="UnityEngine" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[访问输入系统的接口。]]></Summary>
+      <Description><![CDATA[Use this class to read the axes set up in the ]]><link ref="../Manual/Input">Input Manager</link><![CDATA[, and to access
+multi-touch/accelerometer data on mobile devices.]]><br /><br /><![CDATA[要读取轴，请将 Input.GetAxis 与以下默认轴之一配合使用：
+“Horizontal”和“Vertical”映射到游戏杆，]]><varname>D</varname><![CDATA[、]]><varname>D</varname><![CDATA[、]]><varname>D</varname><![CDATA[、]]><varname>D</varname><![CDATA[ 和箭头键。
+“Mouse X”和“Mouse Y”映射到鼠标增量。
+“Fire1”、“Fire2”、“Fire3”映射到 ]]><varname>Cmd</varname><![CDATA[、]]><varname>Cmd</varname><![CDATA[、]]><varname>Cmd</varname><![CDATA[ 键和三个鼠标或游戏杆按钮。
+可以在]]><link ref="../Manual/Input">输入管理器</link><![CDATA[中添加新输入轴。]]><br /><br /><![CDATA[若要使用输入进行任何类型的移动行为，请使用 Input.GetAxis。
+它为您提供平滑且可配置的输入 - 可以映射到键盘、游戏杆或鼠标。
+将 Input.GetButton 仅用于事件等操作，不要将它用于移动操作。Input.GetAxis 将使脚本代码更为简短和简洁。]]><br /><br /><![CDATA[另请注意，执行“Update()”前，不会重置 Input 标志。因此，建议您在 Update 循环中进行所有 Input 调用。]]><br /><br /><b>移动设备：</b><br /><br /><![CDATA[iOS 和 Android 设备能够跟踪多根手指同时触摸屏幕的操作。
+您可以通过访问 Input.touches 属性数组来访问最后一帧期间每根手指触摸屏幕的状态数据。]]><br /><br /><![CDATA[设备移动时，其加速度计硬件将报告设备沿三维空间中的三个主轴的线性加速度变化。
+您可以使用该数据检测设备的当前方向（相对于地面）以及该方向上的任何即时更改。]]><br /><br /><![CDATA[硬件将沿每个轴的加速度直接报告为重力值。
+值 1.0 表示沿给定轴约 +1g 的荷载，值 -1.0 表示 -1g。
+当将设备竖直握住（主按钮位于底部）举到您正前方时，
+右侧为正 X 轴，上方为正 Y 轴，指向您的方向为正 Z 轴。]]><br /><br /><![CDATA[您可以读取 Input.acceleration 属性来获取加速度计读数。
+也可以使用 Input.deviceOrientation 属性获取设备在三维空间中的方向的离散估值。
+如果您想在用户旋转设备（以不同方式把握设备时）时创建游戏行为，则检测方向变化将非常有用。]]><br /><br /><![CDATA[注意，每帧可以轮询加速度计硬件数次。
+要访问自上一帧以来的所有加速度计样本，可以读取 Input.accelerationEvents 属性数组。
+这在重建玩家动作、将加速度数据输入预测器或实现其他精确运动分析时非常有用。]]></Description>
+      <Example nocheck="false" convertexample="false">
+        <JavaScript><![CDATA[
+#pragma strict
+public function ]]><link ref="Experimental.PlayerLoop.Update">Update</link><![CDATA[() {
+    if (]]><link ref="Input.GetButtonDown">Input.GetButtonDown</link><![CDATA[("Fire1")) {
+        ]]><link ref="Debug.Log">Debug.Log</link><![CDATA[(]]><link ref="Input-mousePosition">Input.mousePosition</link><![CDATA[);
+    }
+}
+]]></JavaScript>
+        <CSharp><![CDATA[
+using UnityEngine;
+using System.Collections;]]><br /><br /><![CDATA[public class ExampleClass : ]]><link ref="MonoBehaviour">MonoBehaviour</link><![CDATA[
+{
+    public void ]]><link ref="Experimental.PlayerLoop.Update">Update</link><![CDATA[()
+    {
+        if (]]><link ref="Input.GetButtonDown">Input.GetButtonDown</link><![CDATA[("Fire1"))
+        {
+            ]]><link ref="Debug.Log">Debug.Log</link><![CDATA[(]]><link ref="Input-mousePosition">Input.mousePosition</link><![CDATA[);
+        }
+    }
+}
+]]></CSharp>
+      </Example>
+      <Description><![CDATA[
+]]><b>注意：</b><![CDATA[该组件与用于在屏幕上绘制 UI 纹理和图像的旧方法相关。
+您应该改为使用 Unity 最新的 UI 系统，
+该系统与 IMGUI 系统无关。
+]]></Description>
+    </Section>
+    <InheritsFrom>Input</InheritsFrom>
+  </Model>
+</Root>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Namespace="UnityEditor.Experimental.UIElements.GraphView">
+    <StaticVars />
+    <Vars>
+      <member id="Experimental.UIElements.GraphView.MiniMap-anchored">
+        <name>anchored</name>
+        <summary><![CDATA[如果地图已固定或锚定（不可移动），则为 true。如果您可以拖移地图，则为 false。]]></summary>
+      </member>
+      <member id="Experimental.UIElements.GraphView.MiniMap-maxHeight">
+        <name>maxHeight</name>
+        <summary><![CDATA[最大高度。]]></summary>
+      </member>
+      <member id="Experimental.UIElements.GraphView.MiniMap-maxWidth">
+        <name>maxWidth</name>
+        <summary><![CDATA[最大宽度。]]></summary>
+      </member>
+    </Vars>
+    <ProtVars />
+    <StaticProtVars />
+    <Constructors>
+      <member id="Experimental.UIElements.GraphView.MiniMap-ctor">
+        <name>MiniMap</name>
+        <summary><![CDATA[小地图的构造函数。]]></summary>
+      </member>
+    </Constructors>
+    <MemberFunctions>
+      <member id="Experimental.UIElements.GraphView.MiniMap.BuildContextualMenu">
+        <name>BuildContextualMenu</name>
+        <summary><![CDATA[向小地图的上下文菜单添加菜单项。]]></summary>
+      </member>
+      <member id="Experimental.UIElements.GraphView.MiniMap.DoRepaint">
+        <name>DoRepaint</name>
+        <summary><![CDATA[重新绘制小地图。]]></summary>
+      </member>
+    </MemberFunctions>
+    <ProtectedFunctions />
+    <StaticFunctions />
+    <Operators />
+    <Messages />
+    <Events />
+    <Delegates />
+    <Section>
+      <Signature>
+        <Declaration name="MiniMap" type="class" namespace="UnityEditor.Experimental.UIElements.GraphView" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[小地图。]]></Summary>
+      <Description><![CDATA[在小窗口中显示图中的所有节点。]]></Description>
+    </Section>
+    <BaseType id="Experimental.UIElements.GraphView.GraphElement">
+      <StaticVars />
+      <Vars>
+        <member id="Experimental.UIElements.Focusable-canGrabFocus">
+          <name>canGrabFocus</name>
+          <summary><![CDATA[如果元素可以获得焦点，则返回 true。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.Focusable-focusController">
+          <name>focusController</name>
+          <summary><![CDATA[返回此元素的焦点控制器。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.Focusable-focusIndex">
+          <name>focusIndex</name>
+          <summary><![CDATA[用于对焦点环中可获得焦点的元素排序的整数。负值表示元素不能获得焦点。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement-capabilities">
+          <name>capabilities</name>
+          <summary><![CDATA[图形元素的功能。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement-elementTypeColor">
+          <name>elementTypeColor</name>
+          <summary><![CDATA[用于小地图视图的颜色。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement-layer">
+          <name>layer</name>
+          <summary><![CDATA[图中的元素层。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement-selected">
+          <name>selected</name>
+          <summary><![CDATA[如果当前已选择该元素，则为 true。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-childCount">
+          <name>childCount</name>
+          <summary><![CDATA[ 此对象的 contentContainer 中的子元素数
+                ]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-clippingOptions">
+          <name>clippingOptions</name>
+          <summary><![CDATA[是否应将此元素裁剪为绘制到其边界。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-contentContainer">
+          <name>contentContainer</name>
+          <summary><![CDATA[ 子元素通常添加到此元素中
+                ]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-dataWatch">
+          <name>dataWatch</name>
+          <summary><![CDATA[对此元素 DataWatch 接口的访问。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-enabledInHierarchy">
+          <name>enabledInHierarchy</name>
+          <summary><![CDATA[如果 ]]><link ref="Experimental.UIElements.VisualElement">VisualElement</link><![CDATA[ 是在它自己的层级视图中启用，则返回 true。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-enabledSelf">
+          <name>enabledSelf</name>
+          <summary><![CDATA[如果 ]]><link ref="Experimental.UIElements.VisualElement">VisualElement</link><![CDATA[ 是本地启用，则返回 true。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-persistenceKey">
+          <name>persistenceKey</name>
+          <summary><![CDATA[用于查看数据持久性（即树展开状态、滚动位置、缩放级别）。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-schedule">
+          <name>schedule</name>
+          <summary><![CDATA[检索此 VisualElement 的 IVisualElementScheduler]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-shadow">
+          <name>shadow</name>
+          <summary><![CDATA[ 访问此元素物理层级视图
+                ]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-style">
+          <name>style</name>
+          <summary><![CDATA[引用此元素的样式对象。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Index_operator">
+          <name>this[int]</name>
+          <summary><![CDATA[ 访问此元素物理层级视图
+                ]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement-userData">
+          <name>userData</name>
+          <summary><![CDATA[此属性可用于将特定于应用程序的用户数据与此 VisualElement 关联。]]></summary>
+        </member>
+      </Vars>
+      <ProtVars />
+      <StaticProtVars />
+      <Constructors />
+      <MemberFunctions>
+        <member id="Experimental.UIElements.CallbackEventHandler.HandleEvent">
+          <name>HandleEvent</name>
+          <summary><![CDATA[处理事件，通常是通过执行与事件关联的回调处理事件。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.CallbackEventHandler.HasBubbleHandlers">
+          <name>HasBubbleHandlers</name>
+          <summary><![CDATA[如果事件传播 BubbleUp 阶段的事件处理程序已附加到此对象，则返回 true。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.CallbackEventHandler.HasCaptureHandlers">
+          <name>HasCaptureHandlers</name>
+          <summary><![CDATA[如果事件传播捕 Capture 阶段的事件处理程序已附加到此对象，则返回 true。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.CallbackEventHandler.RegisterCallback">
+          <name>RegisterCallback</name>
+          <summary><![CDATA[在实例上添加事件处理程序。如果已经在同一阶段（Capture 或 Bubbling）注册了处理程序，这不会有效果。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.CallbackEventHandler.UnregisterCallback">
+          <name>UnregisterCallback</name>
+          <summary><![CDATA[从此实例删除回调。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.Focusable.Blur">
+          <name>Blur</name>
+          <summary><![CDATA[通知元素释放焦点。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.Focusable.Focus">
+          <name>Focus</name>
+          <summary><![CDATA[尝试让此元素获得焦点。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.GetGlobalCenter">
+          <name>GetGlobalCenter</name>
+          <summary><![CDATA[获取元素的中心点。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.GetPosition">
+          <name>GetPosition</name>
+          <summary><![CDATA[获取元素位置。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.HitTest">
+          <name>HitTest</name>
+          <summary><![CDATA[查看点是否在元素之上。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.IsAscendable">
+          <name>IsAscendable</name>
+          <summary><![CDATA[检查元素被选中时是否会被自动带到前面。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.IsDroppable">
+          <name>IsDroppable</name>
+          <summary><![CDATA[元素可以拖放。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.IsMovable">
+          <name>IsMovable</name>
+          <summary><![CDATA[元素可以移动。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.IsResizable">
+          <name>IsResizable</name>
+          <summary><![CDATA[元素可以调整大小。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.IsSelectable">
+          <name>IsSelectable</name>
+          <summary><![CDATA[元素可以选择。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.IsSelected">
+          <name>IsSelected</name>
+          <summary><![CDATA[当前已在特定容器中选择元素。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.OnSelected">
+          <name>OnSelected</name>
+          <summary><![CDATA[在选择元素时调用。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.OnUnselected">
+          <name>OnUnselected</name>
+          <summary><![CDATA[在取消选择元素时调用。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.ResetLayer">
+          <name>ResetLayer</name>
+          <summary><![CDATA[将元素重置为其原始层。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.Select">
+          <name>Select</name>
+          <summary><![CDATA[选择元素。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.SetPosition">
+          <name>SetPosition</name>
+          <summary><![CDATA[设置元素位置。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.GraphView.GraphElement.Unselect">
+          <name>Unselect</name>
+          <summary><![CDATA[取消选择元素。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Add">
+          <name>Add</name>
+          <summary><![CDATA[向此元素的 contentContainer 添加一个元素]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.AddStyleSheetPath">
+          <name>AddStyleSheetPath</name>
+          <summary><![CDATA[将此样式表文件添加到此元素的应用样式列表中]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.AnyDirty">
+          <name>AnyDirty</name>
+          <summary><![CDATA[检查是否有任何 ChangeType 标记为已更新。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.BringToFront">
+          <name>BringToFront</name>
+          <summary><![CDATA[将此元素放到其父子列表的末尾。此元素将显示在所有重叠的同级元素前方。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Children">
+          <name>Children</name>
+          <summary><![CDATA[从元素的 contentContainer 返回元素]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Clear">
+          <name>Clear</name>
+          <summary><![CDATA[从此元素的 contentContainer 中删除所有子元素]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Contains">
+          <name>Contains</name>
+          <summary><![CDATA[如果元素是此 VisualElement 的直接子级，则返回 true]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.ElementAt">
+          <name>ElementAt</name>
+          <summary><![CDATA[检索相应位置的子元素]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.FindAncestorUserData">
+          <name>FindAncestorUserData</name>
+          <summary><![CDATA[向上搜索此 VisualElement 的层级视图并检索存储的 userData（如果找到）。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.FindCommonAncestor">
+          <name>FindCommonAncestor</name>
+          <summary><![CDATA[查找 VisualTree 层级视图中两个 VisualElement 之间的最低共同上级]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.GetEnumerator">
+          <name>GetEnumerator</name>
+          <summary><![CDATA[允许循环访问此元素的子级]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.GetFirstAncestorOfType">
+          <name>GetFirstAncestorOfType</name>
+          <summary><![CDATA[从此元素的父级开始向上访问层级视图，返回第一个此类型的 VisualElement]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.GetFirstOfType">
+          <name>GetFirstOfType</name>
+          <summary><![CDATA[从此元素开始向上访问层级视图，返回第一个此类型的 VisualElement]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.GetFullHierarchicalPersistenceKey">
+          <name>GetFullHierarchicalPersistenceKey</name>
+          <summary><![CDATA[将此 VisualElement 与其父级的 ]]><link ref="Experimental.UIElements.VisualElement-persistenceKey">VisualElement.persistenceKey</link><![CDATA[ 进行组合，从而创建更具唯一性的键以供 ]]><link ref="Experimental.UIElements.VisualElement.GetOrCreatePersistentData">VisualElement.GetOrCreatePersistentData</link><![CDATA[ 使用。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.GetOrCreatePersistentData">
+          <name>GetOrCreatePersistentData</name>
+          <summary><![CDATA[引用现有的持久化对象和键，返回以保持的状态填充的对象或原样返回对象。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.HasStyleSheetPath">
+          <name>HasStyleSheetPath</name>
+          <summary><![CDATA[检查此样式表文件是否位于此元素的应用样式列表中]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Insert">
+          <name>Insert</name>
+          <summary><![CDATA[向此元素的 contentContainer 插入一个元素]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.OnPersistentDataReady">
+          <name>OnPersistentDataReady</name>
+          <summary><![CDATA[当持久数据可访问和/或当数据或持久键发生更改时调用（VisualElement 有正确的父子关系）。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.OverwriteFromPersistedData">
+          <name>OverwriteFromPersistedData</name>
+          <summary><![CDATA[从持久性数据存储覆盖对象。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.PlaceBehind">
+          <name>PlaceBehind</name>
+          <summary><![CDATA[将此元素放在其父子列表中同级元素之前紧邻的位置。如果此元素和同级元素位置重叠，此元素将显示在其同级元素之后。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.PlaceInFront">
+          <name>PlaceInFront</name>
+          <summary><![CDATA[将此元素放在其父子列表中同级元素之后紧邻的位置。如果此元素和同级元素位置重叠，此元素将显示在其同级元素之前。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Remove">
+          <name>Remove</name>
+          <summary><![CDATA[从层级视图中删除此子级]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.RemoveAt">
+          <name>RemoveAt</name>
+          <summary><![CDATA[从此元素的 contentContainer 中删除位于此位置的子元素]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.RemoveFromHierarchy">
+          <name>RemoveFromHierarchy</name>
+          <summary><![CDATA[将此元素从其父层级视图中删除]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.RemoveStyleSheetPath">
+          <name>RemoveStyleSheetPath</name>
+          <summary><![CDATA[从此元素的应用样式列表中删除此样式表文件]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.SavePersistentData">
+          <name>SavePersistentData</name>
+          <summary><![CDATA[将持久性数据写入文件。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.SendToBack">
+          <name>SendToBack</name>
+          <summary><![CDATA[将此元素发送到其父子列表的开始处。此元素将显示在所有重叠的同级元素之后。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.SetEnabled">
+          <name>SetEnabled</name>
+          <summary><![CDATA[更改 ]]><link ref="Experimental.UIElements.VisualElement">VisualElement</link><![CDATA[ 启用状态。禁用的 VisualElement 不接收大多数事件。]]></summary>
+        </member>
+        <member id="Experimental.UIElements.VisualElement.Sort">
+          <name>Sort</name>
+          <summary><![CDATA[重新排序来自此 VisualElement contentContainer 的子元素。]]></summary>
+        </member>
+      </MemberFunctions>
+      <ProtectedFunctions>
+        <member id="Experimental.UIElements.VisualElement.OnStyleResolved">
+          <name>OnStyleResolved</name>
+          <summary><![CDATA[当对象样式发生更改时回调。]]></summary>
+        </member>
+      </ProtectedFunctions>
+      <StaticFunctions />
+      <Operators />
+      <Messages />
+      <Events />
+      <Delegates />
+    </BaseType>
+    <InheritsFrom>Experimental.UIElements.GraphView.MiniMap</InheritsFrom>
+  </Model>
+</Root>

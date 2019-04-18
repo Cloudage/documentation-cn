@@ -1,0 +1,2335 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model Assembly="UnityEngine.CoreModule.dll">
+    <Classes>
+      <member id="AddComponentMenu">
+        <name>AddComponentMenu</name>
+        <summary><![CDATA[使用 AddComponentMenu 属性可在“Component”菜单中的任意位置放置脚本，而不仅是“Component > Scripts”菜单。]]></summary>
+      </member>
+      <member id="AndroidInput">
+        <name>AndroidInput</name>
+        <summary><![CDATA[AndroidInput 支持离屏触控输入，如触控板。]]></summary>
+      </member>
+      <member id="AndroidJavaClass">
+        <name>AndroidJavaClass</name>
+        <summary><![CDATA[AndroidJavaClass 是 java.lang.Class 的通用实例的 Unity 表示。]]></summary>
+      </member>
+      <member id="AndroidJavaObject">
+        <name>AndroidJavaObject</name>
+        <summary><![CDATA[AndroidJavaObject 是 java.lang.Object 的通用实例的 Unity 表示。]]></summary>
+      </member>
+      <member id="AndroidJavaProxy">
+        <name>AndroidJavaProxy</name>
+        <summary><![CDATA[此类可用于实现任何 Java 接口。与代理对象中的接口匹配的任何 Java vm 方法调用都将自动传递给 c# 实现。]]></summary>
+      </member>
+      <member id="AndroidJNI">
+        <name>AndroidJNI</name>
+        <summary><![CDATA[用于来自 Mono (CS/JS) 的 Android Dalvik (Java) VM 的“原始”JNI 接口。]]><br /><br /><b>注意：</b><![CDATA[必须具备 Android Java 原生接口 (JNI) 的高级知识才能使用]]><i>原生</i><![CDATA[ JNI 函数。]]><i>请做好记录。</i></summary>
+      </member>
+      <member id="AndroidJNIHelper">
+        <name>AndroidJNIHelper</name>
+        <summary><![CDATA[用于 JNI 交互的 helper 接口；签名创建和方法查找。]]><br /><br /><b>注意：</b><![CDATA[必须具备 Android Java 原生接口 (JNI) 的高级知识才能使用]]><i>原生</i><![CDATA[ JNI 函数。]]><i>请做好记录。</i></summary>
+      </member>
+      <member id="AnimationCurve">
+        <name>AnimationCurve</name>
+        <summary><![CDATA[保存可随时间评估的 ]]><![CDATA[Keyframes]]><![CDATA[ 的集合。]]></summary>
+      </member>
+      <member id="Application">
+        <name>Application</name>
+        <summary><![CDATA[对应用程序运行时数据的访问权限。]]></summary>
+      </member>
+      <member id="WSA.Application">
+        <name>Application</name>
+        <summary><![CDATA[提供与 Window Store 应用程序相关的基本方法。]]></summary>
+      </member>
+      <member id="AssemblyIsEditorAssembly">
+        <name>AssemblyIsEditorAssembly</name>
+        <summary><![CDATA[程序集级别的属性。具有该属性的程序集中的任何类都将被视为编辑器类。]]></summary>
+      </member>
+      <member id="Assertions.Assert">
+        <name>Assert</name>
+        <summary><![CDATA[Assert 类包含用于在代码中设置不变量的断言方法。]]></summary>
+      </member>
+      <member id="Assertions.AssertionException">
+        <name>AssertionException</name>
+        <summary><![CDATA[失败时抛出的异常。]]><link ref="Assertions.Assert-raiseExceptions">Assert.raiseExceptions</link><![CDATA[ 需要设置为 true。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.AsyncGPUReadback">
+        <name>AsyncGPUReadback</name>
+        <summary><![CDATA[允许异步读回 GPU 资源。]]></summary>
+      </member>
+      <member id="AsyncOperation">
+        <name>AsyncOperation</name>
+        <summary><![CDATA[异步操作协同程序。]]></summary>
+      </member>
+      <member id="BeforeRenderOrderAttribute">
+        <name>BeforeRenderOrderAttribute</name>
+        <summary><![CDATA[当您需要为 Application.onBeforeRender 指定自定义回调顺序时，使用此 BeforeRenderOrderAttribute。]]></summary>
+      </member>
+      <member id="Behaviour">
+        <name>Behaviour</name>
+        <summary><![CDATA[Behaviour 是指可启用或禁用的组件。]]></summary>
+      </member>
+      <member id="BillboardAsset">
+        <name>BillboardAsset</name>
+        <summary><![CDATA[BillboardAsset 描述如何渲染公告牌。]]></summary>
+      </member>
+      <member id="BillboardRenderer">
+        <name>BillboardRenderer</name>
+        <summary><![CDATA[从 BillboardAsset 渲染公告牌。]]></summary>
+      </member>
+      <member id="BitStream">
+        <name>BitStream</name>
+        <summary><![CDATA[BitStream 类表示打包到流中的序列化变量。]]></summary>
+      </member>
+      <member id="Unity.Burst.BurstDiscardAttribute">
+        <name>BurstDiscardAttribute</name>
+        <summary><![CDATA[BurstDiscard 属性允许您通过 Burst 编译器禁止将某个方法或属性编译到本机代码中。]]></summary>
+      </member>
+      <member id="Caching">
+        <name>Caching</name>
+        <summary><![CDATA[Caching 类用于管理使用 UnityWebRequestAssetBundle.GetAssetBundle() 下载的缓存 AssetBundle。]]></summary>
+      </member>
+      <member id="Camera">
+        <name>Camera</name>
+        <summary><![CDATA[摄像机 (Camera) 是供玩家观看世界的设备。]]></summary>
+      </member>
+      <member id="ColorUsageAttribute">
+        <name>ColorUsageAttribute</name>
+        <summary><![CDATA[属性，用于为颜色配置 ColorField 和拾色器的使用情况。]]></summary>
+      </member>
+      <member id="ColorUtility">
+        <name>ColorUtility</name>
+        <summary><![CDATA[常用颜色函数集合。]]></summary>
+      </member>
+      <member id="Rendering.CommandBuffer">
+        <name>CommandBuffer</name>
+        <summary><![CDATA[要执行的图形命令的列表。]]></summary>
+      </member>
+      <member id="Compass">
+        <name>Compass</name>
+        <summary><![CDATA[进入罗盘功能的接口。]]></summary>
+      </member>
+      <member id="Component">
+        <name>Component</name>
+        <summary><![CDATA[附加到 ]]><link ref="GameObject">GameObject</link><![CDATA[ 的所有内容的基本类。]]></summary>
+      </member>
+      <member id="ComputeBuffer">
+        <name>ComputeBuffer</name>
+        <summary><![CDATA[GPU 数据缓冲区，主要与计算着色器结合使用。]]></summary>
+      </member>
+      <member id="ComputeShader">
+        <name>ComputeShader</name>
+        <summary><![CDATA[计算着色器资源。]]></summary>
+      </member>
+      <member id="ContextMenu">
+        <name>ContextMenu</name>
+        <summary><![CDATA[ContextMenu 属性用于向上下文菜单添加命令。]]></summary>
+      </member>
+      <member id="ContextMenuItemAttribute">
+        <name>ContextMenuItemAttribute</name>
+        <summary><![CDATA[使用该属性可将上下文菜单添加到调用命名方法的字段。]]></summary>
+      </member>
+      <member id="Coroutine">
+        <name>Coroutine</name>
+        <summary>
+          <link ref="MonoBehaviour.StartCoroutine">MonoBehaviour.StartCoroutine</link><![CDATA[ 返回 Coroutine。此类的实例仅用于引用这些协同程序，不具有任何暴露的属性或函数。]]></summary>
+      </member>
+      <member id="CrashReport">
+        <name>CrashReport</name>
+        <summary><![CDATA[包含单个应用程序崩溃事件的数据，以及提供对所有已收集的崩溃报告的访问。]]></summary>
+      </member>
+      <member id="Windows.CrashReporting">
+        <name>CrashReporting</name>
+        <summary><![CDATA[在 Windows 平台上公开与崩溃报告相关的有用信息。]]></summary>
+      </member>
+      <member id="CreateAssetMenuAttribute">
+        <name>CreateAssetMenuAttribute</name>
+        <summary><![CDATA[对 ScriptableObject 派生类型进行标记，使其自动列在 Assets/Create 子菜单中，以便能够轻松创建该类型的实例并将其作为“.asset”文件存储在项目中。]]></summary>
+      </member>
+      <member id="Cubemap">
+        <name>Cubemap</name>
+        <summary><![CDATA[处理立方体贴图的类，使用该类可创建或修改现有]]><link ref="../Manual/class-Cubemap">立方体贴图资源</link><![CDATA[。]]></summary>
+      </member>
+      <member id="CubemapArray">
+        <name>CubemapArray</name>
+        <summary><![CDATA[处理立方体贴图数组的类。]]></summary>
+      </member>
+      <member id="CullingGroup">
+        <name>CullingGroup</name>
+        <summary><![CDATA[描述应保持可见性和距离的一组包围球体。]]></summary>
+      </member>
+      <member id="Cursor">
+        <name>Cursor</name>
+        <summary><![CDATA[用于设置光标（鼠标指针）的光标 API。]]></summary>
+      </member>
+      <member id="WSA.Cursor">
+        <name>Cursor</name>
+        <summary><![CDATA[用于 Windows 应用商店应用程序的光标 API。]]></summary>
+      </member>
+      <member id="CustomRenderTexture">
+        <name>CustomRenderTexture</name>
+        <summary><![CDATA[自定义渲染纹理是渲染纹理的扩展，可使您使用着色器直接对纹理进行渲染。]]></summary>
+      </member>
+      <member id="Profiling.CustomSampler">
+        <name>CustomSampler</name>
+        <summary><![CDATA[用于分析任意代码块的自定义 CPU 性能分析器标签。]]></summary>
+      </member>
+      <member id="CustomYieldInstruction">
+        <name>CustomYieldInstruction</name>
+        <summary><![CDATA[基类，用于暂停协同程序的自定义 yield 指令。]]></summary>
+      </member>
+      <member id="Sprites.DataUtility">
+        <name>DataUtility</name>
+        <summary><![CDATA[用于访问 ]]><link ref="Sprite">Sprite</link><![CDATA[ 数据的 helper 实用程序。]]></summary>
+      </member>
+      <member id="Unity.Collections.DeallocateOnJobCompletionAttribute">
+        <name>DeallocateOnJobCompletionAttribute</name>
+        <summary><![CDATA[DeallocateOnJobCompletionAttribute。]]></summary>
+      </member>
+      <member id="Debug">
+        <name>Debug</name>
+        <summary><![CDATA[此类包含在开发游戏时可使调试变得更轻松的方法。]]></summary>
+      </member>
+      <member id="DelayedAttribute">
+        <name>DelayedAttribute</name>
+        <summary><![CDATA[属性，用于使脚本中的 float、int 或 string 变量被延迟。]]></summary>
+      </member>
+      <member id="iOS.Device">
+        <name>Device</name>
+        <summary><![CDATA[进入 iOS 特定功能的接口。]]></summary>
+      </member>
+      <member id="Windows.Speech.DictationRecognizer">
+        <name>DictationRecognizer</name>
+        <summary><![CDATA[DictationRecognizer 监听语音输入，并尝试确定说出的短语。]]></summary>
+      </member>
+      <member id="DisallowMultipleComponent">
+        <name>DisallowMultipleComponent</name>
+        <summary><![CDATA[防止将相同类型（或子类型）的 MonoBehaviour 多次添加到 GameObject。]]></summary>
+      </member>
+      <member id="Display">
+        <name>Display</name>
+        <summary><![CDATA[提供对显示器/屏幕的访问，以便进行渲染操作。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.DisposeSentinel">
+        <name>DisposeSentinel</name>
+        <summary><![CDATA[DisposeSentinel 用于检测内存泄漏。]]></summary>
+      </member>
+      <member id="DynamicGI">
+        <name>DynamicGI</name>
+        <summary><![CDATA[用于控制动态全局光照。]]></summary>
+      </member>
+      <member id="ExcludeFromObjectFactoryAttribute">
+        <name>ExcludeFromObjectFactoryAttribute</name>
+        <summary><![CDATA[将此属性添加到某个类可防止使用 ]]><link ref="ObjectFactory">ObjectFactory</link><![CDATA[ 方法创建该类及其继承类。]]></summary>
+      </member>
+      <member id="ExcludeFromPresetAttribute">
+        <name>ExcludeFromPresetAttribute</name>
+        <summary><![CDATA[将此属性添加到某个类可防止从该类的实例创建 ]]><link ref="Presets.Preset">Preset</link><![CDATA[。]]></summary>
+      </member>
+      <member id="ExecuteInEditMode">
+        <name>ExecuteInEditMode</name>
+        <summary><![CDATA[使脚本的所有实例都在编辑模式下执行。]]></summary>
+      </member>
+      <member id="Flare">
+        <name>Flare</name>
+        <summary><![CDATA[光晕资源。通过]]><link ref="../Manual/class-Flare">components reference</link><![CDATA[了解有关光晕的更多信息。]]></summary>
+      </member>
+      <member id="FlareLayer">
+        <name>FlareLayer</name>
+        <summary><![CDATA[FlareLayer 组件。]]></summary>
+      </member>
+      <member id="Assertions.Comparers.FloatComparer">
+        <name>FloatComparer</name>
+        <summary>
+          <link ref="Assertions.Assert">Assert</link><![CDATA[ 用于执行粗略比较的浮点数比较器。]]></summary>
+      </member>
+      <member id="Serialization.FormerlySerializedAsAttribute">
+        <name>FormerlySerializedAsAttribute</name>
+        <summary><![CDATA[使用此属性重命名一个字段，同时不丢失其序列化的值。]]></summary>
+      </member>
+      <member id="FrameTimingManager">
+        <name>FrameTimingManager</name>
+        <summary><![CDATA[FrameTimingManager 可使用户捕获和访问多个帧的 FrameTiming 数据。]]></summary>
+      </member>
+      <member id="GameObject">
+        <name>GameObject</name>
+        <summary><![CDATA[Unity 场景中所有实体的基类。]]></summary>
+      </member>
+      <member id="GeometryUtility">
+        <name>GeometryUtility</name>
+        <summary><![CDATA[常见几何函数的 Utility 类。]]></summary>
+      </member>
+      <member id="Gizmos">
+        <name>Gizmos</name>
+        <summary><![CDATA[辅助图标用于协助在场景视图中进行视觉调试或设置。]]></summary>
+      </member>
+      <member id="GL">
+        <name>GL</name>
+        <summary><![CDATA[低级别图形库。]]></summary>
+      </member>
+      <member id="Gradient">
+        <name>Gradient</name>
+        <summary><![CDATA[渐变，用于动画化颜色。]]></summary>
+      </member>
+      <member id="Windows.Speech.GrammarRecognizer">
+        <name>GrammarRecognizer</name>
+        <summary><![CDATA[GrammarRecognizer 是对 KeywordRecognizer 的补充。在许多情况下，开发者将会发现 KeywordRecognizer 能够满足他们的所有开发需求。然而，在一些情况下，更为复杂的语法将以磁盘上的 xml 文件的形式更好地表示。
+按照万维网联盟 (W3C) 语音识别语法规范 (SRGS) 版本 1.0 规定，GrammarRecognizer 使用可扩展标记语言 (XML) 元素和属性。这些 XML 元素和属性表示定义由语音识别引擎识别的单词或短语（命令）的规则结构。]]></summary>
+      </member>
+      <member id="Graphics">
+        <name>Graphics</name>
+        <summary><![CDATA[Unity 绘图函数的原始接口。]]></summary>
+      </member>
+      <member id="Rendering.GraphicsSettings">
+        <name>GraphicsSettings</name>
+        <summary>
+          <link ref="../Manual/class-GraphicsSettings">Graphics Settings</link><![CDATA[ 的脚本接口。]]></summary>
+      </member>
+      <member id="GUIElement">
+        <name>GUIElement</name>
+        <summary><![CDATA[GUI 中显示的图像和文本字符串的基类。]]></summary>
+      </member>
+      <member id="Gyroscope">
+        <name>Gyroscope</name>
+        <summary><![CDATA[访问陀螺仪的接口。]]></summary>
+      </member>
+      <member id="Handheld">
+        <name>Handheld</name>
+        <summary><![CDATA[访问手持设备独有功能的接口。]]></summary>
+      </member>
+      <member id="HeaderAttribute">
+        <name>HeaderAttribute</name>
+        <summary><![CDATA[使用该 ]]><link ref="PropertyAttribute">PropertyAttribute</link><![CDATA[ 在 Inspector 中的某些字段上方添加标题。]]></summary>
+      </member>
+      <member id="HelpURLAttribute">
+        <name>HelpURLAttribute</name>
+        <summary><![CDATA[为类提供自定义文档 URL。]]></summary>
+      </member>
+      <member id="HideInInspector">
+        <name>HideInInspector</name>
+        <summary><![CDATA[使变量不显示在 Inspector 中，但进行序列化。]]></summary>
+      </member>
+      <member id="HostData">
+        <name>HostData</name>
+        <summary><![CDATA[此为保存单个主机信息的数据结构。]]></summary>
+      </member>
+      <member id="Unity.Jobs.IJobExtensions">
+        <name>IJobExtensions</name>
+        <summary><![CDATA[适用于使用 ]]><link ref="Unity.Jobs.IJob">IJob</link><![CDATA[ 接口的作业的扩展方法。]]></summary>
+      </member>
+      <member id="Unity.Jobs.IJobParallelForExtensions">
+        <name>IJobParallelForExtensions</name>
+        <summary><![CDATA[适用于使用 ]]><link ref="Unity.Jobs.IJobParallelFor">IJobParallelFor</link><![CDATA[ 的作业的扩展方法。]]></summary>
+      </member>
+      <member id="Jobs.IJobParallelForTransformExtensions">
+        <name>IJobParallelForTransformExtensions</name>
+        <summary><![CDATA[IJobParallelForTransform 的扩展方法。]]></summary>
+      </member>
+      <member id="ImageEffectAfterScale">
+        <name>ImageEffectAfterScale</name>
+        <summary><![CDATA[任何具有该属性的图像效果都将在动态分辨率阶段后渲染。]]></summary>
+      </member>
+      <member id="ImageEffectAllowedInSceneView">
+        <name>ImageEffectAllowedInSceneView</name>
+        <summary><![CDATA[任何具有该属性的图像效果都可以渲染到场景视图摄像机中。]]></summary>
+      </member>
+      <member id="ImageEffectOpaque">
+        <name>ImageEffectOpaque</name>
+        <summary><![CDATA[任何具有该属性的图像效果都将在不透明几何形状之后但在透明几何形状之前渲染。]]></summary>
+      </member>
+      <member id="ImageEffectTransformsToLDR">
+        <name>ImageEffectTransformsToLDR</name>
+        <summary><![CDATA[使用 HDR 渲染时，有时可能需要在 ImageEffect 渲染期间切换到 LDR 渲染。]]></summary>
+      </member>
+      <member id="Input">
+        <name>Input</name>
+        <summary><![CDATA[访问输入系统的接口。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.JobHandleUnsafeUtility">
+        <name>JobHandleUnsafeUtility</name>
+        <summary><![CDATA[JobHandle 不安全实用程序。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.JobProducerTypeAttribute">
+        <name>JobProducerTypeAttribute</name>
+        <summary><![CDATA[所有作业接口类型都必须使用 ]]><![CDATA[JobProducerType]]><![CDATA[ 进行标记。Burst ASM 检视面板使用此属性编译 Execute 方法。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.JobsUtility">
+        <name>JobsUtility</name>
+        <summary><![CDATA[包含用于创建、运行和调试作业的功能的静态类。]]></summary>
+      </member>
+      <member id="Windows.Speech.KeywordRecognizer">
+        <name>KeywordRecognizer</name>
+        <summary><![CDATA[KeywordRecognizer 监听语音输入，并尝试将说出的短语与注册关键字列表匹配。]]></summary>
+      </member>
+      <member id="WSA.Launcher">
+        <name>Launcher</name>
+        <summary><![CDATA[能够针对文件类型或协议启动用户的默认应用程序的类。另请参阅 PlayerSettings，您可以在其中指定文件或 URI 关联。]]></summary>
+      </member>
+      <member id="LensFlare">
+        <name>LensFlare</name>
+        <summary>
+          <link ref="../Manual/class-LensFlare">Lens flare component</link><![CDATA[ 的脚本接口。]]></summary>
+      </member>
+      <member id="Light">
+        <name>Light</name>
+        <summary>
+          <link ref="../Manual/class-Light">light components</link><![CDATA[ 的脚本接口。]]></summary>
+      </member>
+      <member id="LightmapData">
+        <name>LightmapData</name>
+        <summary><![CDATA[光照贴图的数据。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.LightmapperUtils">
+        <name>LightmapperUtils</name>
+        <summary><![CDATA[Utility 类，用于将 Unity 光源转换为烘焙后端可识别的光源类型。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.Lightmapping">
+        <name>Lightmapping</name>
+        <summary><![CDATA[光照烘焙后端的接口。]]></summary>
+      </member>
+      <member id="LightmapSettings">
+        <name>LightmapSettings</name>
+        <summary><![CDATA[Stores lightmaps of the scene.]]></summary>
+      </member>
+      <member id="LightProbeGroup">
+        <name>LightProbeGroup</name>
+        <summary><![CDATA[光照探针组。]]></summary>
+      </member>
+      <member id="LightProbeProxyVolume">
+        <name>LightProbeProxyVolume</name>
+        <summary><![CDATA[通过光照探针代理体组件可以对大型非静态 GameObject 使用较高分辨率光照。]]></summary>
+      </member>
+      <member id="LightProbes">
+        <name>LightProbes</name>
+        <summary><![CDATA[存储场景的光照探针。]]></summary>
+      </member>
+      <member id="LineRenderer">
+        <name>LineRenderer</name>
+        <summary><![CDATA[线渲染器用于在 3D 空间中绘制自由浮动的线。]]></summary>
+      </member>
+      <member id="LineUtility">
+        <name>LineUtility</name>
+        <summary><![CDATA[常用线函数的集合。]]></summary>
+      </member>
+      <member id="iOS.LocalNotification">
+        <name>LocalNotification</name>
+        <summary><![CDATA[iOS.LocalNotification 是 Apple UIKit 框架中 UILocalNotification 类的封装器，仅适用于 iPhone/iPad/iPod Touch。]]></summary>
+      </member>
+      <member id="LocationService">
+        <name>LocationService</name>
+        <summary><![CDATA[进入位置功能的接口。]]></summary>
+      </member>
+      <member id="LODGroup">
+        <name>LODGroup</name>
+        <summary><![CDATA[LODGroup 用于将多个渲染器组合到 LOD 级别中。]]></summary>
+      </member>
+      <member id="Logger">
+        <name>Logger</name>
+        <summary><![CDATA[初始化 Logger 的新实例。]]></summary>
+      </member>
+      <member id="MasterServer">
+        <name>MasterServer</name>
+        <summary><![CDATA[使用主服务器可在服务器与客户端之间轻松配对。]]></summary>
+      </member>
+      <member id="Material">
+        <name>Material</name>
+        <summary><![CDATA[材质类。]]></summary>
+      </member>
+      <member id="MaterialPropertyBlock">
+        <name>MaterialPropertyBlock</name>
+        <summary><![CDATA[要应用的材质值代码块。]]></summary>
+      </member>
+      <member id="Mesh">
+        <name>Mesh</name>
+        <summary><![CDATA[用于通过脚本创建或修改网格的类。]]></summary>
+      </member>
+      <member id="MeshFilter">
+        <name>MeshFilter</name>
+        <summary><![CDATA[用于访问]]><link ref="../Manual/class-MeshFilter">mesh filter</link><![CDATA[的 ]]><link ref="Mesh">Mesh</link><![CDATA[ 的类。]]></summary>
+      </member>
+      <member id="MeshRenderer">
+        <name>MeshRenderer</name>
+        <summary><![CDATA[渲染由 ]]><link ref="MeshFilter">MeshFilter</link><![CDATA[ 或 ]]><link ref="TextMesh">TextMesh</link><![CDATA[ 插入的网格。]]></summary>
+      </member>
+      <member id="Networking.PlayerConnection.MessageEventArgs">
+        <name>MessageEventArgs</name>
+        <summary><![CDATA[传递给在 PlayerConnection 中注册的 Action 回调的参数。]]></summary>
+      </member>
+      <member id="MonoBehaviour">
+        <name>MonoBehaviour</name>
+        <summary><![CDATA[MonoBehaviour 是一个基类，所有 Unity 脚本都派生自该类。]]></summary>
+      </member>
+      <member id="MultilineAttribute">
+        <name>MultilineAttribute</name>
+        <summary><![CDATA[用于通过多行文本字段编辑字符串的属性。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility">
+        <name>NativeArrayUnsafeUtility</name>
+        <summary><![CDATA[NativeArray 不安全实用程序。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeContainerAttribute">
+        <name>NativeContainerAttribute</name>
+        <summary><![CDATA[允许您创建自己的自定义原生容器。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeContainerIsAtomicWriteOnlyAttribute">
+        <name>NativeContainerIsAtomicWriteOnlyAttribute</name>
+        <summary><![CDATA[NativeContainerIsAtomicWriteOnlyAttribute。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeContainerIsReadOnlyAttribute">
+        <name>NativeContainerIsReadOnlyAttribute</name>
+        <summary><![CDATA[NativeContainerIsReadOnlyAttribute。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeallocateOnJobCompletionAttribute">
+        <name>NativeContainerSupportsDeallocateOnJobCompletionAttribute</name>
+        <summary><![CDATA[NativeContainerSupportsDeallocateOnJobCompletionAttribute。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeferredConvertListToArray">
+        <name>NativeContainerSupportsDeferredConvertListToArray</name>
+        <summary><![CDATA[NativeContainerSupportsDeferredConvertListToArray。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsMinMaxWriteRestrictionAttribute">
+        <name>NativeContainerSupportsMinMaxWriteRestrictionAttribute</name>
+        <summary><![CDATA[NativeContainerSupportsMinMaxWriteRestrictionAttribute。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeDisableContainerSafetyRestrictionAttribute">
+        <name>NativeDisableContainerSafetyRestrictionAttribute</name>
+        <summary><![CDATA[默认情况下，原生容器会由安全系统进行跟踪，以避免竞争条件。安全系统内部封装了最佳实践，并从一开始就捕获了许多竞争条件错误。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeDisableParallelForRestrictionAttribute">
+        <name>NativeDisableParallelForRestrictionAttribute</name>
+        <summary><![CDATA[NativeDisableParallelForRestrictionAttribute。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeDisableUnsafePtrRestrictionAttribute">
+        <name>NativeDisableUnsafePtrRestrictionAttribute</name>
+        <summary><![CDATA[默认情况下，不允许在作业中使用不安全的指针，因为作业调试器无法保证竞争条件的自由行为。借助此属性，您可以显式禁用某作业的限制。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeFixedLengthAttribute">
+        <name>NativeFixedLengthAttribute</name>
+        <summary><![CDATA[容器拥有的是初始大小，且不会改变。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeLeakDetection">
+        <name>NativeLeakDetection</name>
+        <summary><![CDATA[适用于本机泄漏检测设置的静态类。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeSetClassTypeToNullOnScheduleAttribute">
+        <name>NativeSetClassTypeToNullOnScheduleAttribute</name>
+        <summary><![CDATA[将此属性应用于作业结构中的某个字段后，对该类的托管引用将在传递给该作业的作业结构副本上设置为 null。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeSetThreadIndexAttribute">
+        <name>NativeSetThreadIndexAttribute</name>
+        <summary><![CDATA[此属性可将工作线程索引注入到作业结构上的 int 中。实现原子容器时，通常使用此属性。可保证该索引对于可能并行运行的任何其他作业都是唯一的。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.NativeSliceUnsafeUtility">
+        <name>NativeSliceUnsafeUtility</name>
+        <summary><![CDATA[NativeSlice]]><![CDATA[ 不安全实用程序类。]]></summary>
+      </member>
+      <member id="Network">
+        <name>Network</name>
+        <summary><![CDATA[Network 类处于网络实现的核心地位，提供了核心函数。]]></summary>
+      </member>
+      <member id="iOS.NotificationServices">
+        <name>NotificationServices</name>
+        <summary><![CDATA[NotificationServices 仅适用于 iPhone/iPad/iPod Touch。]]></summary>
+      </member>
+      <member id="Object">
+        <name>Object</name>
+        <summary><![CDATA[Unity 可以引用的所有对象的基类。]]></summary>
+      </member>
+      <member id="OcclusionArea">
+        <name>OcclusionArea</name>
+        <summary><![CDATA[OcclusionArea 是执行遮挡剔除的区域。]]></summary>
+      </member>
+      <member id="OcclusionPortal">
+        <name>OcclusionPortal</name>
+        <summary><![CDATA[用于在运行时动态更改遮挡的门户。]]></summary>
+      </member>
+      <member id="iOS.OnDemandResources">
+        <name>OnDemandResources</name>
+        <summary><![CDATA[按需加载资源 API。]]></summary>
+      </member>
+      <member id="iOS.OnDemandResourcesRequest">
+        <name>OnDemandResourcesRequest</name>
+        <summary><![CDATA[表示按需加载资源 (ODR) 的请求。它是一个 ]]><link ref="AsyncOperation">AsyncOperation</link><![CDATA[，可在协同程序中生成。]]></summary>
+      </member>
+      <member id="Windows.Speech.PhraseRecognitionSystem">
+        <name>PhraseRecognitionSystem</name>
+        <summary><![CDATA[短语识别系统负责管理短语识别器和向它们分发识别事件。]]></summary>
+      </member>
+      <member id="Windows.Speech.PhraseRecognizer">
+        <name>PhraseRecognizer</name>
+        <summary><![CDATA[一个关键字识别器和语法识别器的通用基类。]]></summary>
+      </member>
+      <member id="Ping">
+        <name>Ping</name>
+        <summary><![CDATA[对任何给定 IP 地址（以点表示法给定）执行 Ping 操作。]]></summary>
+      </member>
+      <member id="Playables.PlayableAsset">
+        <name>PlayableAsset</name>
+        <summary><![CDATA[一个基类，适用于可在运行时用于实例化 ]]><link ref="Playables.Playable">Playable</link><![CDATA[ 的资源。]]></summary>
+      </member>
+      <member id="Playables.PlayableBehaviour">
+        <name>PlayableBehaviour</name>
+        <summary><![CDATA[PlayableBehaviour 是一个基类，所有自定义的可播放脚本均派生自该类。]]></summary>
+      </member>
+      <member id="Playables.PlayableExtensions">
+        <name>PlayableExtensions</name>
+        <summary><![CDATA[适用于实现 ]]><link ref="Playables.IPlayable">IPlayable</link><![CDATA[ 的所有类型的扩展。]]></summary>
+      </member>
+      <member id="Playables.PlayableOutputExtensions">
+        <name>PlayableOutputExtensions</name>
+        <summary><![CDATA[适用于实现 ]]><link ref="Playables.IPlayableOutput">IPlayableOutput</link><![CDATA[ 的所有类型的扩展。]]></summary>
+      </member>
+      <member id="Networking.PlayerConnection.PlayerConnection">
+        <name>PlayerConnection</name>
+        <summary><![CDATA[用于处理从 Player 到 Editor 的网络连接。]]></summary>
+      </member>
+      <member id="Experimental.LowLevel.PlayerLoop">
+        <name>PlayerLoop</name>
+        <summary><![CDATA[表示 Unity 中的玩家循环的类。]]></summary>
+      </member>
+      <member id="PlayerPrefs">
+        <name>PlayerPrefs</name>
+        <summary><![CDATA[在游戏会话之间存储和访问玩家偏好。]]></summary>
+      </member>
+      <member id="PlayerPrefsException">
+        <name>PlayerPrefsException</name>
+        <summary>
+          <link ref="PlayerPrefs">PlayerPrefs</link><![CDATA[ 类在 Web 播放器构建中抛出的异常。]]></summary>
+      </member>
+      <member id="PreferBinarySerialization">
+        <name>PreferBinarySerialization</name>
+        <summary><![CDATA[使 ScriptableObject 派生类型优先使用二进制序列化（不考虑项目的资源序列化模式）。]]></summary>
+      </member>
+      <member id="Scripting.PreserveAttribute">
+        <name>PreserveAttribute</name>
+        <summary><![CDATA[PreserveAttribute 可防止字节码剥离移除类、方法、字段或属性。]]></summary>
+      </member>
+      <member id="Profiling.Profiler">
+        <name>Profiler</name>
+        <summary><![CDATA[通过脚本控制 ]]><link ref="../Manual/Profiler">Profiler</link><![CDATA[。]]></summary>
+      </member>
+      <member id="Projector">
+        <name>Projector</name>
+        <summary>
+          <link ref="../Manual/class-Projector">projector component</link><![CDATA[ 的脚本接口。]]></summary>
+      </member>
+      <member id="PropertyAttribute">
+        <name>PropertyAttribute</name>
+        <summary><![CDATA[用于派生自定义属性特性的基类。这可用于为脚本变量创建特性。]]></summary>
+      </member>
+      <member id="QualitySettings">
+        <name>QualitySettings</name>
+        <summary>
+          <link ref="../Manual/class-QualitySettings">Quality Settings</link><![CDATA[ 的脚本接口。]]></summary>
+      </member>
+      <member id="Random">
+        <name>Random</name>
+        <summary><![CDATA[用于生成随机数据的类。]]></summary>
+      </member>
+      <member id="RangeAttribute">
+        <name>RangeAttribute</name>
+        <summary><![CDATA[用于使脚本中的 float 或 int 变量受限于特定范围的属性。]]></summary>
+      </member>
+      <member id="Unity.Collections.ReadOnlyAttribute">
+        <name>ReadOnlyAttribute</name>
+        <summary><![CDATA[借助 ReadOnly 属性，您可以将作业中所用结构的某个成员标记为只读。]]></summary>
+      </member>
+      <member id="Profiling.Recorder">
+        <name>Recorder</name>
+        <summary><![CDATA[录制特定采样器生成的性能分析数据。]]></summary>
+      </member>
+      <member id="RectOffset">
+        <name>RectOffset</name>
+        <summary><![CDATA[用于矩形、边框等的偏移。]]></summary>
+      </member>
+      <member id="RectTransform">
+        <name>RectTransform</name>
+        <summary><![CDATA[矩形的位置、大小、锚点和轴心信息。]]></summary>
+      </member>
+      <member id="ReflectionProbe">
+        <name>ReflectionProbe</name>
+        <summary><![CDATA[反射探针用于将周围环境捕获为纹理，纹理将传递给着色器并用于反射。]]></summary>
+      </member>
+      <member id="Apple.TV.Remote">
+        <name>Remote</name>
+        <summary><![CDATA[Apple TV 遥控器输入配置的类。]]></summary>
+      </member>
+      <member id="iOS.RemoteNotification">
+        <name>RemoteNotification</name>
+        <summary><![CDATA[RemoteNotification 仅适用于 iPhone/iPad/iPod Touch。]]></summary>
+      </member>
+      <member id="Renderer">
+        <name>Renderer</name>
+        <summary><![CDATA[所有渲染器的常规功能。]]></summary>
+      </member>
+      <member id="RendererExtensions">
+        <name>RendererExtensions</name>
+        <summary><![CDATA[Renderer 类的扩展方法，仅用于全局光照系统使用的 UpdateGIMaterials 方法。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderPass">
+        <name>RenderPass</name>
+        <summary><![CDATA[封装含一个或多个子通道的单个渲染通道的持续时间的对象。]]><br /><br /><![CDATA[渲染通道对象是一种在可编程渲染管线环境中切换渲染目标的全新方式。与 SetRenderTargets 函数不同，渲染通道对象指定了明确的渲染开头和结尾以及渲染表面上的显式加载/存储操作。]]><br /><br /><![CDATA[渲染通道对象还允许在同一渲染通道中运行多个子通道，其中，像素着色器能够读取渲染通道中的当前像素值。这样可以高效实现基于区块的 GPU 上的各种渲染方法，例如延迟渲染。]]><br /><br /><![CDATA[渲染通道在 Metal (iOS) 和 Vulkan 上本机实现，但 API 能够通过仿真在所有渲染后端上完全正常运行（使用旧版 SetRenderTargets 调用并通过纹素抓取读取当前像素值）。]]><br /><br /><![CDATA[一个有关如何在可编程渲染管线中使用渲染通道 API 实现延迟渲染的简单示例：]]><br /><br /><![CDATA[渲染通道机制具有以下限制：
+- 所有附件必须拥有相同的分辨率和 MSAA 样本数
+- 先前子通道的渲染结果仅通过着色器中的 UNITY_READ_FRAMEBUFFER_INPUT(x) 宏在相同的屏幕空间像素
+坐标中可用；附件不能绑定为
+纹理或直到渲染通道结束才能访问。
+- iOS Metal 不允许从 Z 缓冲区读取，因此需要其他渲染目标来执行这项操作
+- 每个渲染通道允许的最大附件数量目前是 8 + 深，但请注意，不同的 GPU 可能
+有更严格的限制。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderPassAttachment">
+        <name>RenderPassAttachment</name>
+        <summary><![CDATA[要附加到渲染通道的单个颜色或深度渲染表面的声明。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderPipeline">
+        <name>RenderPipeline</name>
+        <summary><![CDATA[定义一系列描述 Unity 如何渲染帧的命令和设置。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderPipelineAsset">
+        <name>RenderPipelineAsset</name>
+        <summary><![CDATA[生成特定 ]]><link ref="Experimental.Rendering.IRenderPipeline">IRenderPipeline</link><![CDATA[ 的资源。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderPipelineManager">
+        <name>RenderPipelineManager</name>
+        <summary><![CDATA[渲染管线管理器。]]></summary>
+      </member>
+      <member id="Experimental.RenderSettings">
+        <name>RenderSettings</name>
+        <summary><![CDATA[实验性渲染设置功能。]]></summary>
+      </member>
+      <member id="RenderSettings">
+        <name>RenderSettings</name>
+        <summary><![CDATA[渲染设置包含场景中一系列视觉元素的值，例如雾效和环境光。]]></summary>
+      </member>
+      <member id="RenderTexture">
+        <name>RenderTexture</name>
+        <summary><![CDATA[渲染纹理是可对其进行渲染的纹理。]]></summary>
+      </member>
+      <member id="Apple.ReplayKit.ReplayKit">
+        <name>ReplayKit</name>
+        <summary><![CDATA[ReplayKit 仅适用于某些运行 iOS 9.0 或更高版本的 iPhone、iPad 和 iPod Touch 设备。]]></summary>
+      </member>
+      <member id="RequireComponent">
+        <name>RequireComponent</name>
+        <summary><![CDATA[RequireComponent 属性自动将所需的组件添加为依赖项。]]></summary>
+      </member>
+      <member id="ResourceRequest">
+        <name>ResourceRequest</name>
+        <summary><![CDATA[来自 Resources 包的异步加载请求。]]></summary>
+      </member>
+      <member id="Resources">
+        <name>Resources</name>
+        <summary><![CDATA[Resources 类允许您查找和访问资源等对象。]]></summary>
+      </member>
+      <member id="RuntimeInitializeOnLoadMethodAttribute">
+        <name>RuntimeInitializeOnLoadMethodAttribute</name>
+        <summary><![CDATA[允许在运行时加载游戏时不通过用户操作
+      初始化一个运行时类方法。]]></summary>
+      </member>
+      <member id="Profiling.Sampler">
+        <name>Sampler</name>
+        <summary><![CDATA[用于控制 CPU 性能分析器标签。]]></summary>
+      </member>
+      <member id="ScalableBufferManager">
+        <name>ScalableBufferManager</name>
+        <summary><![CDATA[如果目标平台/图形 API 支持动态分辨率，缩放渲染纹理以支持动态分辨率。]]></summary>
+      </member>
+      <member id="SceneManagement.SceneManager">
+        <name>SceneManager</name>
+        <summary><![CDATA[运行时的场景管理。]]></summary>
+      </member>
+      <member id="SceneManagement.SceneUtility">
+        <name>SceneUtility</name>
+        <summary><![CDATA[与场景和构建设置相关的实用程序。]]></summary>
+      </member>
+      <member id="Screen">
+        <name>Screen</name>
+        <summary><![CDATA[访问显示信息。]]></summary>
+      </member>
+      <member id="ScriptableObject">
+        <name>ScriptableObject</name>
+        <summary><![CDATA[一个类，如果需要创建无需附加到游戏对象的对象时，可从该类派生。]]></summary>
+      </member>
+      <member id="Security">
+        <name>Security</name>
+        <summary><![CDATA[Webplayer 安全相关的类。5.4.0 及以上版本不支持。]]></summary>
+      </member>
+      <member id="SelectionBaseAttribute">
+        <name>SelectionBaseAttribute</name>
+        <summary><![CDATA[将此属性添加到脚本类，可将其 GameObject 标记为 Scene View 选取的选择基础对象。]]></summary>
+      </member>
+      <member id="SerializeField">
+        <name>SerializeField</name>
+        <summary><![CDATA[强制 Unity 对私有字段进行序列化。]]></summary>
+      </member>
+      <member id="Shader">
+        <name>Shader</name>
+        <summary><![CDATA[用于所有渲染的着色器脚本。]]></summary>
+      </member>
+      <member id="ShaderVariantCollection">
+        <name>ShaderVariantCollection</name>
+        <summary><![CDATA[ShaderVariantCollection 记录每个着色器中实际使用的着色器变体。]]></summary>
+      </member>
+      <member id="SkinnedMeshRenderer">
+        <name>SkinnedMeshRenderer</name>
+        <summary><![CDATA[蒙皮网格过滤器。]]></summary>
+      </member>
+      <member id="Skybox">
+        <name>Skybox</name>
+        <summary>
+          <link ref="../Manual/class-Skybox">skybox component</link><![CDATA[ 的脚本接口。]]></summary>
+      </member>
+      <member id="SleepTimeout">
+        <name>SleepTimeout</name>
+        <summary>
+          <link ref="Screen-sleepTimeout">Screen.sleepTimeout</link><![CDATA[ 的特殊值的常量。]]></summary>
+      </member>
+      <member id="Rendering.SortingGroup">
+        <name>SortingGroup</name>
+        <summary><![CDATA[将 SortingGroup 组件添加到 GameObject 会确保 GameObject 后代中的所有渲染器都一起进行排序和渲染。]]></summary>
+      </member>
+      <member id="SpaceAttribute">
+        <name>SpaceAttribute</name>
+        <summary><![CDATA[使用此 ]]><link ref="PropertyAttribute">PropertyAttribute</link><![CDATA[ 可在 Inspector 中添加一些间距。]]></summary>
+      </member>
+      <member id="SparseTexture">
+        <name>SparseTexture</name>
+        <summary><![CDATA[用于处理稀疏纹理的类。]]></summary>
+      </member>
+      <member id="Rendering.SplashScreen">
+        <name>SplashScreen</name>
+        <summary><![CDATA[提供了 Unity 启动画面的接口。]]></summary>
+      </member>
+      <member id="Sprite">
+        <name>Sprite</name>
+        <summary><![CDATA[表示在 2D 游戏中使用的精灵对象。]]></summary>
+      </member>
+      <member id="U2D.SpriteAtlas">
+        <name>SpriteAtlas</name>
+        <summary><![CDATA[精灵图集是在 Unity 中创建的一种资源。它是内置精灵打包解决方案的一部分。]]></summary>
+      </member>
+      <member id="U2D.SpriteAtlasManager">
+        <name>SpriteAtlasManager</name>
+        <summary><![CDATA[在运行时管理 ]]><link ref="U2D.SpriteAtlas">SpriteAtlas</link><![CDATA[。]]></summary>
+      </member>
+      <member id="Experimental.U2D.SpriteDataAccessExtensions">
+        <name>SpriteDataAccessExtensions</name>
+        <summary><![CDATA[一系列用于读取和写入精灵丰富的内部数据的方法。]]></summary>
+      </member>
+      <member id="SpriteRenderer">
+        <name>SpriteRenderer</name>
+        <summary><![CDATA[为 2D 图形渲染精灵。]]></summary>
+      </member>
+      <member id="Experimental.U2D.SpriteRendererDataAccessExtensions">
+        <name>SpriteRendererDataAccessExtensions</name>
+        <summary><![CDATA[允许调用程序重载 SpriteRenderer 渲染的内容的方法列表。]]></summary>
+      </member>
+      <member id="StaticBatchingUtility">
+        <name>StaticBatchingUtility</name>
+        <summary><![CDATA[StaticBatchingUtility 可使对象准备好利用 Unity 的静态批处理。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.SupportedRenderingFeatures">
+        <name>SupportedRenderingFeatures</name>
+        <summary><![CDATA[描述给定渲染管线支持的渲染功能。]]></summary>
+      </member>
+      <member id="SystemInfo">
+        <name>SystemInfo</name>
+        <summary><![CDATA[访问系统和硬件信息。]]></summary>
+      </member>
+      <member id="TextAreaAttribute">
+        <name>TextAreaAttribute</name>
+        <summary><![CDATA[属性，用于通过高度灵活且可滚动的区域编辑字符串。]]></summary>
+      </member>
+      <member id="TextAsset">
+        <name>TextAsset</name>
+        <summary><![CDATA[文本文件资源。]]></summary>
+      </member>
+      <member id="Texture">
+        <name>Texture</name>
+        <summary><![CDATA[用于纹理处理的基类。包含 ]]><link ref="Texture2D">Texture2D</link><![CDATA[ 和 ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[ 类通用的功能。]]></summary>
+      </member>
+      <member id="Texture2D">
+        <name>Texture2D</name>
+        <summary><![CDATA[用于纹理处理的类。]]></summary>
+      </member>
+      <member id="Texture2DArray">
+        <name>Texture2DArray</name>
+        <summary><![CDATA[用于处理 2D 纹理数组的类。]]></summary>
+      </member>
+      <member id="Texture3D">
+        <name>Texture3D</name>
+        <summary><![CDATA[处理 3D 纹理的类，使用此类可创建 ]]><link ref="../Manual/class-Texture3D">3D texture assets</link><![CDATA[。]]></summary>
+      </member>
+      <member id="WSA.Tile">
+        <name>Tile</name>
+        <summary><![CDATA[表示 Windows 开始屏幕上的瓦片
+]]></summary>
+      </member>
+      <member id="Time">
+        <name>Time</name>
+        <summary><![CDATA[从 Unity 获取时间信息的接口。]]></summary>
+      </member>
+      <member id="WSA.Toast">
+        <name>Toast</name>
+        <summary><![CDATA[代表 Windows 应用商店应用程序中的 Toast 通知。
+]]></summary>
+      </member>
+      <member id="TooltipAttribute">
+        <name>TooltipAttribute</name>
+        <summary><![CDATA[为 Inspector 窗口中的字段指定工具提示。]]></summary>
+      </member>
+      <member id="TouchScreenKeyboard">
+        <name>TouchScreenKeyboard</name>
+        <summary><![CDATA[访问原生 iPhone、Android、Windows Phone 和 Windows 应用商店应用程序屏幕键盘的接口，在其他平台上不可用。]]></summary>
+      </member>
+      <member id="TrailRenderer">
+        <name>TrailRenderer</name>
+        <summary><![CDATA[轨迹渲染器用于在场景中的对象移动时在对象后面生成轨迹。]]></summary>
+      </member>
+      <member id="Transform">
+        <name>Transform</name>
+        <summary><![CDATA[对象的位置、旋转和缩放。]]></summary>
+      </member>
+      <member id="UnityAPICompatibilityVersionAttribute">
+        <name>UnityAPICompatibilityVersionAttribute</name>
+        <summary><![CDATA[声明一个与特定 Unity API 兼容（API 兼容）的程序集。内部工具用它来避免为确定程序集是否可以使用旧的 Unity API 而处理程序集。]]></summary>
+      </member>
+      <member id="Events.UnityEvent">
+        <name>UnityEvent</name>
+        <summary><![CDATA[可以与场景一起保存的 zero 参数持久回调。]]></summary>
+      </member>
+      <member id="Events.UnityEvent_4">
+        <name>UnityEvent&lt;T0,T1,T2,T3&gt;</name>
+        <summary>
+          <link ref="Events.UnityEvent">UnityEvent</link><![CDATA[ 的 four 参数版本。]]></summary>
+      </member>
+      <member id="Events.UnityEvent_3">
+        <name>UnityEvent&lt;T0,T1,T2&gt;</name>
+        <summary>
+          <link ref="Events.UnityEvent">UnityEvent</link><![CDATA[ 的 three 参数版本。]]></summary>
+      </member>
+      <member id="Events.UnityEvent_2">
+        <name>UnityEvent&lt;T0,T1&gt;</name>
+        <summary>
+          <link ref="Events.UnityEvent">UnityEvent</link><![CDATA[ 的 two 参数版本。]]></summary>
+      </member>
+      <member id="Events.UnityEvent_1">
+        <name>UnityEvent&lt;T0&gt;</name>
+        <summary>
+          <link ref="Events.UnityEvent">UnityEvent</link><![CDATA[ 的 one 参数版本。]]></summary>
+      </member>
+      <member id="Events.UnityEventBase">
+        <name>UnityEventBase</name>
+        <summary><![CDATA[UnityEvent 的抽象基类。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+        <name>UnsafeUtility</name>
+        <summary><![CDATA[Unsafe Utility 类。]]></summary>
+      </member>
+      <member id="WaitForEndOfFrame">
+        <name>WaitForEndOfFrame</name>
+        <summary><![CDATA[等待，直到该帧结束，在渲染所有摄像机和 GUI 之后，在屏幕上显示该帧之前。]]></summary>
+      </member>
+      <member id="WaitForFixedUpdate">
+        <name>WaitForFixedUpdate</name>
+        <summary><![CDATA[等待，直到下一个固定帧率更新函数。另请参阅：]]><link ref="MonoBehaviour.FixedUpdate">FixedUpdate</link><![CDATA[。]]></summary>
+      </member>
+      <member id="WaitForSeconds">
+        <name>WaitForSeconds</name>
+        <summary><![CDATA[使用缩放时间将协程执行暂停指定的秒数。]]></summary>
+      </member>
+      <member id="WaitForSecondsRealtime">
+        <name>WaitForSecondsRealtime</name>
+        <summary><![CDATA[使用未缩放时间将协同程序执行暂停指定的秒数。]]></summary>
+      </member>
+      <member id="WaitUntil">
+        <name>WaitUntil</name>
+        <summary><![CDATA[暂停协程执行，直到提供的委托评估为 /true/。]]></summary>
+      </member>
+      <member id="WaitWhile">
+        <name>WaitWhile</name>
+        <summary><![CDATA[暂停协程执行，直到提供的委托评估为 /false/。]]></summary>
+      </member>
+      <member id="Tizen.Window">
+        <name>Window</name>
+        <summary><![CDATA[进入特定于 Tizen 的功能的接口。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.WriteAccessRequiredAttribute">
+        <name>WriteAccessRequiredAttribute</name>
+        <summary><![CDATA[通过将 WriteAccessRequiredAttribute 与 ]]><link ref="Unity.Collections.ReadOnlyAttribute">ReadOnlyAttribute</link><![CDATA[ 结合使用，您就可以指定哪个结构方法和属性需要调用写入访问。]]></summary>
+      </member>
+      <member id="Unity.Collections.WriteOnlyAttribute">
+        <name>WriteOnlyAttribute</name>
+        <summary><![CDATA[借助 WriteOnly 属性，您可以将作业中所用结构的某个成员标记为只写。]]></summary>
+      </member>
+      <member id="YieldInstruction">
+        <name>YieldInstruction</name>
+        <summary><![CDATA[所有 ]]><varname>yield</varname><![CDATA[ 指令的基类。]]></summary>
+      </member>
+    </Classes>
+    <Structs>
+      <member id="AccelerationEvent">
+        <name>AccelerationEvent</name>
+        <summary><![CDATA[描述设备加速状态的结构。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.AsyncGPUReadbackRequest">
+        <name>AsyncGPUReadbackRequest</name>
+        <summary><![CDATA[表示 GPU 资源的异步请求。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle">
+        <name>AtomicSafetyHandle</name>
+        <summary><![CDATA[任务系统使用 AtomicSafetyHandle 提供验证和全面的安全性。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.BatchQueryJob_2">
+        <name>BatchQueryJob&lt;T0,T1&gt;</name>
+        <summary><![CDATA[用于实现批处理查询作业的结构。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.BatchQueryJobStruct_1">
+        <name>BatchQueryJobStruct&lt;T0&gt;</name>
+        <summary><![CDATA[用于调度批处理查询作业的结构。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.BlendState">
+        <name>BlendState</name>
+        <summary><![CDATA[混合状态的值。]]></summary>
+      </member>
+      <member id="BoneWeight">
+        <name>BoneWeight</name>
+        <summary><![CDATA[该网格中顶点的蒙皮骨骼权重。]]></summary>
+      </member>
+      <member id="BoundingSphere">
+        <name>BoundingSphere</name>
+        <summary><![CDATA[描述供 ]]><link ref="CullingGroup">CullingGroup</link><![CDATA[ 使用的一个包围球体。]]></summary>
+      </member>
+      <member id="Bounds">
+        <name>Bounds</name>
+        <summary><![CDATA[表示一个轴对齐的包围盒。]]></summary>
+      </member>
+      <member id="BoundsInt">
+        <name>BoundsInt</name>
+        <summary><![CDATA[表示一个所有值均为整数的轴对齐的包围盒。]]></summary>
+      </member>
+      <member id="Cache">
+        <name>Cache</name>
+        <summary><![CDATA[缓存的数据结构。有关更多信息，请参阅 ]]><link ref="Caching.AddCache">Caching.AddCache</link><![CDATA[。]]></summary>
+      </member>
+      <member id="CachedAssetBundle">
+        <name>CachedAssetBundle</name>
+        <summary><![CDATA[用于将 AssetBundle 下载到自定义缓存路径的数据结构。有关更多信息，请参阅 ]]><link ref="Networking.UnityWebRequestAssetBundle.GetAssetBundle">UnityWebRequestAssetBundle.GetAssetBundle</link><![CDATA[。]]></summary>
+      </member>
+      <member id="Experimental.Playables.CameraPlayable">
+        <name>CameraPlayable</name>
+        <summary>
+          <link ref="Playables.IPlayable">IPlayable</link><![CDATA[ 的一种实现，用于生成 ]]><link ref="Camera">Camera</link><![CDATA[ 纹理。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.CameraProperties">
+        <name>CameraProperties</name>
+        <summary><![CDATA[CullingParameters]]><![CDATA[ 中的摄像机相关属性。]]></summary>
+      </member>
+      <member id="Color">
+        <name>Color</name>
+        <summary><![CDATA[Representation of RGBA colors.]]></summary>
+      </member>
+      <member id="Color32">
+        <name>Color32</name>
+        <summary><![CDATA[32 位格式的 RGBA 颜色表示形式。]]></summary>
+      </member>
+      <member id="CombineInstance">
+        <name>CombineInstance</name>
+        <summary><![CDATA[结构，用于描述将使用 Mesh.CombineMeshes 组合的网格。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.CoreCameraValues">
+        <name>CoreCameraValues</name>
+        <summary><![CDATA[CullingParameters]]><![CDATA[ 中的核心摄像机相关属性。]]></summary>
+      </member>
+      <member id="CullingGroupEvent">
+        <name>CullingGroupEvent</name>
+        <summary><![CDATA[提供有关 CullingGroup 中一个球体的当前和先前状态的信息。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.CullResults">
+        <name>CullResults</name>
+        <summary><![CDATA[剔除结果（可见对象、光源、反射探针）。]]></summary>
+      </member>
+      <member id="CustomRenderTextureUpdateZone">
+        <name>CustomRenderTextureUpdateZone</name>
+        <summary><![CDATA[描述更新区域的结构。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.DepthState">
+        <name>DepthState</name>
+        <summary><![CDATA[深度状态的值。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.DirectionalLight">
+        <name>DirectionalLight</name>
+        <summary><![CDATA[一个 helper 结构，用于将 LightDataGI 结构初始化为方向光。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.DrawRendererSettings">
+        <name>DrawRendererSettings</name>
+        <summary>
+          <link ref="Experimental.Rendering.ScriptableRenderContext.DrawRenderers">ScriptableRenderContext.DrawRenderers</link><![CDATA[ 的设置。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.DrawRendererSortSettings">
+        <name>DrawRendererSortSettings</name>
+        <summary><![CDATA[描述如何在渲染期间对对象排序。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.DrawShadowsSettings">
+        <name>DrawShadowsSettings</name>
+        <summary><![CDATA[RenderLoop.DrawShadows]]><![CDATA[ 的设置。]]></summary>
+      </member>
+      <member id="DrivenRectTransformTracker">
+        <name>DrivenRectTransformTracker</name>
+        <summary><![CDATA[可设计一个组件来驱动 RectTransform。DrivenRectTransformTracker 结构用于指定其正在驱动的 RectTransform。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.EarlyUpdate">
+        <name>EarlyUpdate</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="ExposedPropertyResolver">
+        <name>ExposedPropertyResolver</name>
+        <summary><![CDATA[对象，用于解析对 ]]><![CDATA[ExposedReference]]><![CDATA[ 字段的引用。]]></summary>
+      </member>
+      <member id="ExposedReference_1">
+        <name>ExposedReference&lt;T0&gt;</name>
+        <summary><![CDATA[创建一个值在运行时可加以解析的类型。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.FilterRenderersSettings">
+        <name>FilterRenderersSettings</name>
+        <summary>
+          <link ref="Experimental.Rendering.ScriptableRenderContext.DrawRenderers">ScriptableRenderContext.DrawRenderers</link><![CDATA[ 的过滤设置。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.FilterResults">
+        <name>FilterResults</name>
+        <summary><![CDATA[描述要渲染对象的一个子集。]]><br /><br /><![CDATA[另请参阅：]]><link ref="Experimental.Rendering.ScriptableRenderContext.DrawRenderers">ScriptableRenderContext.DrawRenderers</link><![CDATA[。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.FixedUpdate">
+        <name>FixedUpdate</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="Playables.FrameData">
+        <name>FrameData</name>
+        <summary><![CDATA[此结构包含 ]]><link ref="Playables.Playable">Playable</link><![CDATA[ 在 ]]><![CDATA[Playable.PrepareFrame]]><![CDATA[ 中收到的帧信息。]]></summary>
+      </member>
+      <member id="FrameTiming">
+        <name>FrameTiming</name>
+        <summary><![CDATA[包含基本 FrameTimings 并且随附相关数据的结构。]]></summary>
+      </member>
+      <member id="FrustumPlanes">
+        <name>FrustumPlanes</name>
+        <summary><![CDATA[此结构包含近投影平面的视图空间坐标。]]></summary>
+      </member>
+      <member id="Rendering.GPUFence">
+        <name>GPUFence</name>
+        <summary><![CDATA[用于管理异步计算队列和图形队列上的任务之间的同步。]]></summary>
+      </member>
+      <member id="GradientAlphaKey">
+        <name>GradientAlphaKey</name>
+        <summary><![CDATA[渐变使用的 Alpha 键。]]></summary>
+      </member>
+      <member id="GradientColorKey">
+        <name>GradientColorKey</name>
+        <summary><![CDATA[渐变使用的颜色键。]]></summary>
+      </member>
+      <member id="Hash128">
+        <name>Hash128</name>
+        <summary><![CDATA[表示哈希值。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.Initialization">
+        <name>Initialization</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="Unity.Jobs.JobHandle">
+        <name>JobHandle</name>
+        <summary><![CDATA[JobHandle。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.JobRanges">
+        <name>JobRanges</name>
+        <summary><![CDATA[包含有关允许作业执行范围的信息的结构。]]></summary>
+      </member>
+      <member id="Keyframe">
+        <name>Keyframe</name>
+        <summary><![CDATA[可以注入到动画曲线中的单个关键帧。]]></summary>
+      </member>
+      <member id="LayerMask">
+        <name>LayerMask</name>
+        <summary><![CDATA[LayerMask 用于在 Inspector 中显示 LayerMask 弹出菜单。]]></summary>
+      </member>
+      <member id="LightBakingOutput">
+        <name>LightBakingOutput</name>
+        <summary><![CDATA[结构，描述给定光源的全局光照烘焙结果。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.LightDataGI">
+        <name>LightDataGI</name>
+        <summary><![CDATA[用于将光照信息传递给光照烘焙后端的 interop 结构。有适用于 Directional、Point、Spot 和 Rectangle 光源的 helper 结构可正确初始化此结构。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.LinearColor">
+        <name>LinearColor</name>
+        <summary><![CDATA[包含范围为 0 到 1 的红色、绿色、蓝色标准化线性颜色值和一个强度值。]]></summary>
+      </member>
+      <member id="LocationInfo">
+        <name>LocationInfo</name>
+        <summary><![CDATA[描述设备位置的结构。]]></summary>
+      </member>
+      <member id="LOD">
+        <name>LOD</name>
+        <summary><![CDATA[结构，用于构建 LOD 以便传递给 SetLODs 函数。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.LODParameters">
+        <name>LODParameters</name>
+        <summary>
+          <link ref="LODGroup">LODGroup</link><![CDATA[ 剔除参数。]]></summary>
+      </member>
+      <member id="Experimental.Playables.MaterialEffectPlayable">
+        <name>MaterialEffectPlayable</name>
+        <summary>
+          <link ref="Playables.IPlayable">IPlayable</link><![CDATA[ 的一种实现，允许将 ]]><link ref="Material">Material</link><![CDATA[ 着色器应用于一个或多个纹理输入以生成纹理输出。]]></summary>
+      </member>
+      <member id="Mathf">
+        <name>Mathf</name>
+        <summary><![CDATA[常用数学函数的集合。]]></summary>
+      </member>
+      <member id="Matrix4x4">
+        <name>Matrix4x4</name>
+        <summary><![CDATA[标准 4x4 变换矩阵。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeArray_1">
+        <name>NativeArray&lt;T0&gt;</name>
+        <summary><![CDATA[NativeArray 会向托管代码显示本机内存缓冲区，从而可以在托管数组和本机数组之间共享数据。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeSlice_1">
+        <name>NativeSlice&lt;T0&gt;</name>
+        <summary><![CDATA[本机切片。]]></summary>
+      </member>
+      <member id="NetworkMessageInfo">
+        <name>NetworkMessageInfo</name>
+        <summary><![CDATA[该数据结构包含有关刚从网络接收的消息的信息。]]></summary>
+      </member>
+      <member id="NetworkPlayer">
+        <name>NetworkPlayer</name>
+        <summary><![CDATA[NetworkPlayer 是一种数据结构，您可以使用该数据结构在网络上找到另一位玩家。]]></summary>
+      </member>
+      <member id="NetworkViewID">
+        <name>NetworkViewID</name>
+        <summary><![CDATA[NetworkViewID 是多人游戏中网络视图实例的唯一标识符。]]></summary>
+      </member>
+      <member id="Windows.Speech.PhraseRecognizedEventArgs">
+        <name>PhraseRecognizedEventArgs</name>
+        <summary><![CDATA[提供关于短语识别事件的信息。]]></summary>
+      </member>
+      <member id="Plane">
+        <name>Plane</name>
+        <summary><![CDATA[平面在 3D 空间中的表示。]]></summary>
+      </member>
+      <member id="Playables.Playable">
+        <name>Playable</name>
+        <summary><![CDATA[Playable 是可自定义的运行时对象，此类对象可连接在一起并包含在 ]]><link ref="Playables.PlayableGraph">PlayableGraph</link><![CDATA[ 中以创建复杂的行为。]]></summary>
+      </member>
+      <member id="Playables.PlayableBinding">
+        <name>PlayableBinding</name>
+        <summary><![CDATA[用于保存有关 PlayableAsset 输出的信息的结构。]]></summary>
+      </member>
+      <member id="Playables.PlayableGraph">
+        <name>PlayableGraph</name>
+        <summary><![CDATA[使用 PlayableGraph 可管理 ]]><link ref="Playables.Playable">Playable</link><![CDATA[ 的创建和销毁。]]></summary>
+      </member>
+      <member id="Playables.PlayableOutput">
+        <name>PlayableOutput</name>
+        <summary><![CDATA[请参阅：]]><link ref="Playables.IPlayableOutput">IPlayableOutput</link><![CDATA[。]]></summary>
+      </member>
+      <member id="Experimental.LowLevel.PlayerLoopSystem">
+        <name>PlayerLoopSystem</name>
+        <summary><![CDATA[由 Unity 中玩家循环更新的单个系统的表示形式。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.PointLight">
+        <name>PointLight</name>
+        <summary><![CDATA[一个 helper 结构，用于将 LightDataGI 结构初始化为点光源。]]></summary>
+      </member>
+      <member id="Pose">
+        <name>Pose</name>
+        <summary><![CDATA[位置和旋转在 3D 空间中的表示。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.PostLateUpdate">
+        <name>PostLateUpdate</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.PreLateUpdate">
+        <name>PreLateUpdate</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.PreUpdate">
+        <name>PreUpdate</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="PropertyName">
+        <name>PropertyName</name>
+        <summary><![CDATA[将 string 表示为 int 以实现高效查找和比较。这可用于常用的 PropertyName。]]><br /><br /><![CDATA[在内部仅存储 int 来表示 string。PropertyName 可以从 string 进行创建，但是无法转换回 string。相同 string 始终产生表示该 string 的相同 int。因而，当您只需进行比较时，这在内存和速度方面都是非常高效的 string 表示。]]><br /><br /><![CDATA[PropertyName 可序列化。]]><br /><br /><![CDATA[实现 ToString() 的目的只是为了进行调试，它在 Editor 中返回“theName:3737”，在播放器中返回“Unknown:3737”。]]></summary>
+      </member>
+      <member id="Quaternion">
+        <name>Quaternion</name>
+        <summary><![CDATA[四元数用于表示旋转。]]></summary>
+      </member>
+      <member id="RangeInt">
+        <name>RangeInt</name>
+        <summary><![CDATA[描述整数范围。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RasterState">
+        <name>RasterState</name>
+        <summary><![CDATA[光栅状态的值。]]></summary>
+      </member>
+      <member id="Ray">
+        <name>Ray</name>
+        <summary><![CDATA[射线表示形式。]]></summary>
+      </member>
+      <member id="Ray2D">
+        <name>Ray2D</name>
+        <summary><![CDATA[2D 空间中的射线。]]></summary>
+      </member>
+      <member id="Rect">
+        <name>Rect</name>
+        <summary><![CDATA[由 X 和 Y 位置、宽度以及高度定义的 2D 矩形。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.RectangleLight">
+        <name>RectangleLight</name>
+        <summary><![CDATA[一个 helper 结构，用于将 LightDataGI 结构初始化为矩形光源。]]></summary>
+      </member>
+      <member id="RectInt">
+        <name>RectInt</name>
+        <summary><![CDATA[由整数类型的 x、y、宽度、高度定义的 2D 矩形。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionProbeBlendInfo">
+        <name>ReflectionProbeBlendInfo</name>
+        <summary><![CDATA[ReflectionProbeBlendInfo 包含混合探针所需的信息。]]></summary>
+      </member>
+      <member id="RenderBuffer">
+        <name>RenderBuffer</name>
+        <summary>
+          <link ref="RenderTexture">RenderTexture</link><![CDATA[ 的颜色或深度缓冲区部分。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderQueueRange">
+        <name>RenderQueueRange</name>
+        <summary><![CDATA[描述材质渲染队列范围。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderStateBlock">
+        <name>RenderStateBlock</name>
+        <summary><![CDATA[一组用于重载渲染状态的值。请注意，仅设置“blendState”等选项是不够的，该“mask”还必须包含 ]]><link ref="Experimental.Rendering.RenderStateMask.Blend">RenderStateMask.Blend</link><![CDATA[ 以便进行重载。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderStateMapping">
+        <name>RenderStateMapping</name>
+        <summary><![CDATA[将 RenderType 映射到特定渲染状态重载。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderTargetBlendState">
+        <name>RenderTargetBlendState</name>
+        <summary><![CDATA[混合状态的值。]]></summary>
+      </member>
+      <member id="Rendering.RenderTargetIdentifier">
+        <name>RenderTargetIdentifier</name>
+        <summary><![CDATA[标识 ]]><link ref="Rendering.CommandBuffer">CommandBuffer</link><![CDATA[ 的 ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[。]]></summary>
+      </member>
+      <member id="RenderTargetSetup">
+        <name>RenderTargetSetup</name>
+        <summary><![CDATA[RenderTarget 设置的完整描述。]]></summary>
+      </member>
+      <member id="RenderTextureDescriptor">
+        <name>RenderTextureDescriptor</name>
+        <summary><![CDATA[此结构包含创建 RenderTexture 需要的所有信息。可以复制、缓存和重用来轻松创建全部共享相同属性的 RenderTexture。]]></summary>
+      </member>
+      <member id="Resolution">
+        <name>Resolution</name>
+        <summary><![CDATA[表示显示分辨率。]]></summary>
+      </member>
+      <member id="SceneManagement.Scene">
+        <name>Scene</name>
+        <summary><![CDATA[*.unity 文件的运行时数据结构。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.ScriptableCullingParameters">
+        <name>ScriptableCullingParameters</name>
+        <summary><![CDATA[在 ]]><link ref="Experimental.Rendering.CullResults">CullResults</link><![CDATA[ 中控制剔除过程的参数。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.ScriptableRenderContext">
+        <name>ScriptableRenderContext</name>
+        <summary><![CDATA[定义自定义渲染管线中使用的状态和绘制命令。]]></summary>
+      </member>
+      <member id="Playables.ScriptPlayable_1">
+        <name>ScriptPlayable&lt;T0&gt;</name>
+        <summary>
+          <link ref="Playables.IPlayable">IPlayable</link><![CDATA[ 实现，其中包含 ]]><link ref="Playables.PlayableGraph">PlayableGraph</link><![CDATA[ 的 ]]><link ref="Playables.PlayableBehaviour">PlayableBehaviour</link><![CDATA[。]]><link ref="Playables.PlayableBehaviour">PlayableBehaviour</link><![CDATA[ 可用于编写实现其自有 PrepareFrame 回调的自定义可播放项。]]></summary>
+      </member>
+      <member id="Playables.ScriptPlayableOutput">
+        <name>ScriptPlayableOutput</name>
+        <summary>
+          <link ref="Playables.IPlayableOutput">IPlayableOutput</link><![CDATA[ 实现，其中包含 ]]><link ref="Playables.PlayableGraph">PlayableGraph</link><![CDATA[ 的脚本输出。]]></summary>
+      </member>
+      <member id="WSA.SecondaryTileData">
+        <name>SecondaryTileData</name>
+        <summary><![CDATA[定义辅助瓦片的默认外观。
+]]></summary>
+      </member>
+      <member id="Windows.Speech.SemanticMeaning">
+        <name>SemanticMeaning</name>
+        <summary><![CDATA[语义指所识别短语的语义属性的集合。这些语义属性可以在 SRGS 语法文件中指定。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.ShaderPassName">
+        <name>ShaderPassName</name>
+        <summary><![CDATA[着色器通道名称标识符。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.ShadowSplitData">
+        <name>ShadowSplitData</name>
+        <summary><![CDATA[描述有关给定阴影分割（如定向级联）的剔除信息。]]></summary>
+      </member>
+      <member id="SortingLayer">
+        <name>SortingLayer</name>
+        <summary><![CDATA[SortingLayer 可用于轻松设置多个精灵的渲染顺序。始终有一个名称为“Default”的默认 SortingLayer，最初所有精灵都添加到其中。添加了更多 SortingLayer，可轻松控制精灵组的渲染顺序。图层可排在默认图层的前面或后面。]]></summary>
+      </member>
+      <member id="Rendering.SphericalHarmonicsL2">
+        <name>SphericalHarmonicsL2</name>
+        <summary><![CDATA[高达二阶的球谐函数（3 个波段，9 个系数）。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.SpotLight">
+        <name>SpotLight</name>
+        <summary><![CDATA[一个 helper 结构，用于将 LightDataGI 结构初始化为聚光灯。]]></summary>
+      </member>
+      <member id="Experimental.U2D.SpriteBone">
+        <name>SpriteBone</name>
+        <summary><![CDATA[包含一组丰富信息的结构，描述了此精灵的绑定姿势。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.StencilState">
+        <name>StencilState</name>
+        <summary><![CDATA[模板状态的值。]]></summary>
+      </member>
+      <member id="Experimental.Playables.TextureMixerPlayable">
+        <name>TextureMixerPlayable</name>
+        <summary>
+          <link ref="Playables.IPlayable">IPlayable</link><![CDATA[ 的一种实现，允许混合两种纹理。]]></summary>
+      </member>
+      <member id="Experimental.Playables.TexturePlayableOutput">
+        <name>TexturePlayableOutput</name>
+        <summary>
+          <link ref="Playables.IPlayableOutput">IPlayableOutput</link><![CDATA[ 的一种实现，用于操作纹理。]]></summary>
+      </member>
+      <member id="Touch">
+        <name>Touch</name>
+        <summary><![CDATA[用于描述触摸屏幕的手指状态的结构。]]></summary>
+      </member>
+      <member id="Jobs.TransformAccess">
+        <name>TransformAccess</name>
+        <summary><![CDATA[对象的位置、旋转和缩放。]]></summary>
+      </member>
+      <member id="Jobs.TransformAccessArray">
+        <name>TransformAccessArray</name>
+        <summary><![CDATA[TransformAccessArray。]]></summary>
+      </member>
+      <member id="Experimental.PlayerLoop.Update">
+        <name>Update</name>
+        <summary><![CDATA[本机玩家循环中的更新阶段。]]></summary>
+      </member>
+      <member id="Vector2">
+        <name>Vector2</name>
+        <summary><![CDATA[用于表示 2D 向量和点。]]></summary>
+      </member>
+      <member id="Vector2Int">
+        <name>Vector2Int</name>
+        <summary><![CDATA[使用整数的 2D 向量和点表示形式。]]></summary>
+      </member>
+      <member id="Vector3">
+        <name>Vector3</name>
+        <summary><![CDATA[用于表示 3D 向量和点。]]></summary>
+      </member>
+      <member id="Vector3Int">
+        <name>Vector3Int</name>
+        <summary><![CDATA[使用整数的 3D 向量和点表示形式。]]></summary>
+      </member>
+      <member id="Vector4">
+        <name>Vector4</name>
+        <summary><![CDATA[四维向量的表示形式。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.VisibleLight">
+        <name>VisibleLight</name>
+        <summary><![CDATA[保留可见光源的数据。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.VisibleReflectionProbe">
+        <name>VisibleReflectionProbe</name>
+        <summary><![CDATA[保留可见反射探针的数据。]]></summary>
+      </member>
+    </Structs>
+    <Enumerations>
+      <member id="iOS.ActivityIndicatorStyle">
+        <name>ActivityIndicatorStyle</name>
+        <summary><![CDATA[ActivityIndicator 样式（特定于 iOS）。]]></summary>
+      </member>
+      <member id="Unity.Collections.Allocator">
+        <name>Allocator</name>
+        <summary><![CDATA[用于为 ]]><![CDATA[NativeArray]]><![CDATA[ 指定分配类型。]]></summary>
+      </member>
+      <member id="Rendering.AmbientMode">
+        <name>AmbientMode</name>
+        <summary><![CDATA[环境光照模式。]]></summary>
+      </member>
+      <member id="AndroidActivityIndicatorStyle">
+        <name>AndroidActivityIndicatorStyle</name>
+        <summary><![CDATA[ActivityIndicator 样式（特定于 Android）。]]></summary>
+      </member>
+      <member id="AnisotropicFiltering">
+        <name>AnisotropicFiltering</name>
+        <summary><![CDATA[各向异性过滤模式。]]></summary>
+      </member>
+      <member id="ApplicationInstallMode">
+        <name>ApplicationInstallMode</name>
+        <summary><![CDATA[应用程序安装模式（只读）。]]></summary>
+      </member>
+      <member id="ApplicationSandboxType">
+        <name>ApplicationSandboxType</name>
+        <summary><![CDATA[应用程序沙盒类型。]]></summary>
+      </member>
+      <member id="AudioType">
+        <name>AudioType</name>
+        <summary><![CDATA[导入（本机）数据的类型。]]></summary>
+      </member>
+      <member id="BatteryStatus">
+        <name>BatteryStatus</name>
+        <summary><![CDATA[用于 ]]><link ref="SystemInfo-batteryStatus">SystemInfo.batteryStatus</link><![CDATA[ 的枚举，表示设备电池当前状态。]]></summary>
+      </member>
+      <member id="Rendering.BlendMode">
+        <name>BlendMode</name>
+        <summary><![CDATA[用于控制混合的混合模式。]]></summary>
+      </member>
+      <member id="Rendering.BlendOp">
+        <name>BlendOp</name>
+        <summary><![CDATA[混合运算。]]></summary>
+      </member>
+      <member id="BlendWeights">
+        <name>BlendWeights</name>
+        <summary><![CDATA[混合权重。]]></summary>
+      </member>
+      <member id="Rendering.BuiltinRenderTextureType">
+        <name>BuiltinRenderTextureType</name>
+        <summary><![CDATA[摄像机渲染期间生成的内置临时渲染纹理。]]></summary>
+      </member>
+      <member id="Rendering.BuiltinShaderDefine">
+        <name>BuiltinShaderDefine</name>
+        <summary><![CDATA[由编辑器在编译着色器时根据目标平台和层设置的定义。]]></summary>
+      </member>
+      <member id="Rendering.BuiltinShaderMode">
+        <name>BuiltinShaderMode</name>
+        <summary>
+          <link ref="Rendering.GraphicsSettings">GraphicsSettings</link><![CDATA[ 使用的内置着色器模式。]]></summary>
+      </member>
+      <member id="Rendering.BuiltinShaderType">
+        <name>BuiltinShaderType</name>
+        <summary>
+          <link ref="Rendering.GraphicsSettings">GraphicsSettings</link><![CDATA[ 使用的内置着色器类型。]]></summary>
+      </member>
+      <member id="iOS.CalendarIdentifier">
+        <name>CalendarIdentifier</name>
+        <summary><![CDATA[指定日历类型。]]></summary>
+      </member>
+      <member id="iOS.CalendarUnit">
+        <name>CalendarUnit</name>
+        <summary><![CDATA[指定日历单位。]]></summary>
+      </member>
+      <member id="CameraClearFlags">
+        <name>CameraClearFlags</name>
+        <summary><![CDATA[Camera.clearFlags 的值，确定在渲染 ]]><link ref="Camera">Camera</link><![CDATA[ 时要清除的内容。]]></summary>
+      </member>
+      <member id="Rendering.CameraEvent">
+        <name>CameraEvent</name>
+        <summary><![CDATA[在摄像机的渲染中定义一个用来附加 ]]><link ref="Rendering.CommandBuffer">CommandBuffer</link><![CDATA[ 对象的位置。]]></summary>
+      </member>
+      <member id="Rendering.CameraHDRMode">
+        <name>CameraHDRMode</name>
+        <summary><![CDATA[用于渲染的 HDR 模式。]]></summary>
+      </member>
+      <member id="CameraType">
+        <name>CameraType</name>
+        <summary><![CDATA[描述不同类型的摄像机。]]></summary>
+      </member>
+      <member id="ColorGamut">
+        <name>ColorGamut</name>
+        <summary><![CDATA[表示色域。]]></summary>
+      </member>
+      <member id="ColorSpace">
+        <name>ColorSpace</name>
+        <summary><![CDATA[玩家设置的颜色空间。]]></summary>
+      </member>
+      <member id="Rendering.ColorWriteMask">
+        <name>ColorWriteMask</name>
+        <summary><![CDATA[指定将哪些颜色分量写入目标帧缓冲区。]]></summary>
+      </member>
+      <member id="Rendering.CompareFunction">
+        <name>CompareFunction</name>
+        <summary><![CDATA[深度或模板比较函数。]]></summary>
+      </member>
+      <member id="ComputeBufferType">
+        <name>ComputeBufferType</name>
+        <summary>
+          <link ref="ComputeBuffer">ComputeBuffer</link><![CDATA[ 类型。]]></summary>
+      </member>
+      <member id="Rendering.ComputeQueueType">
+        <name>ComputeQueueType</name>
+        <summary><![CDATA[描述所需要的有关队列优先级和负载均衡的特征，通过 ]]><link ref="Graphics.ExecuteCommandBufferAsync">Graphics.ExecuteCommandBufferAsync</link><![CDATA[ 后 [[ScriptableRenderContext.ExecuteCommandBufferAsync] 提交的命令缓冲区应发送到该队列。]]></summary>
+      </member>
+      <member id="Windows.Speech.ConfidenceLevel">
+        <name>ConfidenceLevel</name>
+        <summary><![CDATA[由 KeywordRecognizer、GrammarRecognizer、DictationRecognizer 使用。位于指定最低水平下的短语将被忽略。]]></summary>
+      </member>
+      <member id="ConnectionTesterStatus">
+        <name>ConnectionTesterStatus</name>
+        <summary><![CDATA[连接测试服务器可能返回的各种测试结果。]]></summary>
+      </member>
+      <member id="Rendering.CopyTextureSupport">
+        <name>CopyTextureSupport</name>
+        <summary><![CDATA[支持各种 ]]><link ref="Graphics.CopyTexture">Graphics.CopyTexture</link><![CDATA[ 情况。]]></summary>
+      </member>
+      <member id="CubemapFace">
+        <name>CubemapFace</name>
+        <summary>
+          <link ref="Cubemap">Cubemap</link><![CDATA[ 面。]]></summary>
+      </member>
+      <member id="Rendering.CullMode">
+        <name>CullMode</name>
+        <summary><![CDATA[背面剔除模式。]]></summary>
+      </member>
+      <member id="CursorLockMode">
+        <name>CursorLockMode</name>
+        <summary><![CDATA[光标的行为方式。]]></summary>
+      </member>
+      <member id="CursorMode">
+        <name>CursorMode</name>
+        <summary><![CDATA[确定是使用软件渲染来渲染鼠标光标，还是在支持的平台上使用硬件渲染来渲染鼠标光标。]]></summary>
+      </member>
+      <member id="CustomRenderTextureInitializationSource">
+        <name>CustomRenderTextureInitializationSource</name>
+        <summary><![CDATA[指定自定义渲染纹理初始化的来源。]]></summary>
+      </member>
+      <member id="CustomRenderTextureUpdateMode">
+        <name>CustomRenderTextureUpdateMode</name>
+        <summary><![CDATA[自定义渲染纹理的更新或初始化频率。]]></summary>
+      </member>
+      <member id="CustomRenderTextureUpdateZoneSpace">
+        <name>CustomRenderTextureUpdateZoneSpace</name>
+        <summary><![CDATA[为更新区域提供坐标处的空间。]]></summary>
+      </member>
+      <member id="Playables.DataStreamType">
+        <name>DataStreamType</name>
+        <summary><![CDATA[描述 Playable 中流入及流出的信息类型。同时还指定该 Playable 可连接相同类型的其他数据流。]]></summary>
+      </member>
+      <member id="Rendering.DefaultReflectionMode">
+        <name>DefaultReflectionMode</name>
+        <summary><![CDATA[默认反射模式。]]></summary>
+      </member>
+      <member id="DepthTextureMode">
+        <name>DepthTextureMode</name>
+        <summary>
+          <link ref="Camera">Camera</link><![CDATA[ 的深度纹理生成模式。]]></summary>
+      </member>
+      <member id="iOS.DeviceGeneration">
+        <name>DeviceGeneration</name>
+        <summary><![CDATA[iOS 设备世代。]]></summary>
+      </member>
+      <member id="DeviceOrientation">
+        <name>DeviceOrientation</name>
+        <summary><![CDATA[描述由操作系统确定的设备的物理方向。]]></summary>
+      </member>
+      <member id="DeviceType">
+        <name>DeviceType</name>
+        <summary>
+          <link ref="SystemInfo-deviceType">SystemInfo.deviceType</link><![CDATA[ 的枚举，表示设备类型的粗略分组。]]></summary>
+      </member>
+      <member id="Windows.Speech.DictationCompletionCause">
+        <name>DictationCompletionCause</name>
+        <summary><![CDATA[表示听写会话结束的原因。]]></summary>
+      </member>
+      <member id="Windows.Speech.DictationTopicConstraint">
+        <name>DictationTopicConstraint</name>
+        <summary><![CDATA[DictationTopicConstraint enum 指定特定听写识别器应针对其进行优化的场景。]]></summary>
+      </member>
+      <member id="Playables.DirectorUpdateMode">
+        <name>DirectorUpdateMode</name>
+        <summary><![CDATA[定义用于更新 Director 图的时间源。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.DrawRendererFlags">
+        <name>DrawRendererFlags</name>
+        <summary><![CDATA[用于控制 ]]><![CDATA[RenderLoop.DrawRenderers]]><![CDATA[ 的标志。]]></summary>
+      </member>
+      <member id="DrivenTransformProperties">
+        <name>DrivenTransformProperties</name>
+        <summary><![CDATA[变换组件属性的枚举，这些属性可在 RectTransform 上由对象加以驱动。]]></summary>
+      </member>
+      <member id="Unity.Collections.LowLevel.Unsafe.EnforceJobResult">
+        <name>EnforceJobResult</name>
+        <summary><![CDATA[EnforceJobResult。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.FalloffType">
+        <name>FalloffType</name>
+        <summary><![CDATA[可用烘焙衰减模型。]]></summary>
+      </member>
+      <member id="FilterMode">
+        <name>FilterMode</name>
+        <summary><![CDATA[纹理的过滤模式。与]]><link ref="../Manual/Textures">texture inspector</link><![CDATA[中的设置相对应。]]></summary>
+      </member>
+      <member id="FogMode">
+        <name>FogMode</name>
+        <summary><![CDATA[要使用的雾模式。]]></summary>
+      </member>
+      <member id="WSA.Folder">
+        <name>Folder</name>
+        <summary><![CDATA[Windows 应用商店应用程序中可访问文件夹的列表。]]></summary>
+      </member>
+      <member id="FullScreenMode">
+        <name>FullScreenMode</name>
+        <summary><![CDATA[与平台无关的全屏模式。并不是所有平台都支持所有模式。]]></summary>
+      </member>
+      <member id="FullScreenMovieControlMode">
+        <name>FullScreenMovieControlMode</name>
+        <summary><![CDATA[描述用于显示电影播放控件的选项。]]></summary>
+      </member>
+      <member id="FullScreenMovieScalingMode">
+        <name>FullScreenMovieScalingMode</name>
+        <summary><![CDATA[描述用于显示电影的缩放模式。]]></summary>
+      </member>
+      <member id="GradientMode">
+        <name>GradientMode</name>
+        <summary><![CDATA[选择计算渐变的方式。]]></summary>
+      </member>
+      <member id="Rendering.GraphicsDeviceType">
+        <name>GraphicsDeviceType</name>
+        <summary><![CDATA[图形设备 API 类型。]]></summary>
+      </member>
+      <member id="Rendering.GraphicsTier">
+        <name>GraphicsTier</name>
+        <summary><![CDATA[Graphics Tier。
+另请参阅：]]><link ref="Graphics-activeTier">Graphics.activeTier</link><![CDATA[。]]></summary>
+      </member>
+      <member id="HideFlags">
+        <name>HideFlags</name>
+        <summary><![CDATA[位掩码，用于控制对象的销毁、保存和在 Inspector 中的可见性。]]></summary>
+      </member>
+      <member id="IMECompositionMode">
+        <name>IMECompositionMode</name>
+        <summary><![CDATA[控制 IME 输入。]]></summary>
+      </member>
+      <member id="Rendering.IndexFormat">
+        <name>IndexFormat</name>
+        <summary><![CDATA[网格索引缓冲区数据的格式。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.JobType">
+        <name>JobType</name>
+        <summary><![CDATA[确定作业的用途（ParallelFor 或单个作业）。]]></summary>
+      </member>
+      <member id="KeyCode">
+        <name>KeyCode</name>
+        <summary><![CDATA[Event.keyCode 返回的键代码。这些代码直接映射到键盘上的物理键。]]></summary>
+      </member>
+      <member id="Rendering.LightEvent">
+        <name>LightEvent</name>
+        <summary><![CDATA[在光源的渲染中定义一个用来附加 ]]><link ref="Rendering.CommandBuffer">CommandBuffer</link><![CDATA[ 对象的位置。]]></summary>
+      </member>
+      <member id="LightmapBakeType">
+        <name>LightmapBakeType</name>
+        <summary><![CDATA[枚举，描述可以对光贡献的哪个部分进行烘焙。]]></summary>
+      </member>
+      <member id="LightmapsMode">
+        <name>LightmapsMode</name>
+        <summary><![CDATA[光照贴图（和光照）配置模式，控制光照贴图如何与光照交互以及它们存储的信息类型。]]></summary>
+      </member>
+      <member id="LightmapsModeLegacy">
+        <name>LightmapsModeLegacy</name>
+        <summary><![CDATA[单、双或方向光照贴图渲染模式，仅在 GIWorkflowMode.Legacy 中使用]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.LightMode">
+        <name>LightMode</name>
+        <summary><![CDATA[光照模式。光源可以为 Realtime、Mixed、Baked 或 Unknown。烘焙后端会忽略 Unknown 光源。]]></summary>
+      </member>
+      <member id="Rendering.LightProbeUsage">
+        <name>LightProbeUsage</name>
+        <summary><![CDATA[光照探针插值类型。]]></summary>
+      </member>
+      <member id="LightRenderMode">
+        <name>LightRenderMode</name>
+        <summary><![CDATA[如何渲染 ]]><link ref="Light">Light</link><![CDATA[。]]></summary>
+      </member>
+      <member id="Rendering.LightShadowResolution">
+        <name>LightShadowResolution</name>
+        <summary>
+          <link ref="Light">Light</link><![CDATA[ 的阴影分辨率选项。]]></summary>
+      </member>
+      <member id="LightShadows">
+        <name>LightShadows</name>
+        <summary>
+          <link ref="Light">Light</link><![CDATA[ 的阴影投射选项。]]></summary>
+      </member>
+      <member id="LightType">
+        <name>LightType</name>
+        <summary>
+          <link ref="Light">Light</link><![CDATA[ 的类型。]]></summary>
+      </member>
+      <member id="Experimental.GlobalIllumination.LightType">
+        <name>LightType</name>
+        <summary><![CDATA[光源类型。]]></summary>
+      </member>
+      <member id="LineAlignment">
+        <name>LineAlignment</name>
+        <summary><![CDATA[在使用 ]]><link ref="LineRenderer">LineRenderer</link><![CDATA[ 或 ]]><link ref="TrailRenderer">TrailRenderer</link><![CDATA[ 时控制线朝向的方向。]]></summary>
+      </member>
+      <member id="LineTextureMode">
+        <name>LineTextureMode</name>
+        <summary><![CDATA[控制如何将纹理应用于线和轨迹。]]></summary>
+      </member>
+      <member id="SceneManagement.LoadSceneMode">
+        <name>LoadSceneMode</name>
+        <summary><![CDATA[在播放器中加载场景时使用。]]></summary>
+      </member>
+      <member id="LocationServiceStatus">
+        <name>LocationServiceStatus</name>
+        <summary><![CDATA[描述位置服务状态。]]></summary>
+      </member>
+      <member id="LODFadeMode">
+        <name>LODFadeMode</name>
+        <summary><![CDATA[LOD 淡化模式。]]><link ref="LODFadeMode.None">LODFadeMode.None</link><![CDATA[ 以外的模式会使 Unity 计算用于在两个相邻 LOD 之间进行混合/插值的混合系数，并将它传递给着色器。]]></summary>
+      </member>
+      <member id="LogType">
+        <name>LogType</name>
+        <summary><![CDATA[Debug.unityLogger.Log 中或是使用 Application.RegisterLogCallback 注册的委托中的日志消息类型。]]></summary>
+      </member>
+      <member id="MasterServerEvent">
+        <name>MasterServerEvent</name>
+        <summary><![CDATA[描述在 ]]><link ref="MonoBehaviour.OnMasterServerEvent">OnMasterServerEvent</link><![CDATA[ 中从主服务器返回的状态消息。]]></summary>
+      </member>
+      <member id="MaterialGlobalIlluminationFlags">
+        <name>MaterialGlobalIlluminationFlags</name>
+        <summary><![CDATA[材质与光照贴图和光照探针的交互方式。]]></summary>
+      </member>
+      <member id="MeshTopology">
+        <name>MeshTopology</name>
+        <summary>
+          <link ref="Mesh">Mesh</link><![CDATA[ 面的拓扑。]]></summary>
+      </member>
+      <member id="MixedLightingMode">
+        <name>MixedLightingMode</name>
+        <summary><![CDATA[描述用于混合光源的光照模式的枚举。]]></summary>
+      </member>
+      <member id="MotionVectorGenerationMode">
+        <name>MotionVectorGenerationMode</name>
+        <summary><![CDATA[应生成的运动矢量的类型。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeArrayOptions">
+        <name>NativeArrayOptions</name>
+        <summary><![CDATA[借助 NativeArrayOptions，您可以控制内存是应该在分配时清除还是保留未初始化。]]></summary>
+      </member>
+      <member id="Unity.Collections.NativeLeakDetectionMode">
+        <name>NativeLeakDetectionMode</name>
+        <summary><![CDATA[本机内存泄漏检测模式枚举。]]></summary>
+      </member>
+      <member id="NetworkConnectionError">
+        <name>NetworkConnectionError</name>
+        <summary><![CDATA[Network.Connect 和在 ]]><link ref="MonoBehaviour.OnFailedToConnect">OnFailedToConnect</link><![CDATA[ 中返回的可能的状态消息（如果不是直接错误）。]]></summary>
+      </member>
+      <member id="NetworkDisconnection">
+        <name>NetworkDisconnection</name>
+        <summary><![CDATA[出现断开连接事件的原因，如 ]]><link ref="MonoBehaviour.OnDisconnectedFromServer">OnDisconnectedFromServer</link><![CDATA[ 中所述。]]></summary>
+      </member>
+      <member id="NetworkLogLevel">
+        <name>NetworkLogLevel</name>
+        <summary><![CDATA[描述网络层支持的日志信息的不同级别。]]></summary>
+      </member>
+      <member id="NetworkPeerType">
+        <name>NetworkPeerType</name>
+        <summary><![CDATA[描述 Network.peerType 返回的网络接口对等方类型的状态。]]></summary>
+      </member>
+      <member id="NetworkReachability">
+        <name>NetworkReachability</name>
+        <summary><![CDATA[描述网络可访问性选项。]]></summary>
+      </member>
+      <member id="NetworkStateSynchronization">
+        <name>NetworkStateSynchronization</name>
+        <summary><![CDATA[NetworkView]]><![CDATA[ 组件同步的不同类型。]]></summary>
+      </member>
+      <member id="iOS.NotificationType">
+        <name>NotificationType</name>
+        <summary><![CDATA[指定本地通知和远程通知的类型。]]></summary>
+      </member>
+      <member id="NPOTSupport">
+        <name>NPOTSupport</name>
+        <summary><![CDATA[NPOT ]]><link ref="Texture2D">textures</link><![CDATA[ 支持。]]></summary>
+      </member>
+      <member id="Rendering.OpaqueSortMode">
+        <name>OpaqueSortMode</name>
+        <summary>
+          <link ref="Camera">Camera</link><![CDATA[ 的不透明对象排序模式。]]></summary>
+      </member>
+      <member id="OperatingSystemFamily">
+        <name>OperatingSystemFamily</name>
+        <summary>
+          <link ref="SystemInfo-operatingSystemFamily">SystemInfo.operatingSystemFamily</link><![CDATA[ 的枚举。]]></summary>
+      </member>
+      <member id="Rendering.PassType">
+        <name>PassType</name>
+        <summary><![CDATA[Unity 光照管线的着色器通道类型。]]></summary>
+      </member>
+      <member id="Events.PersistentListenerMode">
+        <name>PersistentListenerMode</name>
+        <summary><![CDATA[监听器目前的运行模式。]]></summary>
+      </member>
+      <member id="Playables.PlayState">
+        <name>PlayState</name>
+        <summary>
+          <link ref="Playables.Playable">Playable</link><![CDATA[ 的状态。]]></summary>
+      </member>
+      <member id="PrimitiveType">
+        <name>PrimitiveType</name>
+        <summary><![CDATA[可以使用 ]]><link ref="GameObject.CreatePrimitive">GameObject.CreatePrimitive</link><![CDATA[ 函数创建的各种图元。]]></summary>
+      </member>
+      <member id="Rendering.RealtimeGICPUUsage">
+        <name>RealtimeGICPUUsage</name>
+        <summary><![CDATA[在运行时为最终光照计算分配多少 CPU 使用率。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionCubemapCompression">
+        <name>ReflectionCubemapCompression</name>
+        <summary><![CDATA[确定 Unity 将如何压缩烘焙反射立方体贴图。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionProbeClearFlags">
+        <name>ReflectionProbeClearFlags</name>
+        <summary><![CDATA[ReflectionProbe.clearFlags 的值，确定在渲染 ]]><link ref="ReflectionProbe">ReflectionProbe</link><![CDATA[ 时要清除的内容。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionProbeMode">
+        <name>ReflectionProbeMode</name>
+        <summary><![CDATA[反射探针的更新模式。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionProbeRefreshMode">
+        <name>ReflectionProbeRefreshMode</name>
+        <summary><![CDATA[枚举，描述 Player 中的实时反射探针刷新方式。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.ReflectionProbeSortOptions">
+        <name>ReflectionProbeSortOptions</name>
+        <summary><![CDATA[可见反射探针排序选项。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionProbeTimeSlicingMode">
+        <name>ReflectionProbeTimeSlicingMode</name>
+        <summary><![CDATA[当探针的 ]]><link ref="ReflectionProbe-refreshMode">ReflectionProbe.refreshMode</link><![CDATA[ 设置为 ]]><link ref="Rendering.ReflectionProbeRefreshMode.EveryFrame">ReflectionProbeRefreshMode.EveryFrame</link><![CDATA[ 时，此枚举指定 Unity 是应多帧更新探针的立方体贴图还是在一帧更新整个立方体贴图。
+更新探针的立方体贴图是一项高成本的操作。Unity 需要为立方体贴图的每个图面渲染整个场景，并执行特殊的模糊处理以便获得光泽反射。对帧率的影响非常明显。在这些更新期间，时间切片执行多帧渲染，有助于保持帧率更加一致。]]></summary>
+      </member>
+      <member id="Rendering.ReflectionProbeUsage">
+        <name>ReflectionProbeUsage</name>
+        <summary><![CDATA[反射探针用法。]]></summary>
+      </member>
+      <member id="Rendering.RenderBufferLoadAction">
+        <name>RenderBufferLoadAction</name>
+        <summary><![CDATA[此枚举描述在渲染目标激活（加载）时应对其执行的操作。]]></summary>
+      </member>
+      <member id="Rendering.RenderBufferStoreAction">
+        <name>RenderBufferStoreAction</name>
+        <summary><![CDATA[此枚举描述在 GPU 渲染到渲染目标中后应对渲染目标执行的操作。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RendererConfiguration">
+        <name>RendererConfiguration</name>
+        <summary><![CDATA[要在渲染期间设置的每对象数据的类型。]]></summary>
+      </member>
+      <member id="RenderingPath">
+        <name>RenderingPath</name>
+        <summary>
+          <link ref="Camera">Camera</link><![CDATA[ 的渲染路径。]]></summary>
+      </member>
+      <member id="Rendering.RenderQueue">
+        <name>RenderQueue</name>
+        <summary><![CDATA[确定对象的渲染顺序。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.RenderStateMask">
+        <name>RenderStateMask</name>
+        <summary><![CDATA[指定已重载的渲染状态的部分。]]></summary>
+      </member>
+      <member id="RenderTextureCreationFlags">
+        <name>RenderTextureCreationFlags</name>
+        <summary><![CDATA[标志设置，这些标志控制新创建的 RenderTexture 的状态。]]></summary>
+      </member>
+      <member id="RenderTextureFormat">
+        <name>RenderTextureFormat</name>
+        <summary>
+          <link ref="RenderTexture">RenderTexture</link><![CDATA[ 的格式。]]></summary>
+      </member>
+      <member id="RenderTextureMemoryless">
+        <name>RenderTextureMemoryless</name>
+        <summary><![CDATA[渲染纹理无记忆模式的标志枚举。]]></summary>
+      </member>
+      <member id="RenderTextureReadWrite">
+        <name>RenderTextureReadWrite</name>
+        <summary>
+          <link ref="RenderTexture">RenderTexture</link><![CDATA[ 的颜色空间转换模式。]]></summary>
+      </member>
+      <member id="RPCMode">
+        <name>RPCMode</name>
+        <summary><![CDATA[RPC]]><![CDATA[ 接收方的选项，由 NetworkView.RPC 使用。]]></summary>
+      </member>
+      <member id="RuntimeInitializeLoadType">
+        <name>RuntimeInitializeLoadType</name>
+        <summary><![CDATA[设置 RuntimeInitializeOnLoadMethod 类型。]]></summary>
+      </member>
+      <member id="RuntimePlatform">
+        <name>RuntimePlatform</name>
+        <summary><![CDATA[正在运行的平台应用程序。由 Application.platform 返回。]]></summary>
+      </member>
+      <member id="Unity.Jobs.LowLevel.Unsafe.ScheduleMode">
+        <name>ScheduleMode</name>
+        <summary><![CDATA[用于调度管理作业的 ScheduleMode 选项。]]></summary>
+      </member>
+      <member id="ScreenOrientation">
+        <name>ScreenOrientation</name>
+        <summary><![CDATA[描述屏幕方向。]]></summary>
+      </member>
+      <member id="SendMessageOptions">
+        <name>SendMessageOptions</name>
+        <summary><![CDATA[消息发送方式选项。]]></summary>
+      </member>
+      <member id="Rendering.ShadowCastingMode">
+        <name>ShadowCastingMode</name>
+        <summary><![CDATA[如何从此对象投射阴影。]]></summary>
+      </member>
+      <member id="Rendering.ShadowMapPass">
+        <name>ShadowMapPass</name>
+        <summary><![CDATA[用于精确控制哪些阴影贴图通道来执行使用 ]]><link ref="Light.AddCommandBuffer">Light.AddCommandBuffer</link><![CDATA[ 附加的 ]]><link ref="Rendering.CommandBuffer">CommandBuffer</link><![CDATA[ 对象。]]></summary>
+      </member>
+      <member id="ShadowmaskMode">
+        <name>ShadowmaskMode</name>
+        <summary><![CDATA[阴影遮罩的渲染模式。]]></summary>
+      </member>
+      <member id="ShadowProjection">
+        <name>ShadowProjection</name>
+        <summary>
+          <link ref="../Manual/class-QualitySettings">Quality Settings</link><![CDATA[ 的阴影投射类型。]]></summary>
+      </member>
+      <member id="ShadowQuality">
+        <name>ShadowQuality</name>
+        <summary><![CDATA[确定应该使用的阴影类型。]]></summary>
+      </member>
+      <member id="ShadowResolution">
+        <name>ShadowResolution</name>
+        <summary><![CDATA[默认阴影分辨率。]]></summary>
+      </member>
+      <member id="Rendering.ShadowSamplingMode">
+        <name>ShadowSamplingMode</name>
+        <summary><![CDATA[由 ]]><link ref="Rendering.CommandBuffer.SetShadowSamplingMode">CommandBuffer.SetShadowSamplingMode</link><![CDATA[ 使用。]]></summary>
+      </member>
+      <member id="SkinQuality">
+        <name>SkinQuality</name>
+        <summary><![CDATA[影响单个顶点的最大骨骼数。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.SortFlags">
+        <name>SortFlags</name>
+        <summary><![CDATA[如何在渲染期间对对象进行排序。]]></summary>
+      </member>
+      <member id="Space">
+        <name>Space</name>
+        <summary><![CDATA[运行时所在的坐标空间。]]></summary>
+      </member>
+      <member id="Windows.Speech.SpeechError">
+        <name>SpeechError</name>
+        <summary><![CDATA[表示语音识别系统中出现错误。]]></summary>
+      </member>
+      <member id="Windows.Speech.SpeechSystemStatus">
+        <name>SpeechSystemStatus</name>
+        <summary><![CDATA[表示语音识别系统或听写识别器的当前状态。]]></summary>
+      </member>
+      <member id="SpriteAlignment">
+        <name>SpriteAlignment</name>
+        <summary><![CDATA[如何将精灵的图形矩形与其轴心点对齐。]]></summary>
+      </member>
+      <member id="SpriteDrawMode">
+        <name>SpriteDrawMode</name>
+        <summary>
+          <link ref="SpriteRenderer">SpriteRenderer</link><![CDATA[ 绘制模式。]]></summary>
+      </member>
+      <member id="SpriteMaskInteraction">
+        <name>SpriteMaskInteraction</name>
+        <summary><![CDATA[此枚举控制精灵与遮罩系统交互时所处的模式。]]></summary>
+      </member>
+      <member id="SpriteMeshType">
+        <name>SpriteMeshType</name>
+        <summary><![CDATA[定义为精灵生成的网格类型。]]></summary>
+      </member>
+      <member id="SpritePackingMode">
+        <name>SpritePackingMode</name>
+        <summary><![CDATA[Sprite Packer 的精灵打包模式。]]></summary>
+      </member>
+      <member id="SpritePackingRotation">
+        <name>SpritePackingRotation</name>
+        <summary><![CDATA[Sprite Packer 的精灵旋转模式。]]></summary>
+      </member>
+      <member id="SpriteTileMode">
+        <name>SpriteTileMode</name>
+        <summary>
+          <link ref="SpriteRenderer-tileMode">SpriteRenderer.tileMode</link><![CDATA[ 的平铺模式。]]></summary>
+      </member>
+      <member id="StackTraceLogType">
+        <name>StackTraceLogType</name>
+        <summary><![CDATA[堆栈跟踪日志记录选项。]]></summary>
+      </member>
+      <member id="Rendering.StencilOp">
+        <name>StencilOp</name>
+        <summary><![CDATA[指定在渲染时对模板缓冲区执行的操作。]]></summary>
+      </member>
+      <member id="StereoTargetEyeMask">
+        <name>StereoTargetEyeMask</name>
+        <summary><![CDATA[摄像机的 targetEye 属性的枚举值。]]></summary>
+      </member>
+      <member id="Rendering.SynchronisationStage">
+        <name>SynchronisationStage</name>
+        <summary><![CDATA[概括描述在 GPU 上处理绘制调用的阶段。]]></summary>
+      </member>
+      <member id="iOS.SystemGestureDeferMode">
+        <name>SystemGestureDeferMode</name>
+        <summary><![CDATA[用于控制 iOS 上系统手势延迟的位掩码。]]></summary>
+      </member>
+      <member id="SystemLanguage">
+        <name>SystemLanguage</name>
+        <summary><![CDATA[用户操作系统运行时所使用的语言。由 Application.systemLanguage 返回。]]></summary>
+      </member>
+      <member id="TextureCompressionQuality">
+        <name>TextureCompressionQuality</name>
+        <summary><![CDATA[压缩品质。]]></summary>
+      </member>
+      <member id="Rendering.TextureDimension">
+        <name>TextureDimension</name>
+        <summary><![CDATA[纹理“尺寸”（类型）。]]></summary>
+      </member>
+      <member id="TextureFormat">
+        <name>TextureFormat</name>
+        <summary><![CDATA[通过脚本创建纹理时使用的格式。]]></summary>
+      </member>
+      <member id="TextureWrapMode">
+        <name>TextureWrapMode</name>
+        <summary><![CDATA[纹理的换行模式。]]></summary>
+      </member>
+      <member id="ThreadPriority">
+        <name>ThreadPriority</name>
+        <summary><![CDATA[线程的优先级。]]></summary>
+      </member>
+      <member id="WSA.TileForegroundText">
+        <name>TileForegroundText</name>
+        <summary><![CDATA[辅助瓦片上前景文本的样式。]]></summary>
+      </member>
+      <member id="WSA.TileTemplate">
+        <name>TileTemplate</name>
+        <summary><![CDATA[各种瓦片样式的模板。
+]]></summary>
+      </member>
+      <member id="TizenActivityIndicatorStyle">
+        <name>TizenActivityIndicatorStyle</name>
+        <summary><![CDATA[在加载时游戏可显示的不同活动指示器的枚举器列表。]]></summary>
+      </member>
+      <member id="WSA.ToastTemplate">
+        <name>ToastTemplate</name>
+        <summary><![CDATA[各种 Toast 样式的模板。
+]]></summary>
+      </member>
+      <member id="TouchPhase">
+        <name>TouchPhase</name>
+        <summary><![CDATA[描述手指触摸的阶段。]]></summary>
+      </member>
+      <member id="TouchScreenKeyboardType">
+        <name>TouchScreenKeyboardType</name>
+        <summary><![CDATA[支持的不同触摸屏幕键盘类型枚举。]]></summary>
+      </member>
+      <member id="TouchType">
+        <name>TouchType</name>
+        <summary><![CDATA[描述触摸是直接、间接（或远程）还是来自触笔。]]></summary>
+      </member>
+      <member id="TransparencySortMode">
+        <name>TransparencySortMode</name>
+        <summary>
+          <link ref="Camera">Camera</link><![CDATA[ 的透明对象排序模式。]]></summary>
+      </member>
+      <member id="Events.UnityEventCallState">
+        <name>UnityEventCallState</name>
+        <summary><![CDATA[控制 UnityEvent 回调的范围。]]></summary>
+      </member>
+      <member id="UserAuthorization">
+        <name>UserAuthorization</name>
+        <summary><![CDATA[要传递给 ]]><link ref="Application.RequestUserAuthorization">Application.RequestUserAuthorization</link><![CDATA[ 的常量。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.VertexAttribute">
+        <name>VertexAttribute</name>
+        <summary><![CDATA[用于描述网格中顶点的数据通道列表。]]></summary>
+      </member>
+      <member id="Experimental.Rendering.VisibleLightFlags">
+        <name>VisibleLightFlags</name>
+        <summary>
+          <link ref="Experimental.Rendering.VisibleLight">VisibleLight</link><![CDATA[ 的标志。]]></summary>
+      </member>
+      <member id="VRTextureUsage">
+        <name>VRTextureUsage</name>
+        <summary><![CDATA[此枚举描述如何将 ]]><link ref="RenderTexture">RenderTexture</link><![CDATA[ 用作 VR 眼睛纹理。不必手动使用此枚举的值，它会使用 ]]><link ref="XR.XRSettings-eyeTextureDesc">eyeTextureDesc</link><![CDATA[ 或其他返回 ]]><link ref="RenderTextureDescriptor">RenderTextureDescriptor</link><![CDATA[ 的 VR 函数返回的值。]]></summary>
+      </member>
+      <member id="WeightedMode">
+        <name>WeightedMode</name>
+        <summary><![CDATA[设置计算曲线细分段时要使用的权重。]]></summary>
+      </member>
+      <member id="WSA.WindowActivationState">
+        <name>WindowActivationState</name>
+        <summary><![CDATA[指定引发 windowActivated 事件的一系列原因。]]></summary>
+      </member>
+      <member id="WrapMode">
+        <name>WrapMode</name>
+        <summary><![CDATA[确定在 ]]><link ref="AnimationClip">AnimationClip</link><![CDATA[ 或 ]]><link ref="AnimationCurve">AnimationCurve</link><![CDATA[ 的关键帧范围外如何处理时间。]]></summary>
+      </member>
+    </Enumerations>
+    <Section>
+      <Signature>
+        <Declaration name="UnityEngine.CoreModule" type="" modifiers="public" Obsolete="" />
+        <ReturnType />
+      </Signature>
+      <Summary><![CDATA[Core 模块实现了 Unity 正常运行所需的基本类。]]></Summary>
+      <Description><![CDATA[此模块不能禁用。]]></Description>
+    </Section>
+  </Model>
+</Root>

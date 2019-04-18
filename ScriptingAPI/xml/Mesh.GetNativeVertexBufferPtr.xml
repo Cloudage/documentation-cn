@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root LongForm="false">
+  <vars>
+    <docs_type>ScriptReference</docs_type>
+    <lang>zh_CN</lang>
+    <unity_version>2018.1</unity_version>
+    <current_docs_url>https://docs.unity3d.com/zh_CN/2018.1/</current_docs_url>
+    <docs_versions>
+      <docs_version version="2019.1">2019.1</docs_version>
+      <docs_version version="2018.3">2018.3</docs_version>
+      <docs_version version="2018.2">2018.2</docs_version>
+      <docs_version version="2018.1">2018.1</docs_version>
+      <docs_version version="2017.4">2017.4</docs_version>
+      <docs_version version="2017.3">2017.3</docs_version>
+      <docs_version version="2017.2">2017.2</docs_version>
+      <docs_version version="2017.1">2017.1</docs_version>
+      <docs_version version="5.6">560</docs_version>
+      <docs_version version="5.5">550</docs_version>
+      <docs_version version="5.4">540</docs_version>
+      <docs_version version="5.3">530</docs_version>
+    </docs_versions>
+    <langname>中文</langname>
+    <unity_url>https://unity3d.com/</unity_url>
+    <current_docs_version version="2018.1">2018.1</current_docs_version>
+    <jquery_js_url>../StaticFiles/js/jquery.js</jquery_js_url>
+    <jquery_sidebar_url>../StaticFiles/js/jquery.sidebar.min.js</jquery_sidebar_url>
+    <custom_js_url>../StaticFiles/js/custom.js</custom_js_url>
+    <core_js_url>../StaticFiles/js/core.js</core_js_url>
+    <core_css_url>../StaticFiles/css/core.css</core_css_url>
+    <custom_css_url>../StaticFiles/css/custom.css</custom_css_url>
+    <toc_js_url>docdata/toc.js</toc_js_url>
+    <index_js_url>docdata/index.js</index_js_url>
+    <langs>
+      <lang locale="en">English</lang>
+      <lang locale="ja">日本語</lang>
+      <lang locale="es">Español</lang>
+      <lang locale="kr">한국어</lang>
+    </langs>
+    <translation>
+      <unity_tech>Unity Technologies</unity_tech>
+      <unity_url>https://unity3d.com/</unity_url>
+      <manual>Manual</manual>
+      <scripting_api>Scripting API</scripting_api>
+      <learn>Learn</learn>
+      <learn_url>https://unity3d.com/learn</learn_url>
+      <tutorials>Tutorials</tutorials>
+      <tutorials_url>https://unity3d.com/learn</tutorials_url>
+      <knowledgebase>Knowledge Base</knowledgebase>
+      <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+      <live_training>Live Training</live_training>
+      <premium_support>Premium Support</premium_support>
+      <community>Community</community>
+      <community_url>https://unity3d.com/community</community_url>
+      <community_answers>Community Answers</community_answers>
+      <community_answers_url>https://answers.unity3d.com</community_answers_url>
+      <forums>Forums</forums>
+      <forums_url>https://forum.unity3d.com</forums_url>
+      <answers>Answers</answers>
+      <feedback>Feedback</feedback>
+      <issuetracker>Issue Tracker</issuetracker>
+      <unity_manual>Unity Manual</unity_manual>
+      <unity_dash_manual>Unity - Manual</unity_dash_manual>
+      <full_table_of_contents>Full table of contents</full_table_of_contents>
+      <copyright>Copyright © 2018 Unity Technologies</copyright>
+      <unity>Unity</unity>
+      <gallery>Gallery</gallery>
+      <asset_store>Asset Store</asset_store>
+      <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+      <buy>Buy</buy>
+      <buy_url>https://store.unity3d.com</buy_url>
+      <download>Download</download>
+      <download_url>https://unity3d.com/unity/download</download_url>
+      <language>Language</language>
+      <previous>Previous</previous>
+      <next>Next</next>
+      <switch_to_manual>Switch to Manual</switch_to_manual>
+      <switch_to_scriptref>Switch to Scripting Reference</switch_to_scriptref>
+      <docs_url>https://docs.unity3d.com</docs_url>
+      <help_trans>Help translating this page</help_trans>
+      <search_placeholder>Search manual...</search_placeholder>
+      <search_scripting_placeholder>Search scripting...</search_scripting_placeholder>
+      <script_language>Script language</script_language>
+      <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+      <history>History</history>
+      <inherits_from>Inherits from:</inherits_from>
+      <implements_interfaces>Implements interfaces:</implements_interfaces>
+      <suggest_a_change>Suggest a change</suggest_a_change>
+      <suggest_success>Success!</suggest_success>
+      <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+      <suggest_clone>Close</suggest_clone>
+      <suggest_failed>Sumbission failed</suggest_failed>
+      <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+      <suggest_name>Your name</suggest_name>
+      <suggest_email>Your email</suggest_email>
+      <suggest_body>Suggestion</suggest_body>
+      <suggest_submit>Submit suggestion</suggest_submit>
+      <suggest_cancel>Cancel</suggest_cancel>
+      <parameters>Parameters</parameters>
+      <returns>Returns</returns>
+      <description>Description</description>
+      <static_variables>Static Variables</static_variables>
+      <variables>Variables</variables>
+      <constructors>Constructors</constructors>
+      <public_functions>Public Functions</public_functions>
+      <protected_functions>Protected Functions</protected_functions>
+      <static_functions>Static Functions</static_functions>
+      <operators>Operators</operators>
+      <messages>Messages</messages>
+      <delegates>Delegates</delegates>
+      <events>Events</events>
+      <inherited_members>Inherited members</inherited_members>
+      <intro>欢迎使用 Unity Scripting Reference（脚本引用）！</intro>
+      <intro_body_1>文档的这部分包含 Unity 提供的脚本 API 的详细信息。要使用这些信息，您应该了解 Unity 中脚本编写的基本理论和实践。我们使用手册的&lt;a href="../Manual/ScriptingSection.html"&gt; Scripting（脚本）部分&lt;/a&gt;对此进行了解释。</intro_body_1>
+      <intro_body_2>脚本引用文档是根据脚本可用的类建立的，同时会描述这些类的方法、属性以及任何与它们的用法相关的信息。</intro_body_2>
+      <intro_body_3>这些页面配有大量的示例代码，您可以将这些示例代码用于任何目的，而无需说明源自 Unity。此外，您可以使用每个页面顶部的菜单以 &lt;b&gt;C#&lt;/b&gt; 或 &lt;b&gt;JavaScript&lt;/b&gt; 查看示例代码。请注意，无论使用哪种编程语言，API 都是相同的，所以编程语言的选择完全取决于您的喜好。</intro_body_3>
+      <intro_body_4>API 按其所属的 namespace 进行分组，可以从左侧的侧栏中选择。对于大多数用户，&lt;b&gt;UnityEngine&lt;/b&gt; 部分将是主要的调用端口。</intro_body_4>
+      <classes>Classes</classes>
+      <enumerations>Enumerations</enumerations>
+      <attributes>Attributes</attributes>
+      <api_histroy>API History</api_histroy>
+      <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+      <api_histroy_name>Name</api_histroy_name>
+      <api_histroy_type>Type</api_histroy_type>
+      <api_histroy_namespace>Namespace</api_histroy_namespace>
+      <api_histroy_status>Status</api_histroy_status>
+      <api_histroy_version>Version</api_histroy_version>
+      <api_histroy_added>added</api_histroy_added>
+      <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+      <api_histroy_removed>removed</api_histroy_removed>
+      <known_issues>
+        <p>这里描述的内容与实际不符？它可能是<b>已知问题</b>。请在 Issue Tracker（<a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>）中查看。</p>
+      </known_issues>
+      <rate_content>这个页面中的信息对您有帮助吗？请为它打分：</rate_content>
+      <rate_thanks>Thanks for rating this page!</rate_thanks>
+      <report_problem>报告此页面中的问题</report_problem>
+      <problem_type>What kind of problem would you like to report?</problem_type>
+      <problem_needcode>This page needs code samples</problem_needcode>
+      <problem_code>Code samples do not work</problem_code>
+      <problem_missing>Information is missing</problem_missing>
+      <problem_incorrect>Information is incorrect</problem_incorrect>
+      <problem_unclear>Information is unclear or confusing</problem_unclear>
+      <problem_language>There is a spelling/grammar error on this page</problem_language>
+      <problem_other>Something else</problem_other>
+      <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+      <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+      <problem_more_info_link>Provide more information</problem_more_info_link>
+      <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+      <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+      <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+      <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+      <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+      <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+      <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+      <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+      <leave_feedback>Leave feedback</leave_feedback>
+    </translation>
+  </vars>
+  <Model>
+    <ParentClass>Mesh</ParentClass>
+    <Section>
+      <Signature>
+        <Declaration name="GetNativeVertexBufferPtr" type="function" modifiers="public" Obsolete="" />
+        <ParamElement name="index" type="int" />
+        <ReturnType>IntPtr</ReturnType>
+      </Signature>
+      <Summary><![CDATA[检索指向顶点缓冲区的原生（底层图形 API）指针。]]></Summary>
+      <ParamWithDoc>
+        <name>bufferIndex</name>
+        <doc><![CDATA[要获取的顶点缓冲区（某些网格可能有多个）。请参阅 ]]><link ref="Mesh-vertexBufferCount">vertexBufferCount</link><![CDATA[。]]></doc>
+      </ParamWithDoc>
+      <ParamWithDoc>
+        <name>index</name>
+        <doc><![CDATA[]]></doc>
+      </ParamWithDoc>
+      <ReturnWithDoc type="IntPtr">
+        <doc><![CDATA[指向底层图形 API 顶点缓冲区的指针。]]></doc>
+      </ReturnWithDoc>
+      <Description><![CDATA[使用此函数可检索与网格顶点缓冲区对应的指针/句柄，
+因为它以原生图形 API 表示。这可以用于通过
+]]><link ref="../Manual/NativePluginInterface">本机代码插件</link><![CDATA[启用网格操作。]]><br /><br /><![CDATA[大多数网格只包含一个顶点缓冲区，但是某些网格（如某些平台上的蒙皮网格）
+可能包含多个缓冲区。使用 ]]><link ref="Mesh-vertexBufferCount">vertexBufferCount</link><![CDATA[ 可查询顶点缓冲区计数。]]><br /><br /><![CDATA[顶点缓冲区的数据布局通常取决于一些因素，特别是对于
+经过压缩（请参阅 ]]><b>Player Settings</b><![CDATA[ > ]]><b>Mesh Compression Settings</b><![CDATA[）并且标记为不可读的网格。
+对于简单情况，布局通常如下所示：]]><br /><br /><monotype>float3 position</monotype><![CDATA[ (12 bytes) ]]><br /><![CDATA[
+]]><monotype>float3 normal</monotype><![CDATA[ (12 bytes) ]]><br /><![CDATA[
+]]><monotype>byte4 color32</monotype><![CDATA[ (4 bytes) or ]]><monotype>float4 color</monotype><![CDATA[ (16 bytes) ]]><br /><![CDATA[
+]]><monotype>float2|float3|float4 uv</monotype><![CDATA[ (8, 12 or 16 bytes) ]]><br /><![CDATA[
+]]><monotype>float2|float3|float4 uv2</monotype><![CDATA[ (8, 12 or 16 bytes) ]]><br /><![CDATA[
+]]><monotype>float2|float3|float4 uv3</monotype><![CDATA[ (8, 12 or 16 bytes) ]]><br /><![CDATA[
+]]><monotype>float2|float3|float4 uv4</monotype><![CDATA[ (8, 12 or 16 bytes) ]]><br /><![CDATA[
+]]><monotype>float4 tangent</monotype><![CDATA[ (16 bytes)]]><br /><br /><![CDATA[所有顶点组件都是可选的，例如一个网格可能只包含位置 + 法线 + 一个 2D 纹理坐标。
+在这种情况下，缓冲区中的顶点数据大小会是 12+12+8=32 字节。]]><br /><br /><![CDATA[返回的数据类型取决于底层图形 API：]]><br /><![CDATA[
+- D3D9 上的 IDirect3DIndexBuffer9]]><br /><![CDATA[
+- D3D11 上的 ID3D11Buffer]]><br /><![CDATA[
+- D3D12 上的 ID3D12Resource]]><br /><![CDATA[
+- OpenGL/ES 上的缓冲区“名称”（作为 GLuint）]]><br /><![CDATA[
+- Metal 上的 id<MTLBuffer>]]><br /><br /><br /><![CDATA[对于大多数用例（即从本机代码写入网格数据），需要在获取原生缓冲区指针之前，
+将网格标记为“动态”（请参阅 ]]><link ref="Mesh.MarkDynamic">MarkDynamic</link><![CDATA[）。通常这会将缓冲区切换为 CPU 可写入。]]><br /><br /><![CDATA[注意，在使用多线程渲染时调用此函数将与正在渲染的线程
+（慢速操作）同步，因此最佳做法是仅在初始化时设置所需的缓冲区指针。]]><br /><br /><![CDATA[See Also: ]]><link ref="../Manual/NativePluginInterface">Native code plugins</link><![CDATA[, ]]><link ref="Mesh.GetNativeIndexBufferPtr">GetNativeIndexBufferPtr</link><![CDATA[, ]]><link ref="Mesh-vertexBufferCount">vertexBufferCount</link><![CDATA[, ]]><link ref="Mesh-vertexCount">vertexCount</link><![CDATA[.]]></Description>
+    </Section>
+  </Model>
+</Root>
